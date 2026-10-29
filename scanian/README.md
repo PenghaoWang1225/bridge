@@ -2,7 +2,7 @@
 
 Public site: https://penghaowang1225.github.io/bridge/scanian/
 
-Read the bidding tree without signing in. Open **Connect editing** to edit it.
+Read the bidding tree without signing in. Use the editor link below, then open **Connect editing** to make changes.
 Use a fine-grained GitHub token for the `bridge` repository only. Give it **Contents: Read and write** access.
 The token stays in page memory. It is not saved in a file, browser storage, or a backup.
 Refresh or disconnect to remove it.
@@ -27,3 +27,14 @@ Partner answers remain separate notes. They do not replace a bidding meaning.
 Run checks with `node --test tests/*.test.mjs tests/*.test.cjs`.
 For a local preview, run `python3 -m http.server 8765` in this folder.
 Publish the `main` branch from the Bridge repository root in GitHub Pages settings.
+
+## Reading and editing
+
+The normal Scanian page shows reading controls only:
+https://penghaowang1225.github.io/bridge/scanian/
+
+Bookmark this separate editor link:
+https://penghaowang1225.github.io/bridge/scanian/?edit=1
+
+The editor link is not in the public site navigation. It is not a private URL.
+GitHub still requires your token to save. The public reading view uses published data and does not load or remove browser drafts.

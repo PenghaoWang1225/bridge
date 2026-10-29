@@ -2,10 +2,14 @@ import {OWNER,API,clone,validate,sameContent,mergeStates,resolveConflicts,readRe
 
 const $=id=>document.getElementById(id);
 const DRAFT='scanianWebsiteDraft:v1';
+// This flag controls presentation. GitHub token permissions still protect every save.
+const editorMode=new URLSearchParams(window.location.search).get('edit')==='1';
+document.body.classList.toggle('reader',!editorMode);
 let token='',base,records,bss,app,busy=false,timer,conflict=null,storageFailed=false;
-const status=(text,error=false)=>{$('cloudStatus').textContent=text;$('cloudStatus').dataset.error=error;};
-const dirty=()=>app && !sameContent(base,app.getState());
+const status=(text,error=false)=>{const el=$(editorMode?'cloudStatus':'readerStatus');el.textContent=text;el.dataset.error=error;};
+const dirty=()=>editorMode && app && !sameContent(base,app.getState());
 function storeDraft(){
+  if(!editorMode)return;
   try {if(dirty())localStorage.setItem(DRAFT,JSON.stringify({base,local:app.getState()}));else localStorage.removeItem(DRAFT);storageFailed=false;}
   catch {storageFailed=true;}
 }
@@ -37,7 +41,7 @@ function showConflicts(merged,remote){
 }
 async function save(){
   clearTimeout(timer);
-  if(!app || busy)return;
+  if(!editorMode || !app || busy)return;
   app.finish();storeDraft();
   if(!token){if(dirty())status('Your draft is not saved to GitHub. Connect editing to save it.',true);return;}
   lock(true);status('Saving to GitHub…');
@@ -50,7 +54,7 @@ async function save(){
   finally{lock(false);}
 }
 function changed(autosave){
-  if(!app)return;
+  if(!editorMode || !app)return;
   storeDraft();if(!dirty())return;draftStatus();
   if(autosave){clearTimeout(timer);timer=setTimeout(save,350);}
 }
@@ -58,15 +62,15 @@ window.ScanianCloud={changed,save};
 
 // Only the connected owner can use the page's edit controls.
 document.addEventListener('click',event=>{
-  if(event.target.closest('[data-edit-control],.question-btn') && (!token||busy)){event.preventDefault();event.stopImmediatePropagation();}
+  if(event.target.closest('[data-edit-control],.question-btn') && (!editorMode||!token||busy)){event.preventDefault();event.stopImmediatePropagation();}
 },true);
-document.addEventListener('beforeinput',event=>{if((!token||busy)&&event.target.closest('.desc'))event.preventDefault();},true);
+document.addEventListener('beforeinput',event=>{if((!editorMode||!token||busy)&&event.target.closest('.desc'))event.preventDefault();},true);
 window.addEventListener('beforeunload',event=>{if(dirty()){event.preventDefault();event.returnValue='';}});
-$('connect').onclick=()=>{$('connectError').textContent='';$('connectDialog').showModal();$('githubToken').focus();};
+$('connect').onclick=()=>{if(!editorMode)return;$('connectError').textContent='';$('connectDialog').showModal();$('githubToken').focus();};
 $('cancelConnect').onclick=()=>{$('githubToken').value='';$('connectDialog').close();};
 $('connectDialog').addEventListener('close',()=>{$('githubToken').value='';});
 $('connectForm').onsubmit=async event=>{
-  event.preventDefault();if(busy)return;lock(true);
+  event.preventDefault();if(!editorMode||busy)return;lock(true);
   token=$('githubToken').value.trim();$('githubToken').value='';$('connectError').textContent='Checking your GitHub access…';
   try {
     const user=await request('https://api.github.com/user');
@@ -123,14 +127,14 @@ async function start(){
   try {
     const [rows,state,source]=await Promise.all(['records','scanian','source-bss'].map(async name=>{const response=await fetch(`data/${name}.json`,{cache:'no-store'});if(!response.ok)throw new Error('The site data could not be loaded. Refresh to try again.');return response.json();}));
     records=rows;bss=source;base=validate(state,records);let initial=clone(base),restored=false;
-    try {const draft=JSON.parse(localStorage.getItem(DRAFT)||'null');if(draft){base=validate(draft.base,records);initial=validate(draft.local,records);restored=true;}}catch{status('A browser draft could not be read. It has not been removed.',true);}
+    if(editorMode)try {const draft=JSON.parse(localStorage.getItem(DRAFT)||'null');if(draft){base=validate(draft.base,records);initial=validate(draft.local,records);restored=true;}}catch{status('A browser draft could not be read. It has not been removed.',true);}
     const meanings=new Map(initial.meanings.map(m=>[m.id,m]));
     const activeRecords=records.map(r=>({...r,...meanings.get(r.id)}));
     for(const [id,value] of Object.entries({biddingData:activeRecords,partnerQuestions:initial.questions,generalNotebookData:initial.notebook,originalBssLines:bss}))$(id).textContent=JSON.stringify(value);
     await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='assets/app.js';script.onload=resolve;script.onerror=()=>reject(new Error('The tree could not be loaded. Refresh to try again.'));document.body.append(script);});
     app=window.ScanianApp;
     app.setView(new URLSearchParams(window.location.search).get('view'));
-    status(restored?'Unsaved draft restored from this browser. Connect editing to save it to GitHub.':'Read mode. Connect editing to change this notebook.');
+    status(editorMode?(restored?'Unsaved draft restored from this browser. Connect editing to save it to GitHub.':'Connect editing to change this notebook.'):'');
   }catch(error){status(error.message,true);$('connect').disabled=true;}
 }
 start();

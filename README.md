@@ -36,3 +36,14 @@ The repository must be public unless the account plan supports Pages from privat
 From this folder, run `node --test scanian/tests/*.test.mjs scanian/tests/*.test.cjs`.
 The tests check data preservation, editing, and GitHub save conflicts.
 The `.nojekyll` file lets GitHub Pages serve these files without a site generator.
+
+## Reading and editing
+
+The normal Scanian page shows reading controls only:
+https://penghaowang1225.github.io/bridge/scanian/
+
+Bookmark this separate editor link:
+https://penghaowang1225.github.io/bridge/scanian/?edit=1
+
+The editor link is not in the public site navigation. It is not a private URL.
+GitHub still requires your token to save. The public reading view uses published data and does not load or remove browser drafts.
