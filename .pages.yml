@@ -1,0 +1,222 @@
+# Pages CMS edits the current data file. Keep merge enabled.
+# Arrays are replaced on save. Include every field used by each list item.
+settings:
+  content:
+    merge: true
+content:
+  - name: meanings
+    label: Bidding meanings
+    type: file
+    path: scanian/data/scanian.json
+    format: json
+    description: Use your browser Find command to find an auction. Expand it and edit Meaning. Save
+      publishes the change. Keep the record number and auction unchanged.
+    operations:
+      create: false
+      delete: false
+      rename: false
+    fields:
+      - name: meanings
+        label: Auctions
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{auction}"
+          min: 2278
+          max: 2278
+        fields:
+          - name: id
+            label: Record number
+            type: number
+            required: true
+            readonly: true
+          - name: auction
+            label: Full auction
+            type: string
+            required: true
+            readonly: true
+          - name: desc
+            label: Meaning
+            type: text
+            options:
+              maxlength: 50000
+          - name: meaningUpdatedAt
+            label: Earlier edit time
+            type: string
+            readonly: true
+            hidden: true
+  - name: rules
+    label: General rules
+    type: file
+    path: scanian/data/scanian.json
+    format: json
+    description: Add or edit a rule, then click Save. These rules appear above the bidding tree.
+    operations:
+      create: false
+      delete: false
+      rename: false
+    fields:
+      - name: notebook
+        label: Notebook
+        type: object
+        required: true
+        fields:
+          - name: updatedAt
+            label: Earlier edit time
+            type: string
+            readonly: true
+            hidden: true
+          - name: items
+            label: Rules
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{text}"
+            fields:
+              - name: id
+                label: Entry ID
+                type: uuid
+                required: true
+                hidden: true
+                options:
+                  editable: false
+              - name: text
+                label: Rule
+                type: text
+                required: true
+  - name: questions
+    label: Partner questions
+    type: file
+    path: scanian/data/scanian.json
+    format: json
+    description: Each question belongs to one auction. Answers and tree notes stay separate from the
+      bidding meaning.
+    operations:
+      create: false
+      delete: false
+      rename: false
+    fields:
+      - name: questions
+        label: Questions
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{question}"
+        fields:
+          - name: id
+            label: Entry ID
+            type: uuid
+            required: true
+            hidden: true
+            options:
+              editable: false
+          - name: recordId
+            label: Bidding record number
+            type: number
+            required: true
+            options:
+              min: 0
+              max: 2277
+              step: 1
+            description: Find the auction in Bidding meanings. Copy its record number here. Use a whole number.
+          - name: pathCompact
+            label: Original auction label
+            type: string
+            readonly: true
+            hidden: true
+          - name: question
+            label: Question
+            type: text
+            required: true
+          - name: answer
+            label: Partner answer
+            type: text
+          - name: status
+            label: Status
+            type: select
+            required: true
+            default: open
+            options:
+              values:
+                - value: open
+                  label: Open
+                - value: answered
+                  label: Answered
+          - name: appliedToTree
+            label: Show a partner note in the tree
+            type: boolean
+          - name: appliedAnswer
+            label: Note below the bidding meaning
+            type: text
+            description: Copy the agreed answer here and turn on Show a partner note. This keeps the original
+              meaning.
+          - name: note
+            label: Other note
+            type: text
+          - name: createdAt
+            label: Created time
+            type: string
+            readonly: true
+            hidden: true
+          - name: updatedAt
+            label: Earlier edit time
+            type: string
+            readonly: true
+            hidden: true
+          - name: appliedAt
+            label: Earlier note time
+            type: string
+            readonly: true
+            hidden: true
+  - name: site-pages
+    label: Site pages (HTML and CSS)
+    type: group
+    items:
+      - name: home
+        label: Bridge homepage
+        type: file
+        path: index.html
+        format: code
+        operations:
+          create: false
+          delete: false
+          rename: false
+      - name: uncontested
+        label: Uncontested Bidding System
+        type: file
+        path: uncontested/index.html
+        format: code
+        operations:
+          create: false
+          delete: false
+          rename: false
+      - name: contested
+        label: Contested
+        type: file
+        path: contested/index.html
+        format: code
+        operations:
+          create: false
+          delete: false
+          rename: false
+      - name: defense
+        label: Defense
+        type: file
+        path: defense/index.html
+        format: code
+        operations:
+          create: false
+          delete: false
+          rename: false
+      - name: styles
+        label: Site styles
+        type: file
+        path: style.css
+        format: code
+        operations:
+          create: false
+          delete: false
+          rename: false

@@ -1,4 +1,4 @@
-import {OWNER,API,clone,validate,sameContent,mergeStates,resolveConflicts,readRemote,saveRemote} from './state.mjs';
+import {OWNER,API,clone,validate,sameContent,mergeStates,resolveConflicts,readRemote,saveRemote} from './state.mjs?v=cms-1';
 
 const $=id=>document.getElementById(id);
 const DRAFT='scanianWebsiteDraft:v1';
@@ -131,7 +131,7 @@ async function start(){
     const meanings=new Map(initial.meanings.map(m=>[m.id,m]));
     const activeRecords=records.map(r=>({...r,...meanings.get(r.id)}));
     for(const [id,value] of Object.entries({biddingData:activeRecords,partnerQuestions:initial.questions,generalNotebookData:initial.notebook,originalBssLines:bss}))$(id).textContent=JSON.stringify(value);
-    await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='assets/app.js';script.onload=resolve;script.onerror=()=>reject(new Error('The tree could not be loaded. Refresh to try again.'));document.body.append(script);});
+    await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='assets/app.js?v=cms-1';script.onload=resolve;script.onerror=()=>reject(new Error('The tree could not be loaded. Refresh to try again.'));document.body.append(script);});
     app=window.ScanianApp;
     app.setView(new URLSearchParams(window.location.search).get('view'));
     status(editorMode?(restored?'Unsaved draft restored from this browser. Connect editing to save it to GitHub.':'Connect editing to change this notebook.'):'');
