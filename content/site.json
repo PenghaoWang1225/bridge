@@ -1,12 +1,12 @@
 {
   "title": "Bridge",
-  "description": "My bridge systems, partnership agreements, and study notes.",
-  "systemTitle": "Scanian v1 Bidding Tree",
+  "description": "Scanian bidding system, shared by my partner Guanghao Xiao. His Bridge website: http://xiao-bridge.com",
+  "systemTitle": "Scanian Bidding Tree",
   "sections": [
     {
       "key": "uncontested",
       "title": "Uncontested",
-      "description": "Our side opens, and the opponents pass."
+      "description": "Opponents pass."
     },
     {
       "key": "contested",
