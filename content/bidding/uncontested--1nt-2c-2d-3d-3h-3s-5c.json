@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000052e",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-3D-3H-3S-5C",
+  "meaning": "5-card suit but not promising good slam cards",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 5,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 1326,
+    "bssLine": 1328,
+    "bssPrefix": "001NP2CP2DP3DP3HP3SP5C=NYYYYYY255",
+    "originalMeaning": "5-card suit but not promising good slam cards"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3♠ – (Pass) – 5♣",
+  "parentId": "10000000-0000-4000-8000-000000000527",
+  "order": 1327
+}

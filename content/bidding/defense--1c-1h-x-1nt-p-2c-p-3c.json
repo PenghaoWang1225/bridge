@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008ad",
+  "section": "defense",
+  "auction": "1C-1H-X-1NT-P-2C-P-3C",
+  "meaning": "Invitational with 6+ good ♣",
+  "notes": "",
+  "artificial": false,
+  "forcing": "4",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2221,
+    "bssLine": 2223,
+    "bssPrefix": "*001C1HD1NP2CP3C=NYYYYYY468",
+    "originalMeaning": "Invitational with 6+ good ♣"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Double) – 1NT – (Pass) – 2♣ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-0000000008a8",
+  "order": 2221
+}

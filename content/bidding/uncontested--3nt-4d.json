@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000878",
+  "section": "uncontested",
+  "auction": "3NT-4D",
+  "meaning": "Ask for extra trump length (opener bid 4M shows no extra, all other bids shows extra with feature)",
+  "notes": "",
+  "artificial": true,
+  "forcing": "D",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2168,
+    "bssLine": 2170,
+    "bssPrefix": "003NP4D=YYYYYYYD08",
+    "originalMeaning": "Ask for extra trump length (opener bid 4M shows no extra, all other bids shows extra with feature)"
+  },
+  "opening": "3NT",
+  "fullAuction": "3NT – (Pass) – 4♦",
+  "parentId": "10000000-0000-4000-8000-000000000876",
+  "order": 2177
+}

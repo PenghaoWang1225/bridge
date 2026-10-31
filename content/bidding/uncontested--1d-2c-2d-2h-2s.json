@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002a3",
+  "section": "uncontested",
+  "auction": "1D-2C-2D-2H-2S",
+  "meaning": "Relay asking, now responder's 3♦ is NF, all other bids are GF",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 675,
+    "bssLine": 677,
+    "bssPrefix": "001DP2CP2DP2HP2S=NYYYYYY008",
+    "originalMeaning": "Relay asking, now responder's 3♦ is NF, all other bids are GF"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-0000000002a2",
+  "order": 676
+}

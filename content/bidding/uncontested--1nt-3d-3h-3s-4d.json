@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000060f",
+  "section": "uncontested",
+  "auction": "1NT-3D-3H-3S-4D",
+  "meaning": "Cue bid in ♦",
+  "notes": "",
+  "artificial": false,
+  "forcing": "8",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1551,
+    "bssLine": 1553,
+    "bssPrefix": "001NP3DP3HP3SP4D=NYYYYYY808",
+    "originalMeaning": "Cue bid in ♦"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3♠ – (Pass) – 4♦",
+  "parentId": "10000000-0000-4000-8000-00000000060c",
+  "order": 1552
+}

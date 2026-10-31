@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000141",
+  "section": "uncontested",
+  "auction": "1C-1H-2D-3D",
+  "meaning": "GF, no ♥ stopper if balanced, generally no ♣ support (if so will go through 2♠)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 321,
+    "bssLine": 323,
+    "bssPrefix": "001CP1HP2DP3D=NYYYYYY648",
+    "originalMeaning": "GF, no ♥ stopper if balanced, generally no ♣ support (if so will go through 2♠)"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♦ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-000000000119",
+  "order": 322
+}

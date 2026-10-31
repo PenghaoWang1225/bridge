@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000747",
+  "section": "uncontested",
+  "auction": "2H-3C",
+  "meaning": "Natural with a good or long suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1863,
+    "bssLine": 1865,
+    "bssPrefix": "002HP3C=NYYYYYY558",
+    "originalMeaning": "Natural with a good or long suit"
+  },
+  "opening": "2H",
+  "fullAuction": "2♥ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000718",
+  "order": 1864
+}

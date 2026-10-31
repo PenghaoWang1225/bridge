@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000788",
+  "section": "uncontested",
+  "auction": "2NT-3C-3D-3H-3NT-4C",
+  "meaning": "a four-card minor or 4-4 (5-4) in the minors",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 3,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 1928,
+    "bssLine": 1930,
+    "bssPrefix": "002NP3CP3DP3HP3NP4C=NYYYYYY735",
+    "originalMeaning": "a four-card minor or 4-4 (5-4) in the minors"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3NT – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-000000000787",
+  "order": 1929
+}

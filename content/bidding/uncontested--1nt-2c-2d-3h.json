@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000538",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-3H",
+  "meaning": "Smolen, exact 4♥ and 5+♠",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 4,
+  "source": {
+    "legacyId": 1336,
+    "bssLine": 1338,
+    "bssPrefix": "001NP2CP2DP3H=NYYYYYY644",
+    "originalMeaning": "Smolen, exact 4♥ and 5+♠"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000501",
+  "order": 1337
+}

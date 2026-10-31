@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000006ff",
+  "section": "uncontested",
+  "auction": "2D-2NT-4D",
+  "meaning": "GF with 6+♦ single suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1791,
+    "bssLine": 1793,
+    "bssPrefix": "002DP2NP4D=NYYYYYY668",
+    "originalMeaning": "GF with 6+♦ single suit"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 2NT – (Pass) – 4♦",
+  "parentId": "10000000-0000-4000-8000-0000000006db",
+  "order": 1792
+}

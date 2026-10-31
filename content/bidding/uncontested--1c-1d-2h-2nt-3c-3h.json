@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000058",
+  "section": "uncontested",
+  "auction": "1C-1D-2H-2NT-3C-3H",
+  "meaning": "♠T on ♥, asking opener to start cue-bidding",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 88,
+    "bssLine": 90,
+    "bssPrefix": "001CP1DP2HP2NP3CP3H=NYYYYYY708",
+    "originalMeaning": "♠T on ♥, asking opener to start cue-bidding"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 2♥ – (Pass) – 2NT – (Pass) – 3♣ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000057",
+  "order": 155
+}

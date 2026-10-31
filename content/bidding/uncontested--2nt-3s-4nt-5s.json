@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000857",
+  "section": "uncontested",
+  "auction": "2NT-3S-4NT-5S",
+  "meaning": "Lissabon with ♦ fit, RKC for grand slam",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2135,
+    "bssLine": 2137,
+    "bssPrefix": "002NP3SP4NP5S=NYYYYYY708",
+    "originalMeaning": "Lissabon with ♦ fit, RKC for grand slam"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♠ – (Pass) – 4NT – (Pass) – 5♠",
+  "parentId": "10000000-0000-4000-8000-000000000855",
+  "order": 2136
+}

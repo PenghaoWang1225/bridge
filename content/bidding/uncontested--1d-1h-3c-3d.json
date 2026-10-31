@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000247",
+  "section": "uncontested",
+  "auction": "1D-1H-3C-3D",
+  "meaning": "Weak preference",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 2,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 583,
+    "bssLine": 585,
+    "bssPrefix": "001DP1HP3CP3D=NYYYYYY228",
+    "originalMeaning": "Weak preference"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♥ – (Pass) – 3♣ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-000000000246",
+  "order": 582
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008a8",
+  "section": "defense",
+  "auction": "1C-1H-X-1NT-P-2C",
+  "meaning": "Accept transfer",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2216,
+    "bssLine": 2218,
+    "bssPrefix": "*001C1HD1NP2C=NYYYYYY208",
+    "originalMeaning": "Accept transfer"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Double) – 1NT – (Pass) – 2♣",
+  "parentId": "10000000-0000-4000-8000-0000000008a7",
+  "order": 2216
+}

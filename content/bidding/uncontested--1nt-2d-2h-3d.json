@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005b7",
+  "section": "uncontested",
+  "auction": "1NT-2D-2H-3D",
+  "meaning": "At least 5♥4♦, frequently 5♥5♦. With only 4♦ usually HCP strength concentrates to ♥ and ♦",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1463,
+    "bssLine": 1465,
+    "bssPrefix": "001NP2DP2HP3D=NYYYYYY648",
+    "originalMeaning": "At least 5♥4♦, frequently 5♥5♦. With only 4♦ usually HCP strength concentrates to ♥ and ♦"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-00000000059b",
+  "order": 1463
+}

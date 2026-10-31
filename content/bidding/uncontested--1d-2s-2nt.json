@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002ce",
+  "section": "uncontested",
+  "auction": "1D-2S-2NT",
+  "meaning": "F1, balanced, often minimum and some stoppers",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 718,
+    "bssLine": 720,
+    "bssPrefix": "001DP2SP2N=NYYYYYY5",
+    "originalMeaning": "F1, balanced, often minimum and some stoppers"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♠ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000002cd",
+  "order": 719
+}

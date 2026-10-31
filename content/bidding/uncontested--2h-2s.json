@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000719",
+  "section": "uncontested",
+  "auction": "2H-2S",
+  "meaning": "F1, natural with 5+♠",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1817,
+    "bssLine": 1819,
+    "bssPrefix": "002HP2S=NYYYYYY558",
+    "originalMeaning": "F1, natural with 5+♠"
+  },
+  "opening": "2H",
+  "fullAuction": "2♥ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-000000000718",
+  "order": 1818
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000457",
+  "section": "uncontested",
+  "auction": "1H-2D-2H-2NT-3S",
+  "meaning": "14+ HCP, 6♥ and 3♦ support. Responder 3NT = to play; 4♣ shows slam interest in ♥; 4♦ shows slam interest in ♦",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1111,
+    "bssLine": 1113,
+    "bssPrefix": "001HP2DP2HP2NP3S=NYYYYYY608",
+    "originalMeaning": "14+ HCP, 6♥ and 3♦ support. Responder 3NT = to play; 4♣ shows slam interest in ♥; 4♦ shows slam interest in ♦"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2NT – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-000000000453",
+  "order": 1021
+}

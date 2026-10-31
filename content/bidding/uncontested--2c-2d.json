@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000649",
+  "section": "uncontested",
+  "auction": "2C-2D",
+  "meaning": "Relay with most hands",
+  "notes": "",
+  "artificial": true,
+  "forcing": "C",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1609,
+    "bssLine": 1611,
+    "bssPrefix": "002CP2D=YYYYYYYC08",
+    "originalMeaning": "Relay with most hands"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-000000000648",
+  "order": 1610
+}

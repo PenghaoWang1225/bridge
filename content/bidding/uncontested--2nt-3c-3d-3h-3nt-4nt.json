@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000007b0",
+  "section": "uncontested",
+  "auction": "2NT-3C-3D-3H-3NT-4NT",
+  "meaning": "a natural invitation to 6NT",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1968,
+    "bssLine": 1970,
+    "bssPrefix": "002NP3CP3DP3HP3NP4N=NYYYYYY2",
+    "originalMeaning": "a natural invitation to 6NT"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3NT – (Pass) – 4NT",
+  "parentId": "10000000-0000-4000-8000-000000000787",
+  "order": 1969
+}

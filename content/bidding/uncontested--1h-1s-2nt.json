@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000035b",
+  "section": "uncontested",
+  "auction": "1H-1S-2NT",
+  "meaning": "14+ HCP, 6-4 with a minor suit, or 16+ with 4♠ support",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 859,
+    "bssLine": 861,
+    "bssPrefix": "001HP1SP2N=YYYYYYY5",
+    "originalMeaning": "14+ HCP, 6-4 with a minor suit, or 16+ with 4♠ support"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1♠ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000002e8",
+  "order": 860
+}

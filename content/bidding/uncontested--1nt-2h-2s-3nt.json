@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005d2",
+  "section": "uncontested",
+  "auction": "1NT-2H-2S-3NT",
+  "meaning": "Often 5♠332, ask opener to choose between 3NT and 4♠",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1490,
+    "bssLine": 1492,
+    "bssPrefix": "001NP2HP2SP3N=NYYYYYY2",
+    "originalMeaning": "Often 5♠332, ask opener to choose between 3NT and 4♠"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-0000000005c7",
+  "order": 1491
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008c4",
+  "section": "defense",
+  "auction": "2D-2NT",
+  "meaning": "16-18 HCP, balanced. System \"on\" (stayman, jacoby transfer, texas transfer...)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2244,
+    "bssLine": 2246,
+    "bssPrefix": "*002D2N=NYYYYYY0",
+    "originalMeaning": "16-18 HCP, balanced. System \"on\" (stayman, jacoby transfer, texas transfer...)"
+  },
+  "opening": "2D",
+  "fullAuction": "(2♦) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000008bf",
+  "order": 2272
+}

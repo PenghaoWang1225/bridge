@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000061e",
+  "section": "uncontested",
+  "auction": "1NT-3H-3S",
+  "meaning": "The normal bid, promising better than xx in partner's suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 2,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 1566,
+    "bssLine": 1568,
+    "bssPrefix": "001NP3HP3S=NYYYYYY625",
+    "originalMeaning": "The normal bid, promising better than xx in partner's suit"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 3♥ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-00000000061d",
+  "order": 1567
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000028e",
+  "section": "uncontested",
+  "auction": "1D-1S-2NT-3C",
+  "meaning": "(Other minor) GF relay, asking",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 654,
+    "bssLine": 656,
+    "bssPrefix": "001DP1SP2NP3C=YYYYYYY608",
+    "originalMeaning": "(Other minor) GF relay, asking"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♠ – (Pass) – 2NT – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-00000000028d",
+  "order": 655
+}

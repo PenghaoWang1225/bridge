@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000181",
+  "section": "uncontested",
+  "auction": "1C-1S-2C-2H",
+  "meaning": "F1, ♥ stopper or strong hand with 5+♦4♥",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 3,
+  "maxLength": 4,
+  "source": {
+    "legacyId": 385,
+    "bssLine": 387,
+    "bssPrefix": "001CP1SP2CP2H=NYYYYYY534",
+    "originalMeaning": "F1, ♥ stopper or strong hand with 5+♦4♥"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♠ – (Pass) – 2♣ – (Pass) – 2♥",
+  "parentId": "10000000-0000-4000-8000-00000000017f",
+  "order": 386
+}

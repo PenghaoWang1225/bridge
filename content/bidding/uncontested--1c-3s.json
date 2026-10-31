@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000206",
+  "section": "uncontested",
+  "auction": "1C-3S",
+  "meaning": "6+♠ preemptive",
+  "notes": "",
+  "artificial": false,
+  "forcing": "9",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 518,
+    "bssLine": 520,
+    "bssPrefix": "001CP3S=NYYYYYY968",
+    "originalMeaning": "6+♠ preemptive"
+  },
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-000000000000",
+  "order": 520
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000099",
+  "section": "uncontested",
+  "auction": "1C-1D-2D-2H-4C",
+  "meaning": "GF with 0-3-4-6 shape",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 6,
+  "maxLength": 6,
+  "source": {
+    "legacyId": 153,
+    "bssLine": 155,
+    "bssPrefix": "001CP1DP2DP2HP4C=NYYYYYY666",
+    "originalMeaning": "GF with 0-3-4-6 shape"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-000000000086",
+  "order": 132
+}

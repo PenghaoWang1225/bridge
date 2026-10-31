@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008c0",
+  "section": "defense",
+  "auction": "2D-P",
+  "meaning": "ay want to make a takeout double of ♥ or ♠, but must pass because double now shows general strength. Reopen with double in the next round",
+  "notes": "",
+  "artificial": false,
+  "forcing": "M",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2240,
+    "bssLine": 2242,
+    "bssPrefix": "*002DP=NYYYYYYM",
+    "originalMeaning": "ay want to make a takeout double of ♥ or ♠, but must pass because double now shows general strength. Reopen with double in the next round"
+  },
+  "opening": "2D",
+  "fullAuction": "(2♦) – Pass",
+  "parentId": "10000000-0000-4000-8000-0000000008bf",
+  "order": 2268
+}

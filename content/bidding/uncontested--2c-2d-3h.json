@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000688",
+  "section": "uncontested",
+  "auction": "2C-2D-3H",
+  "meaning": "GF, set the suit as trumps, inviting cue",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1672,
+    "bssLine": 1674,
+    "bssPrefix": "002CP2DP3H=NYYYYYY668",
+    "originalMeaning": "GF, set the suit as trumps, inviting cue"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000649",
+  "order": 1673
+}

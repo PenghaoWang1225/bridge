@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000006bc",
+  "section": "uncontested",
+  "auction": "2D-2H-3NT",
+  "meaning": "Solid ♦, 9 playing tricks",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1724,
+    "bssLine": 1726,
+    "bssPrefix": "002DP2HP3N=NYYYYYY2",
+    "originalMeaning": "Solid ♦, 9 playing tricks"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 2♥ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-0000000006a4",
+  "order": 1725
+}

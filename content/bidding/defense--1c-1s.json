@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008b4",
+  "section": "defense",
+  "auction": "1C-1S",
+  "meaning": "8-17 HCP with 5+♠",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2228,
+    "bssLine": 2230,
+    "bssPrefix": "*001C1S=NYYYYYY208",
+    "originalMeaning": "8-17 HCP with 5+♠"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♠",
+  "parentId": null,
+  "order": 2230
+}

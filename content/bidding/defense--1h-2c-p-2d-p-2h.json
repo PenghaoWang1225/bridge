@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008e2",
+  "section": "defense",
+  "auction": "1H-2C-P-2D-P-2H",
+  "meaning": "Einar's cue-bid, since advancer can rebid 2♠",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2274,
+    "bssLine": 2276,
+    "bssPrefix": "*001H2CP2DP2H=YYYYYYY508",
+    "originalMeaning": "Einar's cue-bid, since advancer can rebid 2♠"
+  },
+  "opening": "1H",
+  "fullAuction": "(1♥) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥",
+  "parentId": "10000000-0000-4000-8000-0000000008e1",
+  "order": 2251
+}

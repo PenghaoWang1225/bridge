@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000089f",
+  "section": "defense",
+  "auction": "1C-1H-P-3C",
+  "meaning": "7-9 HCP with 4♥ support, mixed raise",
+  "notes": "",
+  "artificial": true,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2207,
+    "bssLine": 2209,
+    "bssPrefix": "*001C1HP3C=YYYYYYY208",
+    "originalMeaning": "7-9 HCP with 4♥ support, mixed raise"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000891",
+  "order": 2209
+}

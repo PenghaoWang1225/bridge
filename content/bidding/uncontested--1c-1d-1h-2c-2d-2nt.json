@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000007",
+  "section": "uncontested",
+  "auction": "1C-1D-1H-2C-2D-2NT",
+  "meaning": "Balanced, often only 4♥",
+  "notes": "",
+  "artificial": false,
+  "forcing": "4",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 7,
+    "bssLine": 9,
+    "bssPrefix": "001CP1DP1HP2CP2DP2N=NYYYYYY4",
+    "originalMeaning": "Balanced, often only 4♥"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 1♥ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-000000000004",
+  "order": 10
+}

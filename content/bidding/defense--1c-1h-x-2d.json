@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008a5",
+  "section": "defense",
+  "auction": "1C-1H-X-2D",
+  "meaning": "Good raise in ♥",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2213,
+    "bssLine": 2215,
+    "bssPrefix": "*001C1HD2D=YYYYYYY508",
+    "originalMeaning": "Good raise in ♥"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Double) – 2♦",
+  "parentId": "10000000-0000-4000-8000-0000000008a2",
+  "order": 2223
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008cb",
+  "section": "defense",
+  "auction": "1D-2C",
+  "meaning": "10+ HCP, 6+♣ or very good 5♣",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2251,
+    "bssLine": 2253,
+    "bssPrefix": "*001D2C=NYYYYYY268",
+    "originalMeaning": "10+ HCP, 6+♣ or very good 5♣"
+  },
+  "opening": "1D",
+  "fullAuction": "(1♦) – 2♣",
+  "parentId": null,
+  "order": 2240
+}

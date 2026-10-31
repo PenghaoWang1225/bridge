@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000192",
+  "section": "uncontested",
+  "auction": "1C-1S-2D-2H-2S-3S",
+  "meaning": "Values in ♠, seeking 3NT",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 2,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 402,
+    "bssLine": 404,
+    "bssPrefix": "001CP1SP2DP2HP2SP3S=NYYYYYY523",
+    "originalMeaning": "Values in ♠, seeking 3NT"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♠ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-00000000018a",
+  "order": 400
+}

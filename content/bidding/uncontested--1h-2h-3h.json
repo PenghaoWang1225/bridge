@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000003bb",
+  "section": "uncontested",
+  "auction": "1H-2H-3H",
+  "meaning": "Distributional invitation, dosen't rely on HCP",
+  "notes": "",
+  "artificial": false,
+  "forcing": "4",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 955,
+    "bssLine": 957,
+    "bssPrefix": "001HP2HP3H=NYYYYYY468",
+    "originalMeaning": "Distributional invitation, dosen't rely on HCP"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♥ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000003ba",
+  "order": 1045
+}

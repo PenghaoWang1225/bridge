@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000826",
+  "section": "uncontested",
+  "auction": "2NT-3H-3S-3NT",
+  "meaning": "To play, usually 5♠332",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2086,
+    "bssLine": 2088,
+    "bssPrefix": "002NP3HP3SP3N=NYYYYYY2",
+    "originalMeaning": "To play, usually 5♠332"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♥ – (Pass) – 3♠ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-000000000825",
+  "order": 2087
+}

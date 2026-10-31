@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008be",
+  "section": "defense",
+  "auction": "1C-3D",
+  "meaning": "7+♦, preemptive",
+  "notes": "",
+  "artificial": false,
+  "forcing": "9",
+  "minLength": 7,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2238,
+    "bssLine": 2240,
+    "bssPrefix": "*001C3D=NYYYYYY978",
+    "originalMeaning": "7+♦, preemptive"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 3♦",
+  "parentId": null,
+  "order": 2239
+}

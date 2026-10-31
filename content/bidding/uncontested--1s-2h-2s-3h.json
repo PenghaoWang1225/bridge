@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004d9",
+  "section": "uncontested",
+  "auction": "1S-2H-2S-3H",
+  "meaning": "GF with 6-card suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1241,
+    "bssLine": 1243,
+    "bssPrefix": "001SP2HP2SP3H=NYYYYYY668",
+    "originalMeaning": "GF with 6-card suit"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000004d7",
+  "order": 1242
+}

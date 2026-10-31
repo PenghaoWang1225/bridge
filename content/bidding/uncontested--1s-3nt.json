@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004fa",
+  "section": "uncontested",
+  "auction": "1S-3NT",
+  "meaning": "9-12 HCP, 4+♠ support with an unknown singleton, relay to ask",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1274,
+    "bssLine": 1276,
+    "bssPrefix": "001SP3N=NYYYYYY6",
+    "originalMeaning": "9-12 HCP, 4+♠ support with an unknown singleton, relay to ask"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-000000000468",
+  "order": 1275
+}

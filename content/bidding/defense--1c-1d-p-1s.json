@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000886",
+  "section": "defense",
+  "auction": "1C-1D-P-1S",
+  "meaning": "Usually 5+♠, F1. Now overcaller's 2♣ is Einar's cuebid",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2182,
+    "bssLine": 2184,
+    "bssPrefix": "*001C1DP1S=NYYYYYY558",
+    "originalMeaning": "Usually 5+♠, F1. Now overcaller's 2♣ is Einar's cuebid"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♦ – (Pass) – 1♠",
+  "parentId": "10000000-0000-4000-8000-000000000883",
+  "order": 2184
+}

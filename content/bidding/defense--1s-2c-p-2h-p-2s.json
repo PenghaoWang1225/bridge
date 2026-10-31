@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008db",
+  "section": "defense",
+  "auction": "1S-2C-P-2H-P-2S",
+  "meaning": "Einar's cue-bid, advancer's 3♦ is then non-forcing",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2267,
+    "bssLine": 2269,
+    "bssPrefix": "*001S2CP2HP2S=YYYYYYY508",
+    "originalMeaning": "Einar's cue-bid, advancer's 3♦ is then non-forcing"
+  },
+  "opening": "1S",
+  "fullAuction": "(1♠) – 2♣ – (Pass) – 2♥ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-0000000008da",
+  "order": 2262
+}

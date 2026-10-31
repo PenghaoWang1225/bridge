@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000019b",
+  "section": "uncontested",
+  "auction": "1C-1S-2D-2NT",
+  "meaning": "8-10 HCP with stoppers in the majors, NF",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 411,
+    "bssLine": 413,
+    "bssPrefix": "001CP1SP2DP2N=NYYYYYY2",
+    "originalMeaning": "8-10 HCP with stoppers in the majors, NF"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♠ – (Pass) – 2♦ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-000000000188",
+  "order": 412
+}

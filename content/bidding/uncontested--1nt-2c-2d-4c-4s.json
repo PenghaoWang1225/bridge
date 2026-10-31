@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000054c",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-4C-4S",
+  "meaning": "Accept slam invitation, set ♠ as trump",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 3,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 1356,
+    "bssLine": 1358,
+    "bssPrefix": "001NP2CP2DP4CP4S=NYYYYYY733",
+    "originalMeaning": "Accept slam invitation, set ♠ as trump"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 4♣ – (Pass) – 4♠",
+  "parentId": "10000000-0000-4000-8000-000000000548",
+  "order": 1357
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000041b",
+  "section": "uncontested",
+  "auction": "1H-2C-2D-2H-2NT-3C",
+  "meaning": "6+♣, but with a good suit often bid 3♣ directly over 2♦",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1051,
+    "bssLine": 1053,
+    "bssPrefix": "001HP2CP2DP2HP2NP3C=NYYYYYY668",
+    "originalMeaning": "6+♣, but with a good suit often bid 3♣ directly over 2♦"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2NT – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-00000000041a",
+  "order": 960
+}

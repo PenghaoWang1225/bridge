@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000089e",
+  "section": "defense",
+  "auction": "1C-1H-P-2NT",
+  "meaning": "Invitational or better with 3+♥ support, usually unbalanced",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2206,
+    "bssLine": 2208,
+    "bssPrefix": "*001C1HP2N=NYYYYYY5",
+    "originalMeaning": "Invitational or better with 3+♥ support, usually unbalanced"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-000000000891",
+  "order": 2208
+}

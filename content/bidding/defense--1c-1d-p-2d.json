@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000889",
+  "section": "defense",
+  "auction": "1C-1D-P-2D",
+  "meaning": "6-9 HCP with 3+♦ support",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2185,
+    "bssLine": 2187,
+    "bssPrefix": "*001C1DP2D=NYYYYYY238",
+    "originalMeaning": "6-9 HCP with 3+♦ support"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♦ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-000000000883",
+  "order": 2187
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000388",
+  "section": "uncontested",
+  "auction": "1H-1NT-2C-2D-2NT",
+  "meaning": "16+ HCP, GF with balanced hand or 6♥322",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 904,
+    "bssLine": 906,
+    "bssPrefix": "001HP1NP2CP2DP2N=NYYYYYY6",
+    "originalMeaning": "16+ HCP, GF with balanced hand or 6♥322"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-000000000374",
+  "order": 905
+}

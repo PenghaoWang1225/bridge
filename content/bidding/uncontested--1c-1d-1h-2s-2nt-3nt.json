@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000030",
+  "section": "uncontested",
+  "auction": "1C-1D-1H-2S-2NT-3NT",
+  "meaning": "To let opener play NT from his side",
+  "notes": "",
+  "artificial": false,
+  "forcing": "1",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 48,
+    "bssLine": 50,
+    "bssPrefix": "001CP1DP1HP2SP2NP3N=NYYYYYY1",
+    "originalMeaning": "To let opener play NT from his side"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 1♥ – (Pass) – 2♠ – (Pass) – 2NT – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-000000000029",
+  "order": 51
+}

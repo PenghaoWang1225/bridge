@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008dc",
+  "section": "defense",
+  "auction": "1S-2C-P-2S",
+  "meaning": "Forcing, suggest some kind of fit in ♣",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2268,
+    "bssLine": 2270,
+    "bssPrefix": "*001S2CP2S=NYYYYYY508",
+    "originalMeaning": "Forcing, suggest some kind of fit in ♣"
+  },
+  "opening": "1S",
+  "fullAuction": "(1♠) – 2♣ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-0000000008d4",
+  "order": 2263
+}

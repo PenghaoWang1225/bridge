@@ -1,0 +1,11 @@
+{
+  "name": "bridge-notes",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=24"},
+  "scripts": {
+    "build": "node scripts/build.mjs --sync",
+    "test": "node --test tests/*.test.mjs",
+    "backup": "node scripts/backup.mjs"
+  }
+}

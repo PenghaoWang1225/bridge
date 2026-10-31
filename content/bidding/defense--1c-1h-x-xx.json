@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008a3",
+  "section": "defense",
+  "auction": "1C-1H-X-XX",
+  "meaning": "hows one ♥ honor (A, K or Q), or Hxx with a weak hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "S",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2211,
+    "bssLine": 2213,
+    "bssPrefix": "*001C1HDR=NYYYYYYS",
+    "originalMeaning": "hows one ♥ honor (A, K or Q), or Hxx with a weak hand"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Double) – Redouble",
+  "parentId": "10000000-0000-4000-8000-0000000008a2",
+  "order": 2213
+}

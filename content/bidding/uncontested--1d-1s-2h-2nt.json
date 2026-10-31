@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000274",
+  "section": "uncontested",
+  "auction": "1D-1S-2H-2NT",
+  "meaning": "Stopper in ♣, undefined strength",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 628,
+    "bssLine": 630,
+    "bssPrefix": "001DP1SP2HP2N=NYYYYYY5",
+    "originalMeaning": "Stopper in ♣, undefined strength"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♠ – (Pass) – 2♥ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-00000000025e",
+  "order": 632
+}

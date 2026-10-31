@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000003b1",
+  "section": "uncontested",
+  "auction": "1H-1NT-2NT-3H",
+  "meaning": "Very weak with 2-3♥ support, may have ♣ long suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 2,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 945,
+    "bssLine": 947,
+    "bssPrefix": "001HP1NP2NP3H=NYYYYYY223",
+    "originalMeaning": "Very weak with 2-3♥ support, may have ♣ long suit"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1NT – (Pass) – 2NT – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000003a9",
+  "order": 946
+}

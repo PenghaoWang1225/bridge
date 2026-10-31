@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004b6",
+  "section": "uncontested",
+  "auction": "1S-2C-2D-2S-2NT-3H",
+  "meaning": "4th suit, Hx in ♠, usually lack ♥ stopper",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1206,
+    "bssLine": 1208,
+    "bssPrefix": "001SP2CP2DP2SP2NP3H=YYYYYYY608",
+    "originalMeaning": "4th suit, Hx in ♠, usually lack ♥ stopper"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♠ – (Pass) – 2NT – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000004b3",
+  "order": 1206
+}

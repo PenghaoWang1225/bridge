@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000001cb",
+  "section": "uncontested",
+  "auction": "1C-2D",
+  "meaning": "6+♥, weak (3-7 HCP) or GF (13+ HCP). TJS module",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 459,
+    "bssLine": 461,
+    "bssPrefix": "001CP2D=YYYYYYY508",
+    "originalMeaning": "6+♥, weak (3-7 HCP) or GF (13+ HCP). TJS module"
+  },
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-000000000000",
+  "order": 460
+}

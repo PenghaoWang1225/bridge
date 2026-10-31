@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004c6",
+  "section": "uncontested",
+  "auction": "1S-2C-3H",
+  "meaning": "4+♣ support with ♥ singleton, if minimum, must have good honors",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 1,
+  "maxLength": 1,
+  "source": {
+    "legacyId": 1222,
+    "bssLine": 1224,
+    "bssPrefix": "001SP2CP3H=NYYYYYY611",
+    "originalMeaning": "4+♣ support with ♥ singleton, if minimum, must have good honors"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 2♣ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000004ae",
+  "order": 1223
+}

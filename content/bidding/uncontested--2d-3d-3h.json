@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000705",
+  "section": "uncontested",
+  "auction": "2D-3D-3H",
+  "meaning": "No accept in the bid suit (pass/correct)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1797,
+    "bssLine": 1799,
+    "bssPrefix": "002DP3DP3H=NYYYYYY208",
+    "originalMeaning": "No accept in the bid suit (pass/correct)"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 3♦ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000704",
+  "order": 1798
+}

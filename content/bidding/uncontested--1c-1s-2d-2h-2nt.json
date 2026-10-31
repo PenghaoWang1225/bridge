@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000193",
+  "section": "uncontested",
+  "auction": "1C-1S-2D-2H-2NT",
+  "meaning": "16+ with 5-4 in the minors and stoppers in the majors",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 403,
+    "bssLine": 405,
+    "bssPrefix": "001CP1SP2DP2HP2N=NYYYYYY6",
+    "originalMeaning": "16+ with 5-4 in the minors and stoppers in the majors"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♠ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-000000000189",
+  "order": 404
+}

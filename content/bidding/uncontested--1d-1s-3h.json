@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000291",
+  "section": "uncontested",
+  "auction": "1D-1S-3H",
+  "meaning": "13-15 HCP, 4♠ support with a void. 3NT relay asking: 4♣ = ♣ void; 4♦ = ♥ void",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 657,
+    "bssLine": 659,
+    "bssPrefix": "001DP1SP3H=YYYYYYY608",
+    "originalMeaning": "13-15 HCP, 4♠ support with a void. 3NT relay asking: 4♣ = ♣ void; 4♦ = ♥ void"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♠ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-00000000024c",
+  "order": 658
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000526",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-3D-3H",
+  "meaning": "Relay asking: which short suit",
+  "notes": "",
+  "artificial": true,
+  "forcing": "D",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1318,
+    "bssLine": 1320,
+    "bssPrefix": "001NP2CP2DP3DP3H=YYYYYYYD08",
+    "originalMeaning": "Relay asking: which short suit"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♦ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000525",
+  "order": 1319
+}

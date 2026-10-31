@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000003c0",
+  "section": "uncontested",
+  "auction": "1H-2H-2NT",
+  "meaning": "Inv with 4+♠, Forcing to 3♥",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 960,
+    "bssLine": 962,
+    "bssPrefix": "001HP2HP2N=YYYYYYY5",
+    "originalMeaning": "Inv with 4+♠, Forcing to 3♥"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♥ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000003ba",
+  "order": 1042
+}

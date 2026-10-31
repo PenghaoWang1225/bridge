@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000557",
+  "section": "uncontested",
+  "auction": "1NT-2C-2H-3C-3D-3H",
+  "meaning": "Often 3♥ support, but perhaps a top honor in a doubleton",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 2,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 1367,
+    "bssLine": 1369,
+    "bssPrefix": "001NP2CP2HP3CP3DP3H=NYYYYYY623",
+    "originalMeaning": "Often 3♥ support, but perhaps a top honor in a doubleton"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♥ – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000556",
+  "order": 1368
+}

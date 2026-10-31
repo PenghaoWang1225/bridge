@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002a1",
+  "section": "uncontested",
+  "auction": "1D-2C-2D",
+  "meaning": "11-14 HCP, all minimum hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 673,
+    "bssLine": 675,
+    "bssPrefix": "001DP2CP2D=NYYYYYY238",
+    "originalMeaning": "11-14 HCP, all minimum hand"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♣ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-0000000002a0",
+  "order": 674
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002a0",
+  "section": "uncontested",
+  "auction": "1D-2C",
+  "meaning": "GF with 4+♣, or 10+ with 4♦ without a major",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 672,
+    "bssLine": 674,
+    "bssPrefix": "001DP2C=YYYYYYY508",
+    "originalMeaning": "GF with 4+♣, or 10+ with 4♦ without a major"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♣",
+  "parentId": "10000000-0000-4000-8000-000000000209",
+  "order": 673
+}

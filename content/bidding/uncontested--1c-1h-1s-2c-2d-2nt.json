@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000000e0",
+  "section": "uncontested",
+  "auction": "1C-1H-1S-2C-2D-2NT",
+  "meaning": "Natural invitational, often only 4♠",
+  "notes": "",
+  "artificial": false,
+  "forcing": "4",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 224,
+    "bssLine": 226,
+    "bssPrefix": "001CP1HP1SP2CP2DP2N=NYYYYYY4",
+    "originalMeaning": "Natural invitational, often only 4♠"
+  },
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 1♠ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000000dd",
+  "order": 225
+}

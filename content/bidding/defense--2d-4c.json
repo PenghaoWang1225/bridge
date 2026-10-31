@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008c9",
+  "section": "defense",
+  "auction": "2D-4C",
+  "meaning": "Leaping Michaels, 5+♣ and 5+M, 4♦ = asking your major, 4♥ = P/C",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2249,
+    "bssLine": 2251,
+    "bssPrefix": "*002D4C=NYYYYYY258",
+    "originalMeaning": "Leaping Michaels, 5+♣ and 5+M, 4♦ = asking your major, 4♥ = P/C"
+  },
+  "opening": "2D",
+  "fullAuction": "(2♦) – 4♣",
+  "parentId": "10000000-0000-4000-8000-0000000008bf",
+  "order": 2277
+}

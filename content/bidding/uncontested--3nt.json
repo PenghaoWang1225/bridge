@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000876",
+  "section": "uncontested",
+  "auction": "3NT",
+  "meaning": "In 1/2 seats, solid 7-card major, 8-9 playing tricks",
+  "notes": "",
+  "artificial": true,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2166,
+    "bssLine": 2168,
+    "bssPrefix": "003N=YYYYYYY2",
+    "originalMeaning": "In 1/2 seats, solid 7-card major, 8-9 playing tricks"
+  },
+  "opening": "3NT",
+  "fullAuction": "3NT",
+  "parentId": null,
+  "order": 2175
+}

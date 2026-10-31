@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000731",
+  "section": "uncontested",
+  "auction": "2H-2NT-3C-4D",
+  "meaning": "♦ shortness, slam interest",
+  "notes": "",
+  "artificial": false,
+  "forcing": "8",
+  "minLength": 0,
+  "maxLength": 1,
+  "source": {
+    "legacyId": 1841,
+    "bssLine": 1843,
+    "bssPrefix": "002HP2NP3CP4D=NYYYYYY801",
+    "originalMeaning": "♦ shortness, slam interest"
+  },
+  "opening": "2H",
+  "fullAuction": "2♥ – (Pass) – 2NT – (Pass) – 3♣ – (Pass) – 4♦",
+  "parentId": "10000000-0000-4000-8000-00000000071b",
+  "order": 1842
+}

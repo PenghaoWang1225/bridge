@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000003ce",
+  "section": "uncontested",
+  "auction": "1H-3H",
+  "meaning": "3-7 HCP, often 4+ trumps",
+  "notes": "",
+  "artificial": false,
+  "forcing": "9",
+  "minLength": 4,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 974,
+    "bssLine": 976,
+    "bssPrefix": "001HP3H=NYYYYYY948",
+    "originalMeaning": "3-7 HCP, often 4+ trumps"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000002e7",
+  "order": 1123
+}

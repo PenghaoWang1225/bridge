@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000525",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-3D",
+  "meaning": "Singleton in a Major, also imply 4 cards in the other Major",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1317,
+    "bssLine": 1319,
+    "bssPrefix": "001NP2CP2DP3D=YYYYYYY608",
+    "originalMeaning": "Singleton in a Major, also imply 4 cards in the other Major"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-000000000501",
+  "order": 1318
+}

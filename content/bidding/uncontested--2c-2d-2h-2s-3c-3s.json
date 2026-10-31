@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000650",
+  "section": "uncontested",
+  "auction": "2C-2D-2H-2S-3C-3S",
+  "meaning": "8+ HCP or a good suit with a little less",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1616,
+    "bssLine": 1618,
+    "bssPrefix": "002CP2DP2HP2SP3CP3S=NYYYYYY658",
+    "originalMeaning": "8+ HCP or a good suit with a little less"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 3♣ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-00000000064d",
+  "order": 1617
+}

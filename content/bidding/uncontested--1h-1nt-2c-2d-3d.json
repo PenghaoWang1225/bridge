@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000038f",
+  "section": "uncontested",
+  "auction": "1H-1NT-2C-2D-3D",
+  "meaning": "16+ HCP, GF with 5♥5♦ or concentrated strength with 5♥4♦",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 911,
+    "bssLine": 913,
+    "bssPrefix": "001HP1NP2CP2DP3D=NYYYYYY645",
+    "originalMeaning": "16+ HCP, GF with 5♥5♦ or concentrated strength with 5♥4♦"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-000000000374",
+  "order": 912
+}

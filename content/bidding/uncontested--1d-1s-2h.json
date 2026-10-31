@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000025e",
+  "section": "uncontested",
+  "auction": "1D-1S-2H",
+  "meaning": "Reverse F1, could be either (a) natural reverse bid, 16+ HCP; (b) 3-4-5-1 and 14+ HCP; (c) 3♠ and 6+♦, 14+ HCP; (d) 6+♦, 16+ HCP, unsuited for 2NT (lack a stopper); (e) 1-4-4-4 with 18-19 HCP",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 2,
+  "maxLength": 4,
+  "source": {
+    "legacyId": 606,
+    "bssLine": 608,
+    "bssPrefix": "001DP1SP2H=NYYYYYY524",
+    "originalMeaning": "Reverse F1, could be either (a) natural reverse bid, 16+ HCP; (b) 3-4-5-1 and 14+ HCP; (c) 3♠ and 6+♦, 14+ HCP; (d) 6+♦, 16+ HCP, unsuited for 2NT (lack a stopper); (e) 1-4-4-4 with 18-19 HCP"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♠ – (Pass) – 2♥",
+  "parentId": "10000000-0000-4000-8000-00000000024c",
+  "order": 610
+}

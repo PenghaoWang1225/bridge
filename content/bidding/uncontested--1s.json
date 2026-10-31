@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000468",
+  "section": "uncontested",
+  "auction": "1S",
+  "meaning": "11-21 HCP",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1128,
+    "bssLine": 1130,
+    "bssPrefix": "001S=NYYYYYY258",
+    "originalMeaning": "11-21 HCP"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠",
+  "parentId": null,
+  "order": 1129
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000780",
+  "section": "uncontested",
+  "auction": "2NT-3C-3D-3H-3S-4H-4S",
+  "meaning": "Shows a 4-card minor but not a good hand",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1920,
+    "bssLine": 1922,
+    "bssPrefix": "002NP3CP3DP3HP3SP4HP4S=YYYYYYY608",
+    "originalMeaning": "Shows a 4-card minor but not a good hand"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3♠ – (Pass) – 4♥ – (Pass) – 4♠",
+  "parentId": "10000000-0000-4000-8000-00000000077f",
+  "order": 1921
+}

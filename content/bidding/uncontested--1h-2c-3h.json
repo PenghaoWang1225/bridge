@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000044a",
+  "section": "uncontested",
+  "auction": "1H-2C-3H",
+  "meaning": "16+ HCP with strong ♥ suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1098,
+    "bssLine": 1100,
+    "bssPrefix": "001HP2CP3H=NYYYYYY668",
+    "originalMeaning": "16+ HCP with strong ♥ suit"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♣ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000416",
+  "order": 1007
+}

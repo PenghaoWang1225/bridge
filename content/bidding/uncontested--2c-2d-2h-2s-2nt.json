@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000064c",
+  "section": "uncontested",
+  "auction": "2C-2D-2H-2S-2NT",
+  "meaning": "18-19 bal, 2NT system on",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1612,
+    "bssLine": 1614,
+    "bssPrefix": "002CP2DP2HP2SP2N=NYYYYYY2",
+    "originalMeaning": "18-19 bal, 2NT system on"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-00000000064b",
+  "order": 1613
+}

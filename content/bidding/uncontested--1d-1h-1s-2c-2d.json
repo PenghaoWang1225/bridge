@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000210",
+  "section": "uncontested",
+  "auction": "1D-1H-1S-2C-2D",
+  "meaning": "11-14 HCP accept puppet",
+  "notes": "",
+  "artificial": true,
+  "forcing": "B",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 528,
+    "bssLine": 530,
+    "bssPrefix": "001DP1HP1SP2CP2D=YYYYYYYB08",
+    "originalMeaning": "11-14 HCP accept puppet"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♥ – (Pass) – 1♠ – (Pass) – 2♣ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-00000000020f",
+  "order": 529
+}

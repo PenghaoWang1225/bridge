@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000055d",
+  "section": "uncontested",
+  "auction": "1NT-2C-2H-3C-3H-3S",
+  "meaning": "Asking if partner has a ♦ stopper",
+  "notes": "",
+  "artificial": false,
+  "forcing": "D",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1373,
+    "bssLine": 1375,
+    "bssPrefix": "001NP2CP2HP3CP3HP3S=NYYYYYYD08",
+    "originalMeaning": "Asking if partner has a ♦ stopper"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♥ – (Pass) – 3♣ – (Pass) – 3♥ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-00000000055c",
+  "order": 1374
+}

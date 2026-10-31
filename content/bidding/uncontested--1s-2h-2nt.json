@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004dd",
+  "section": "uncontested",
+  "auction": "1S-2H-2NT",
+  "meaning": "15+ balanced or semi-balanced (singleton ♥)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1245,
+    "bssLine": 1247,
+    "bssPrefix": "001SP2HP2N=NYYYYYY6",
+    "originalMeaning": "15+ balanced or semi-balanced (singleton ♥)"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 2♥ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000004d6",
+  "order": 1246
+}

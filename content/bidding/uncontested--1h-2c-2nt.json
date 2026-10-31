@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000447",
+  "section": "uncontested",
+  "auction": "1H-2C-2NT",
+  "meaning": "15+ HCP, with either a balanced hand or a suitable semi-balanced hand with shortness in ♣",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1095,
+    "bssLine": 1097,
+    "bssPrefix": "001HP2CP2N=NYYYYYY6",
+    "originalMeaning": "15+ HCP, with either a balanced hand or a suitable semi-balanced hand with shortness in ♣"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♣ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-000000000416",
+  "order": 1004
+}

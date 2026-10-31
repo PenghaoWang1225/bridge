@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008aa",
+  "section": "defense",
+  "auction": "1C-1H-X-1NT-P-2C-P-2D",
+  "meaning": "Natural or semi-natural with ♣s or a balanced hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2218,
+    "bssLine": 2220,
+    "bssPrefix": "*001C1HD1NP2CP2D=NYYYYYY538",
+    "originalMeaning": "Natural or semi-natural with ♣s or a balanced hand"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Double) – 1NT – (Pass) – 2♣ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-0000000008a8",
+  "order": 2218
+}

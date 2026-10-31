@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004b7",
+  "section": "uncontested",
+  "auction": "1S-2C-2D-2S-2NT-3S",
+  "meaning": "3♠ support, at least a mild slam try, inviting cue-bid",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1207,
+    "bssLine": 1209,
+    "bssPrefix": "001SP2CP2DP2SP2NP3S=NYYYYYY708",
+    "originalMeaning": "3♠ support, at least a mild slam try, inviting cue-bid"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♠ – (Pass) – 2NT – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-0000000004b3",
+  "order": 1207
+}

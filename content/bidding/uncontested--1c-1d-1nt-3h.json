@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000048",
+  "section": "uncontested",
+  "auction": "1C-1D-1NT-3H",
+  "meaning": "Distributional hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "4",
+  "minLength": 7,
+  "maxLength": 7,
+  "source": {
+    "legacyId": 72,
+    "bssLine": 74,
+    "bssPrefix": "001CP1DP1NP3H=NYYYYYY477",
+    "originalMeaning": "Distributional hand"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 1NT – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000040",
+  "order": 95
+}

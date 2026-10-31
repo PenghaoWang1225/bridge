@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005e8",
+  "section": "uncontested",
+  "auction": "1NT-2S-3C",
+  "meaning": "Accept of a possible invitation, usually at least Hx fit in ♣. Responder continuation is the same as 1NT - 2♠; 2NT",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 2,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1512,
+    "bssLine": 1514,
+    "bssPrefix": "001NP2SP3C=NYYYYYY228",
+    "originalMeaning": "Accept of a possible invitation, usually at least Hx fit in ♣. Responder continuation is the same as 1NT - 2♠; 2NT"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♠ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-0000000005dc",
+  "order": 1513
+}

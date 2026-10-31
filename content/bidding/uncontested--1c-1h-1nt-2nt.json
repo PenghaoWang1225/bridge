@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000107",
+  "section": "uncontested",
+  "auction": "1C-1H-1NT-2NT",
+  "meaning": "TCB 2NT Module",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 263,
+    "bssLine": 265,
+    "bssPrefix": "001CP1HP1NP2N=NYYYYYY0",
+    "originalMeaning": "TCB 2NT Module"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 1NT – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-000000000102",
+  "order": 264
+}

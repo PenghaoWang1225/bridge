@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000209",
+  "section": "uncontested",
+  "auction": "1D",
+  "meaning": "11-21 HCP, usually 4+♦, the only exception is 4-4-3-2",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 521,
+    "bssLine": 523,
+    "bssPrefix": "001D=NYYYYYY238",
+    "originalMeaning": "11-21 HCP, usually 4+♦, the only exception is 4-4-3-2"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦",
+  "parentId": null,
+  "order": 522
+}

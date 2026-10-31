@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000364",
+  "section": "uncontested",
+  "auction": "1H-1S-2NT-3H",
+  "meaning": "Very weak, about 6 HCP without a fit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "1",
+  "minLength": 2,
+  "maxLength": 2,
+  "source": {
+    "legacyId": 868,
+    "bssLine": 870,
+    "bssPrefix": "001HP1SP2NP3H=NYYYYYY122",
+    "originalMeaning": "Very weak, about 6 HCP without a fit"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1♠ – (Pass) – 2NT – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-00000000035b",
+  "order": 869
+}

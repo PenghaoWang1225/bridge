@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000050c",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-2H-3C-3H",
+  "meaning": "Weak hand with 4♥, declines invitation",
+  "notes": "",
+  "artificial": false,
+  "forcing": "1",
+  "minLength": 4,
+  "maxLength": 4,
+  "source": {
+    "legacyId": 1292,
+    "bssLine": 1294,
+    "bssPrefix": "001NP2CP2DP2HP3CP3H=NYYYYYY144",
+    "originalMeaning": "Weak hand with 4♥, declines invitation"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 3♣ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-00000000050a",
+  "order": 1293
+}

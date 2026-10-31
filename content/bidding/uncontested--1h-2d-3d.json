@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000460",
+  "section": "uncontested",
+  "auction": "1H-2D-3D",
+  "meaning": "11-14 HCP, often with 3♦ (not XXX) support and a balanced hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1120,
+    "bssLine": 1122,
+    "bssPrefix": "001HP2DP3D=NYYYYYY638",
+    "originalMeaning": "11-14 HCP, often with 3♦ (not XXX) support and a balanced hand"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♦ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-000000000451",
+  "order": 1028
+}

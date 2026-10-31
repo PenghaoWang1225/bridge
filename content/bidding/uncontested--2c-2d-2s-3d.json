@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000671",
+  "section": "uncontested",
+  "auction": "2C-2D-2S-3D",
+  "meaning": "Some strength and 5+ cards in the bid suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1649,
+    "bssLine": 1651,
+    "bssPrefix": "002CP2DP2SP3D=NYYYYYY658",
+    "originalMeaning": "Some strength and 5+ cards in the bid suit"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 2♠ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-00000000066a",
+  "order": 1650
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000001a2",
+  "section": "uncontested",
+  "auction": "1C-1S-2H-3H",
+  "meaning": "Suggest to play 4-3 fit, or maybe xxxx in support",
+  "notes": "",
+  "artificial": false,
+  "forcing": "3",
+  "minLength": 3,
+  "maxLength": 4,
+  "source": {
+    "legacyId": 418,
+    "bssLine": 420,
+    "bssPrefix": "001CP1SP2HP3H=NYYYYYY334",
+    "originalMeaning": "Suggest to play 4-3 fit, or maybe xxxx in support"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♠ – (Pass) – 2♥ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-00000000019d",
+  "order": 420
+}

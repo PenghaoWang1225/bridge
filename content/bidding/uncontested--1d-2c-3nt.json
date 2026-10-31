@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002c5",
+  "section": "uncontested",
+  "auction": "1D-2C-3NT",
+  "meaning": "15-17 HCP with 4-4-4-1 shape, ♣ singleton is not an honor",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 709,
+    "bssLine": 711,
+    "bssPrefix": "001DP2CP3N=NYYYYYY2",
+    "originalMeaning": "15-17 HCP with 4-4-4-1 shape, ♣ singleton is not an honor"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♣ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-0000000002a0",
+  "order": 710
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000515",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-2NT",
+  "meaning": "Doesn't promise 4-card Major",
+  "notes": "",
+  "artificial": false,
+  "forcing": "4",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1301,
+    "bssLine": 1303,
+    "bssPrefix": "001NP2CP2DP2N=NYYYYYY4",
+    "originalMeaning": "Doesn't promise 4-card Major"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-000000000501",
+  "order": 1302
+}

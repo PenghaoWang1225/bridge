@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005b8",
+  "section": "uncontested",
+  "auction": "1NT-2D-2H-3D-3H",
+  "meaning": "Often 3♥ support, but Hx is possible with a suit-oriented hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 2,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 1464,
+    "bssLine": 1466,
+    "bssPrefix": "001NP2DP2HP3DP3H=NYYYYYY623",
+    "originalMeaning": "Often 3♥ support, but Hx is possible with a suit-oriented hand"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 3♦ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000005b7",
+  "order": 1464
+}

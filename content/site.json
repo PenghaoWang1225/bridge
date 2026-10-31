@@ -1,0 +1,22 @@
+{
+  "title": "Bridge",
+  "description": "My bridge systems, partnership agreements, and study notes.",
+  "systemTitle": "Scanian v1 Bidding Tree",
+  "sections": [
+    {
+      "key": "uncontested",
+      "title": "Uncontested Bidding System",
+      "description": "Opening bids, responses, and agreements when the opponents pass."
+    },
+    {
+      "key": "contested",
+      "title": "Contested",
+      "description": "Partnership agreements when the opponents enter the auction."
+    },
+    {
+      "key": "defense",
+      "title": "Defense",
+      "description": "Responses to opponent openings and defensive agreements."
+    }
+  ]
+}

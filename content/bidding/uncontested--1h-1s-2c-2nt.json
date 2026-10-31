@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000332",
+  "section": "uncontested",
+  "auction": "1H-1S-2C-2NT",
+  "meaning": "Weak with both minors (4-0-5-4 or 4-0-4-5)",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 818,
+    "bssLine": 820,
+    "bssPrefix": "001HP1SP2CP2N=YYYYYYY5",
+    "originalMeaning": "Weak with both minors (4-0-5-4 or 4-0-4-5)"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1♠ – (Pass) – 2♣ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000002f3",
+  "order": 819
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008d7",
+  "section": "defense",
+  "auction": "1S-2C-P-2D-P-2S",
+  "meaning": "Forcing, but not Einar's cue-bid as 2♥ is now bypassed",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2263,
+    "bssLine": 2265,
+    "bssPrefix": "*001S2CP2DP2S=NYYYYYY508",
+    "originalMeaning": "Forcing, but not Einar's cue-bid as 2♥ is now bypassed"
+  },
+  "opening": "1S",
+  "fullAuction": "(1♠) – 2♣ – (Pass) – 2♦ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-0000000008d5",
+  "order": 2258
+}

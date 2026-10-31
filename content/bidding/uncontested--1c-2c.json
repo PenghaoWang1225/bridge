@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000001b0",
+  "section": "uncontested",
+  "auction": "1C-2C",
+  "meaning": "11+ HCP (very often without a 4-card major)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 4,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 432,
+    "bssLine": 434,
+    "bssPrefix": "001CP2C=NYYYYYY048",
+    "originalMeaning": "11+ HCP (very often without a 4-card major)"
+  },
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 2♣",
+  "parentId": "10000000-0000-4000-8000-000000000000",
+  "order": 433
+}

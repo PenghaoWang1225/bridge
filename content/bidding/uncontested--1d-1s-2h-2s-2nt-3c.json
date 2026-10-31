@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000261",
+  "section": "uncontested",
+  "auction": "1D-1S-2H-2S-2NT-3C",
+  "meaning": "GF with ♣ suit or ♦ support",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 609,
+    "bssLine": 611,
+    "bssPrefix": "001DP1SP2HP2SP2NP3C=YYYYYYY608",
+    "originalMeaning": "GF with ♣ suit or ♦ support"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♠ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 2NT – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000260",
+  "order": 613
+}

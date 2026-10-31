@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000003fb",
+  "section": "uncontested",
+  "auction": "1H-2NT-3H-3S",
+  "meaning": "Waiting bid or limited slam interest (non-serious)",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1019,
+    "bssLine": 1021,
+    "bssPrefix": "001HP2NP3HP3S=YYYYYYY608",
+    "originalMeaning": "Waiting bid or limited slam interest (non-serious)"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2NT – (Pass) – 3♥ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-0000000003f7",
+  "order": 1103
+}

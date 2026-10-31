@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000505",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-2H-2S-3D",
+  "meaning": "3-4-5-1 weak hand to play",
+  "notes": "",
+  "artificial": false,
+  "forcing": "1",
+  "minLength": 5,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 1285,
+    "bssLine": 1287,
+    "bssPrefix": "001NP2CP2DP2HP2SP3D=NYYYYYY155",
+    "originalMeaning": "3-4-5-1 weak hand to play"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-000000000503",
+  "order": 1286
+}

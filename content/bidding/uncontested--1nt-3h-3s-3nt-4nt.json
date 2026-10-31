@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000625",
+  "section": "uncontested",
+  "auction": "1NT-3H-3S-3NT-4NT",
+  "meaning": "Bid your best minor",
+  "notes": "",
+  "artificial": false,
+  "forcing": "D",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1573,
+    "bssLine": 1575,
+    "bssPrefix": "001NP3HP3SP3NP4N=NYYYYYYD",
+    "originalMeaning": "Bid your best minor"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 3♥ – (Pass) – 3♠ – (Pass) – 3NT – (Pass) – 4NT",
+  "parentId": "10000000-0000-4000-8000-00000000061f",
+  "order": 1572
+}

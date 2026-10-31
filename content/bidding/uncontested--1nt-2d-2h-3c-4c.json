@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005b5",
+  "section": "uncontested",
+  "auction": "1NT-2D-2H-3C-4C",
+  "meaning": "4+♣ support, extra values or good honors for slam",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 6,
+  "source": {
+    "legacyId": 1461,
+    "bssLine": 1463,
+    "bssPrefix": "001NP2DP2HP3CP4C=NYYYYYY646",
+    "originalMeaning": "4+♣ support, extra values or good honors for slam"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 3♣ – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-0000000005b0",
+  "order": 1461
+}

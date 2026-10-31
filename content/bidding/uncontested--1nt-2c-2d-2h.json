@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000502",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-2H",
+  "meaning": "1) 5♥4♠ mild invitational; 2) 4-4 in majors weak hand; 3) 4♥, 3♠ and a 5-card minor",
+  "notes": "",
+  "artificial": false,
+  "forcing": "E",
+  "minLength": 3,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 1282,
+    "bssLine": 1284,
+    "bssPrefix": "001NP2CP2DP2H=NYYYYYYE35",
+    "originalMeaning": "1) 5♥4♠ mild invitational; 2) 4-4 in majors weak hand; 3) 4♥, 3♠ and a 5-card minor"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥",
+  "parentId": "10000000-0000-4000-8000-000000000501",
+  "order": 1283
+}

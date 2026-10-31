@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000422",
+  "section": "uncontested",
+  "auction": "1H-2C-2D-2H-2NT-4H",
+  "meaning": "3-card support with about 15 HCP",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 3,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 1058,
+    "bssLine": 1060,
+    "bssPrefix": "001HP2CP2DP2HP2NP4H=NYYYYYY233",
+    "originalMeaning": "3-card support with about 15 HCP"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2NT – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-00000000041a",
+  "order": 967
+}

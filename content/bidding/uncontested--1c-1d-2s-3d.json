@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000000cb",
+  "section": "uncontested",
+  "auction": "1C-1D-2S-3D",
+  "meaning": "Set ♥ as trump, asking for strength and singletons, but can still stop at 3♥ if opener has minimum",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 203,
+    "bssLine": 205,
+    "bssPrefix": "001CP1DP2SP3D=YYYYYYY508",
+    "originalMeaning": "Set ♥ as trump, asking for strength and singletons, but can still stop at 3♥ if opener has minimum"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 2♠ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-0000000000bf",
+  "order": 183
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000875",
+  "section": "uncontested",
+  "auction": "2NT-5S",
+  "meaning": "An invitation to 6NT, asking for any 5-card suit",
+  "notes": "",
+  "artificial": true,
+  "forcing": "4",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2165,
+    "bssLine": 2167,
+    "bssPrefix": "002NP5S=YYYYYYY408",
+    "originalMeaning": "An invitation to 6NT, asking for any 5-card suit"
+  },
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 5♠",
+  "parentId": "10000000-0000-4000-8000-000000000761",
+  "order": 2166
+}

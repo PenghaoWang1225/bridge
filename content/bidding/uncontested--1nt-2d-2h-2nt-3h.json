@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005ae",
+  "section": "uncontested",
+  "auction": "1NT-2D-2H-2NT-3H",
+  "meaning": "Minimum with 3♥ support, not interested in game facing partner's 5♥4♠ inv. hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 3,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 1454,
+    "bssLine": 1456,
+    "bssPrefix": "001NP2DP2HP2NP3H=NYYYYYY233",
+    "originalMeaning": "Minimum with 3♥ support, not interested in game facing partner's 5♥4♠ inv. hand"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2NT – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000005a8",
+  "order": 1454
+}

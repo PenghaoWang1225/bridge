@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000068f",
+  "section": "uncontested",
+  "auction": "2C-3C",
+  "meaning": "6+♦ with Hxxxxx or HHxxxx, no other ace or king",
+  "notes": "",
+  "artificial": true,
+  "forcing": "A",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1679,
+    "bssLine": 1681,
+    "bssPrefix": "002CP3C=YYYYYYYA08",
+    "originalMeaning": "6+♦ with Hxxxxx or HHxxxx, no other ace or king"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000648",
+  "order": 1680
+}

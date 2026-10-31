@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000183",
+  "section": "uncontested",
+  "auction": "1C-1S-2C-2NT",
+  "meaning": "Forcing-Invitational, opener 3♣ NF, new suit = shortness, maximum",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 387,
+    "bssLine": 389,
+    "bssPrefix": "001CP1SP2CP2N=NYYYYYY5",
+    "originalMeaning": "Forcing-Invitational, opener 3♣ NF, new suit = shortness, maximum"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♠ – (Pass) – 2♣ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-00000000017f",
+  "order": 388
+}

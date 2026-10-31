@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000761",
+  "section": "uncontested",
+  "auction": "2NT",
+  "meaning": "22-24 HCP balanced",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1889,
+    "bssLine": 1891,
+    "bssPrefix": "002N=NYYYYYY2",
+    "originalMeaning": "22-24 HCP balanced"
+  },
+  "opening": "2NT",
+  "fullAuction": "2NT",
+  "parentId": null,
+  "order": 1890
+}

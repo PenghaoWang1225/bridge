@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005ed",
+  "section": "uncontested",
+  "auction": "1NT-2S-3C-4C",
+  "meaning": "Slam interest, often without a shortness",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1517,
+    "bssLine": 1519,
+    "bssPrefix": "001NP2SP3CP4C=NYYYYYY768",
+    "originalMeaning": "Slam interest, often without a shortness"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♠ – (Pass) – 3♣ – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-0000000005e8",
+  "order": 1518
+}

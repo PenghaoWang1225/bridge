@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000064",
+  "section": "uncontested",
+  "auction": "1C-1D-1S-1NT-2D",
+  "meaning": "F1, 15+ HCP, Usually 4-1-3-5 constructive hand or some other hands where opener wants to make a forcing bid",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 100,
+    "bssLine": 102,
+    "bssPrefix": "001CP1DP1SP1NP2D=NYYYYYY538",
+    "originalMeaning": "F1, 15+ HCP, Usually 4-1-3-5 constructive hand or some other hands where opener wants to make a forcing bid"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 1♠ – (Pass) – 1NT – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-000000000063",
+  "order": 68
+}

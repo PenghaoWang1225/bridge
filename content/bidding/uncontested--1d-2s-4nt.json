@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002de",
+  "section": "uncontested",
+  "auction": "1D-2S-4NT",
+  "meaning": "ST in ♦ with ♥ void",
+  "notes": "",
+  "artificial": true,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 734,
+    "bssLine": 736,
+    "bssPrefix": "001DP2SP4N=YYYYYYY7",
+    "originalMeaning": "ST in ♦ with ♥ void"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♠ – (Pass) – 4NT",
+  "parentId": "10000000-0000-4000-8000-0000000002cd",
+  "order": 735
+}

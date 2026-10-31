@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000058d",
+  "section": "uncontested",
+  "auction": "1NT-2C-2NT-3S",
+  "meaning": "A slam try with 5♦ (Lissabon)",
+  "notes": "",
+  "artificial": true,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1421,
+    "bssLine": 1423,
+    "bssPrefix": "001NP2CP2NP3S=YYYYYYY708",
+    "originalMeaning": "A slam try with 5♦ (Lissabon)"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2NT – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-000000000589",
+  "order": 1422
+}

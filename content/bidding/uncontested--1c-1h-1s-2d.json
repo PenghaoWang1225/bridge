@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000000e4",
+  "section": "uncontested",
+  "auction": "1C-1H-1S-2D",
+  "meaning": "Either weak (with 5+♠ or both majors) or GF",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 228,
+    "bssLine": 230,
+    "bssPrefix": "001CP1HP1SP2D=NYYYYYY508",
+    "originalMeaning": "Either weak (with 5+♠ or both majors) or GF"
+  },
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 1♠ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-0000000000da",
+  "order": 229
+}

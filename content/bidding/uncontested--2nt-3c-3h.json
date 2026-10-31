@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000007cd",
+  "section": "uncontested",
+  "auction": "2NT-3C-3H",
+  "meaning": "No 4-card major",
+  "notes": "",
+  "artificial": true,
+  "forcing": "E",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1997,
+    "bssLine": 1999,
+    "bssPrefix": "002NP3CP3H=YYYYYYYE08",
+    "originalMeaning": "No 4-card major"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000762",
+  "order": 1998
+}

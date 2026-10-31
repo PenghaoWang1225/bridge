@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000024b",
+  "section": "uncontested",
+  "auction": "1D-1H-3C-3S",
+  "meaning": "4th suit, GF",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 587,
+    "bssLine": 589,
+    "bssPrefix": "001DP1HP3CP3S=NYYYYYY608",
+    "originalMeaning": "4th suit, GF"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♥ – (Pass) – 3♣ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-000000000246",
+  "order": 584
+}

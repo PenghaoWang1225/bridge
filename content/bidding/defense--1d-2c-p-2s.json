@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008ce",
+  "section": "defense",
+  "auction": "1D-2C-P-2S",
+  "meaning": "F1, indicates support or a very good hand, forcing to 3♣",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2254,
+    "bssLine": 2256,
+    "bssPrefix": "*001D2CP2S=YYYYYYY508",
+    "originalMeaning": "F1, indicates support or a very good hand, forcing to 3♣"
+  },
+  "opening": "1D",
+  "fullAuction": "(1♦) – 2♣ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-0000000008cb",
+  "order": 2243
+}

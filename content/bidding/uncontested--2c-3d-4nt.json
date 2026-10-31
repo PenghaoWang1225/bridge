@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000698",
+  "section": "uncontested",
+  "auction": "2C-3D-4NT",
+  "meaning": "Checking the quality of the long suit",
+  "notes": "",
+  "artificial": true,
+  "forcing": "D",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1688,
+    "bssLine": 1690,
+    "bssPrefix": "002CP3DP4N=YYYYYYYD",
+    "originalMeaning": "Checking the quality of the long suit"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 3♦ – (Pass) – 4NT",
+  "parentId": "10000000-0000-4000-8000-000000000696",
+  "order": 1689
+}

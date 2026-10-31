@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000612",
+  "section": "uncontested",
+  "auction": "1NT-3D-3H-3NT-4H",
+  "meaning": "Maximum, No waste values in ♥, looking for minor suit slam possibility ",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 2,
+  "maxLength": 4,
+  "source": {
+    "legacyId": 1554,
+    "bssLine": 1556,
+    "bssPrefix": "001NP3DP3HP3NP4H=NYYYYYY724",
+    "originalMeaning": "Maximum, No waste values in ♥, looking for minor suit slam possibility "
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3NT – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-000000000611",
+  "order": 1555
+}

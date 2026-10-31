@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000425",
+  "section": "uncontested",
+  "auction": "1H-2C-2D-2H-3H",
+  "meaning": "6-card suit or good 5-card suit, not minimum",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1061,
+    "bssLine": 1063,
+    "bssPrefix": "001HP2CP2DP2HP3H=NYYYYYY668",
+    "originalMeaning": "6-card suit or good 5-card suit, not minimum"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000418",
+  "order": 970
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000369",
+  "section": "uncontested",
+  "auction": "1H-1S-3D",
+  "meaning": "13-15 HCP, 5♥ and 5♦ and decent suits, all bids except preference is GF",
+  "notes": "",
+  "artificial": false,
+  "forcing": "3",
+  "minLength": 5,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 873,
+    "bssLine": 875,
+    "bssPrefix": "001HP1SP3D=NYYYYYY355",
+    "originalMeaning": "13-15 HCP, 5♥ and 5♦ and decent suits, all bids except preference is GF"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1♠ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-0000000002e8",
+  "order": 874
+}

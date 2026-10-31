@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000444",
+  "section": "uncontested",
+  "auction": "1H-2C-2H-3D",
+  "meaning": "Natural, can be semi-natural without stopper in unbid suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 3,
+  "maxLength": 4,
+  "source": {
+    "legacyId": 1092,
+    "bssLine": 1094,
+    "bssPrefix": "001HP2CP2HP3D=NYYYYYY634",
+    "originalMeaning": "Natural, can be semi-natural without stopper in unbid suit"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♣ – (Pass) – 2♥ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-000000000436",
+  "order": 1001
+}

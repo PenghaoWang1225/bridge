@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000376",
+  "section": "uncontested",
+  "auction": "1H-1NT-2C-2D-2H-2S",
+  "meaning": "10-12 HCP with 5-5 in the minors",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 886,
+    "bssLine": 888,
+    "bssPrefix": "001HP1NP2CP2DP2HP2S=YYYYYYY608",
+    "originalMeaning": "10-12 HCP with 5-5 in the minors"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-000000000375",
+  "order": 887
+}

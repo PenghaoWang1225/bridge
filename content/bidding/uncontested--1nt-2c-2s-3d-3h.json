@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000057a",
+  "section": "uncontested",
+  "auction": "1NT-2C-2S-3D-3H",
+  "meaning": "Semi-natural, either with 5♠ or 4♠ with weak ♣",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1402,
+    "bssLine": 1404,
+    "bssPrefix": "001NP2CP2SP3DP3H=NYYYYYY638",
+    "originalMeaning": "Semi-natural, either with 5♠ or 4♠ with weak ♣"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♠ – (Pass) – 3♦ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000579",
+  "order": 1403
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000410",
+  "section": "uncontested",
+  "auction": "1H-2S-2NT",
+  "meaning": "Forcing, asking bid",
+  "notes": "",
+  "artificial": false,
+  "forcing": "D",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1040,
+    "bssLine": 1042,
+    "bssPrefix": "001HP2SP2N=NYYYYYYD",
+    "originalMeaning": "Forcing, asking bid"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♠ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-00000000040f",
+  "order": 1056
+}

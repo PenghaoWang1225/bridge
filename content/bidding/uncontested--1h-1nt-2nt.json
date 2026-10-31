@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000003a9",
+  "section": "uncontested",
+  "auction": "1H-1NT-2NT",
+  "meaning": "Nice 14+ HCP with 6♥ and 4-card minor",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 937,
+    "bssLine": 939,
+    "bssPrefix": "001HP1NP2N=YYYYYYY5",
+    "originalMeaning": "Nice 14+ HCP with 6♥ and 4-card minor"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1NT – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-000000000372",
+  "order": 938
+}

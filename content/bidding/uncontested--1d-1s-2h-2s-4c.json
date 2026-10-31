@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000271",
+  "section": "uncontested",
+  "auction": "1D-1S-2H-2S-4C",
+  "meaning": "17+ with ♣ shortness and 3♠ support, often 3-3-6-1 shape",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 1,
+  "maxLength": 1,
+  "source": {
+    "legacyId": 625,
+    "bssLine": 627,
+    "bssPrefix": "001DP1SP2HP2SP4C=NYYYYYY611",
+    "originalMeaning": "17+ with ♣ shortness and 3♠ support, often 3-3-6-1 shape"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♠ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-00000000025f",
+  "order": 629
+}

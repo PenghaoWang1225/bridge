@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000892",
+  "section": "defense",
+  "auction": "1C-1H-P-1S",
+  "meaning": "Usually 5+♠, F1. Now overcaller's 2♣ is Einar's cue-bid",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2194,
+    "bssLine": 2196,
+    "bssPrefix": "*001C1HP1S=NYYYYYY558",
+    "originalMeaning": "Usually 5+♠, F1. Now overcaller's 2♣ is Einar's cue-bid"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Pass) – 1♠",
+  "parentId": "10000000-0000-4000-8000-000000000891",
+  "order": 2196
+}

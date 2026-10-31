@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000370",
+  "section": "uncontested",
+  "auction": "1H-1S-4C",
+  "meaning": "16+ HCP with ♣ void and 4♠ support",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 880,
+    "bssLine": 882,
+    "bssPrefix": "001HP1SP4C=NYYYYYY700",
+    "originalMeaning": "16+ HCP with ♣ void and 4♠ support"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1♠ – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-0000000002e8",
+  "order": 881
+}

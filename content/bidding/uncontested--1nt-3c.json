@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000607",
+  "section": "uncontested",
+  "auction": "1NT-3C",
+  "meaning": "5-5(4) in the minors, mild invitational, 6-8 HCP",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 4,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1543,
+    "bssLine": 1545,
+    "bssPrefix": "001NP3C=NYYYYYY248",
+    "originalMeaning": "5-5(4) in the minors, mild invitational, 6-8 HCP"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-0000000004ff",
+  "order": 1544
+}

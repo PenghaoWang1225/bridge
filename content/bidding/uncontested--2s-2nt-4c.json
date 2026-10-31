@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000756",
+  "section": "uncontested",
+  "auction": "2S-2NT-4C",
+  "meaning": "minimum with ♣ void",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1878,
+    "bssLine": 1880,
+    "bssPrefix": "002SP2NP4C=YYYYYYY600",
+    "originalMeaning": "minimum with ♣ void"
+  },
+  "opening": "2S",
+  "fullAuction": "2♠ – (Pass) – 2NT – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-000000000750",
+  "order": 1879
+}

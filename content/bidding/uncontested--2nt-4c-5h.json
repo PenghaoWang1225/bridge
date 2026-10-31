@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000860",
+  "section": "uncontested",
+  "auction": "2NT-4C-5H",
+  "meaning": "xx in ♥, Asking for good trumps, don't worry about side suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 2,
+  "maxLength": 2,
+  "source": {
+    "legacyId": 2144,
+    "bssLine": 2146,
+    "bssPrefix": "002NP4CP5H=NYYYYYY722",
+    "originalMeaning": "xx in ♥, Asking for good trumps, don't worry about side suit"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 4♣ – (Pass) – 5♥",
+  "parentId": "10000000-0000-4000-8000-000000000859",
+  "order": 2145
+}

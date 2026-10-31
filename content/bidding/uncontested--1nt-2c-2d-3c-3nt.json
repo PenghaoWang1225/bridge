@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000522",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-3C-3NT",
+  "meaning": "Very often 4333, in odd cases no interest at all in a minor suit slam",
+  "notes": "",
+  "artificial": false,
+  "forcing": "E",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1314,
+    "bssLine": 1316,
+    "bssPrefix": "001NP2CP2DP3CP3N=NYYYYYYE",
+    "originalMeaning": "Very often 4333, in odd cases no interest at all in a minor suit slam"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♣ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-000000000516",
+  "order": 1315
+}

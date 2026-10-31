@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000516",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-3C",
+  "meaning": "GF relay, some interest in minor-suit slam",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1302,
+    "bssLine": 1304,
+    "bssPrefix": "001NP2CP2DP3C=YYYYYYY608",
+    "originalMeaning": "GF relay, some interest in minor-suit slam"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000501",
+  "order": 1303
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000762",
+  "section": "uncontested",
+  "auction": "2NT-3C",
+  "meaning": "Muppet Stayman",
+  "notes": "",
+  "artificial": false,
+  "forcing": "D",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1890,
+    "bssLine": 1892,
+    "bssPrefix": "002NP3C=NYYYYYYD08",
+    "originalMeaning": "Muppet Stayman"
+  },
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000761",
+  "order": 1891
+}

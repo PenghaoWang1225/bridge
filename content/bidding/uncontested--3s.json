@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000881",
+  "section": "uncontested",
+  "auction": "3S",
+  "meaning": "3-10 HCP with 7-card suit, preemptive",
+  "notes": "",
+  "artificial": false,
+  "forcing": "9",
+  "minLength": 7,
+  "maxLength": 7,
+  "source": {
+    "legacyId": 2177,
+    "bssLine": 2179,
+    "bssPrefix": "003S=NYYYYYY977",
+    "originalMeaning": "3-10 HCP with 7-card suit, preemptive"
+  },
+  "opening": "3S",
+  "fullAuction": "3♠",
+  "parentId": null,
+  "order": 2173
+}

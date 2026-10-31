@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000007cc",
+  "section": "uncontested",
+  "auction": "2NT-3C-3D-4D",
+  "meaning": "At least 4-4 in majors, asking partner to bid his 4-card major or make a preference",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1996,
+    "bssLine": 1998,
+    "bssPrefix": "002NP3CP3DP4D=YYYYYYY608",
+    "originalMeaning": "At least 4-4 in majors, asking partner to bid his 4-card major or make a preference"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 4♦",
+  "parentId": "10000000-0000-4000-8000-000000000763",
+  "order": 1997
+}

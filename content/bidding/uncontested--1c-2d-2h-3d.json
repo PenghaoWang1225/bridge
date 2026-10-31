@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000001d1",
+  "section": "uncontested",
+  "auction": "1C-2D-2H-3D",
+  "meaning": "GF or ST with ♣ singleton",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 1,
+  "maxLength": 1,
+  "source": {
+    "legacyId": 465,
+    "bssLine": 467,
+    "bssPrefix": "001CP2DP2HP3D=YYYYYYY611",
+    "originalMeaning": "GF or ST with ♣ singleton"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-0000000001cc",
+  "order": 465
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000478",
+  "section": "uncontested",
+  "auction": "1S-1NT-2C-2D-2H-2NT",
+  "meaning": "GF relay with 10+ HCP",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1144,
+    "bssLine": 1146,
+    "bssPrefix": "001SP1NP2CP2DP2HP2N=YYYYYYY6",
+    "originalMeaning": "GF relay with 10+ HCP"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-00000000046c",
+  "order": 1145
+}

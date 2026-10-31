@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000493",
+  "section": "uncontested",
+  "auction": "1S-1NT-2C-2D-3D",
+  "meaning": "GF, 5-5 or concentrated strength with 5-4",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 1171,
+    "bssLine": 1173,
+    "bssPrefix": "001SP1NP2CP2DP3D=NYYYYYY645",
+    "originalMeaning": "GF, 5-5 or concentrated strength with 5-4"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-00000000046b",
+  "order": 1172
+}

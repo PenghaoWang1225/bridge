@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000377",
+  "section": "uncontested",
+  "auction": "1H-1NT-2C-2D-2H-2NT",
+  "meaning": "9-10 HCP, Forcing-invitational, natural rebids, force to 3♥",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 887,
+    "bssLine": 889,
+    "bssPrefix": "001HP1NP2CP2DP2HP2N=NYYYYYY5",
+    "originalMeaning": "9-10 HCP, Forcing-invitational, natural rebids, force to 3♥"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-000000000375",
+  "order": 888
+}

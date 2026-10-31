@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004d0",
+  "section": "uncontested",
+  "auction": "1S-2D-2NT",
+  "meaning": "15+ HCP, balanced or semi-balanced",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1232,
+    "bssLine": 1234,
+    "bssPrefix": "001SP2DP2N=NYYYYYY6",
+    "originalMeaning": "15+ HCP, balanced or semi-balanced"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 2♦ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000004cd",
+  "order": 1233
+}

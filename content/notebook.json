@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "id": "00000000-0000-4000-8000-000000000001",
+      "text": "Always use 03–14 (0314) for key-card responses."
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000002",
+      "text": "Use Kickback for all trump suits. When Kickback occupies a suit bid, NT becomes the cue-bid for that suit."
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000003",
+      "text": "4M−1: Last Train（最后一班车）. Partnership agreement needs discussion."
+    }
+  ]
+}

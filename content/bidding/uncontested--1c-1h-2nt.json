@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000167",
+  "section": "uncontested",
+  "auction": "1C-1H-2NT",
+  "meaning": "16+ HCP F1, with a) 6+♣ and 0-2♠; (b) 4♠ support without void in side suits",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 359,
+    "bssLine": 361,
+    "bssPrefix": "001CP1HP2N=NYYYYYY5",
+    "originalMeaning": "16+ HCP F1, with a) 6+♣ and 0-2♠; (b) 4♠ support without void in side suits"
+  },
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000000d9",
+  "order": 360
+}

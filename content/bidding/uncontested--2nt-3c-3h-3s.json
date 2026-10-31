@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000007ce",
+  "section": "uncontested",
+  "auction": "2NT-3C-3H-3S",
+  "meaning": "Puppet to 3NT, then pass in order to play 3NT",
+  "notes": "",
+  "artificial": true,
+  "forcing": "B",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1998,
+    "bssLine": 2000,
+    "bssPrefix": "002NP3CP3HP3S=YYYYYYYB08",
+    "originalMeaning": "Puppet to 3NT, then pass in order to play 3NT"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣ – (Pass) – 3♥ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-0000000007cd",
+  "order": 1999
+}

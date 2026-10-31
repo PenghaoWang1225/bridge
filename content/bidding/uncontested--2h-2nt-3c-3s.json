@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000072b",
+  "section": "uncontested",
+  "auction": "2H-2NT-3C-3S",
+  "meaning": "Limited game hand, asks for 4♥ without void",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1835,
+    "bssLine": 1837,
+    "bssPrefix": "002HP2NP3CP3S=YYYYYYY608",
+    "originalMeaning": "Limited game hand, asks for 4♥ without void"
+  },
+  "opening": "2H",
+  "fullAuction": "2♥ – (Pass) – 2NT – (Pass) – 3♣ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-00000000071b",
+  "order": 1836
+}

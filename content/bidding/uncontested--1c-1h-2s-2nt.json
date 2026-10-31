@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000015f",
+  "section": "uncontested",
+  "auction": "1C-1H-2S-2NT",
+  "meaning": "F1, INV+, ask partner to further clarify his hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 351,
+    "bssLine": 353,
+    "bssPrefix": "001CP1HP2SP2N=NYYYYYY5",
+    "originalMeaning": "F1, INV+, ask partner to further clarify his hand"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♠ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-00000000015d",
+  "order": 351
+}

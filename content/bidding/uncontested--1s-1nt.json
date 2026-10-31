@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000469",
+  "section": "uncontested",
+  "auction": "1S-1NT",
+  "meaning": "5-12 HCP, may have support with 3-7 HCP",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1129,
+    "bssLine": 1131,
+    "bssPrefix": "001SP1N=NYYYYYY2",
+    "originalMeaning": "5-12 HCP, may have support with 3-7 HCP"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 1NT",
+  "parentId": "10000000-0000-4000-8000-000000000468",
+  "order": 1130
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000009e",
+  "section": "uncontested",
+  "auction": "1C-1D-2D-2S-3C",
+  "meaning": "Responder must pass with the weak hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 158,
+    "bssLine": 160,
+    "bssPrefix": "001CP1DP2DP2SP3C=NYYYYYY268",
+    "originalMeaning": "Responder must pass with the weak hand"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 2♦ – (Pass) – 2♠ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-00000000009a",
+  "order": 137
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000086c",
+  "section": "uncontested",
+  "auction": "2NT-4H-5C",
+  "meaning": "Negative, some weak suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 2,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2156,
+    "bssLine": 2158,
+    "bssPrefix": "002NP4HP5C=NYYYYYY228",
+    "originalMeaning": "Negative, some weak suit"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 4♥ – (Pass) – 5♣",
+  "parentId": "10000000-0000-4000-8000-000000000864",
+  "order": 2157
+}

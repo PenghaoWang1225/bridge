@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000858",
+  "section": "uncontested",
+  "auction": "2NT-3NT",
+  "meaning": "To play",
+  "notes": "",
+  "artificial": false,
+  "forcing": "1",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2136,
+    "bssLine": 2138,
+    "bssPrefix": "002NP3N=NYYYYYY1",
+    "originalMeaning": "To play"
+  },
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-000000000761",
+  "order": 2137
+}

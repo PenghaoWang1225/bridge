@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000065c",
+  "section": "uncontested",
+  "auction": "2C-2D-2H-2S-4D",
+  "meaning": "10-11 playing tricks with at least 5-5",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1628,
+    "bssLine": 1630,
+    "bssPrefix": "002CP2DP2HP2SP4D=NYYYYYY658",
+    "originalMeaning": "10-11 playing tricks with at least 5-5"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 4♦",
+  "parentId": "10000000-0000-4000-8000-00000000064b",
+  "order": 1628
+}

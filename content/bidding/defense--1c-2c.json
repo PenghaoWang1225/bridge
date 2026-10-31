@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008b9",
+  "section": "defense",
+  "auction": "1C-2C",
+  "meaning": "Michaels, 5-5 in the majors",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2233,
+    "bssLine": 2235,
+    "bssPrefix": "*001C2C=YYYYYYY508",
+    "originalMeaning": "Michaels, 5-5 in the majors"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 2♣",
+  "parentId": null,
+  "order": 2234
+}

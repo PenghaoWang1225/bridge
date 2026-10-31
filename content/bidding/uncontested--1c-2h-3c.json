@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000001ed",
+  "section": "uncontested",
+  "auction": "1C-2H-3C",
+  "meaning": "NF, strong suit, want to play this suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 493,
+    "bssLine": 495,
+    "bssPrefix": "001CP2HP3C=NYYYYYY268",
+    "originalMeaning": "NF, strong suit, want to play this suit"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 2♥ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-0000000001e1",
+  "order": 494
+}

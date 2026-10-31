@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000755",
+  "section": "uncontested",
+  "auction": "2S-2NT-3NT",
+  "meaning": "6♠ 4♥, not too bad suits",
+  "notes": "",
+  "artificial": true,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1877,
+    "bssLine": 1879,
+    "bssPrefix": "002SP2NP3N=YYYYYYY2",
+    "originalMeaning": "6♠ 4♥, not too bad suits"
+  },
+  "opening": "2S",
+  "fullAuction": "2♠ – (Pass) – 2NT – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-000000000750",
+  "order": 1878
+}

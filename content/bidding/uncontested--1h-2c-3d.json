@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000449",
+  "section": "uncontested",
+  "auction": "1H-2C-3D",
+  "meaning": "4♣ support and ♦ shortness (if minimum then have to have good honors)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 1,
+  "maxLength": 1,
+  "source": {
+    "legacyId": 1097,
+    "bssLine": 1099,
+    "bssPrefix": "001HP2CP3D=NYYYYYY611",
+    "originalMeaning": "4♣ support and ♦ shortness (if minimum then have to have good honors)"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♣ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-000000000416",
+  "order": 1006
+}

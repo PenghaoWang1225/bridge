@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000157",
+  "section": "uncontested",
+  "auction": "1C-1H-2H-2NT-3S",
+  "meaning": "GF with 6+♣ and 3♠, ♦ weakness, 4-3 ♠ game might be a possibility",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 3,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 343,
+    "bssLine": 345,
+    "bssPrefix": "001CP1HP2HP2NP3S=NYYYYYY633",
+    "originalMeaning": "GF with 6+♣ and 3♠, ♦ weakness, 4-3 ♠ game might be a possibility"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♥ – (Pass) – 2NT – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-000000000153",
+  "order": 344
+}

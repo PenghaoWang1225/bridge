@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000000d4",
+  "section": "uncontested",
+  "auction": "1C-1D-2S-3H",
+  "meaning": "Weak, to play, promises 5♥ but at most 5-6 HCP",
+  "notes": "",
+  "artificial": false,
+  "forcing": "1",
+  "minLength": 5,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 212,
+    "bssLine": 214,
+    "bssPrefix": "001CP1DP2SP3H=NYYYYYY155",
+    "originalMeaning": "Weak, to play, promises 5♥ but at most 5-6 HCP"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 2♠ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000000bf",
+  "order": 192
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000667",
+  "section": "uncontested",
+  "auction": "2C-2D-2H-3D",
+  "meaning": "4-6 HCP with a 6+card suit, to play opposite 18-19 if no good fit, normally not Hxxxxx",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1639,
+    "bssLine": 1641,
+    "bssPrefix": "002CP2DP2HP3D=NYYYYYY268",
+    "originalMeaning": "4-6 HCP with a 6+card suit, to play opposite 18-19 if no good fit, normally not Hxxxxx"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-00000000064a",
+  "order": 1640
+}

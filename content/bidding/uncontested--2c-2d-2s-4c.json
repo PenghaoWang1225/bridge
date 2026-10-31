@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000675",
+  "section": "uncontested",
+  "auction": "2C-2D-2S-4C",
+  "meaning": "8+ with shortness",
+  "notes": "",
+  "artificial": false,
+  "forcing": "8",
+  "minLength": 0,
+  "maxLength": 1,
+  "source": {
+    "legacyId": 1653,
+    "bssLine": 1655,
+    "bssPrefix": "002CP2DP2SP4C=NYYYYYY801",
+    "originalMeaning": "8+ with shortness"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 2♠ – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-00000000066a",
+  "order": 1654
+}

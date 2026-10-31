@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000067b",
+  "section": "uncontested",
+  "auction": "2C-2D-3C-3D",
+  "meaning": "Relay, weak or 8+ HCP balanced without ♣ support",
+  "notes": "",
+  "artificial": true,
+  "forcing": "C",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1659,
+    "bssLine": 1661,
+    "bssPrefix": "002CP2DP3CP3D=YYYYYYYC08",
+    "originalMeaning": "Relay, weak or 8+ HCP balanced without ♣ support"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 3♣ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-00000000067a",
+  "order": 1660
+}

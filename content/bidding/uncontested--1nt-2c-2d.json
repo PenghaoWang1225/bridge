@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000501",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D",
+  "meaning": "No 4-card Major",
+  "notes": "",
+  "artificial": true,
+  "forcing": "E",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1281,
+    "bssLine": 1283,
+    "bssPrefix": "001NP2CP2D=YYYYYYYE08",
+    "originalMeaning": "No 4-card Major"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-000000000500",
+  "order": 1282
+}

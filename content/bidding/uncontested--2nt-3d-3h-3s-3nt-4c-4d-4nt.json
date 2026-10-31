@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000801",
+  "section": "uncontested",
+  "auction": "2NT-3D-3H-3S-3NT-4C-4D-4NT",
+  "meaning": "slam invitationa with only 5-4 in ♥ and ♣",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2049,
+    "bssLine": 2051,
+    "bssPrefix": "002NP3DP3HP3SP3NP4CP4DP4N=NYYYYYY2",
+    "originalMeaning": "slam invitationa with only 5-4 in ♥ and ♣"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3♠ – (Pass) – 3NT – (Pass) – 4♣ – (Pass) – 4♦ – (Pass) – 4NT",
+  "parentId": "10000000-0000-4000-8000-0000000007fe",
+  "order": 2050
+}

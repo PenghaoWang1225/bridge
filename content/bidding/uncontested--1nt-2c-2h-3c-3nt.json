@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000055f",
+  "section": "uncontested",
+  "auction": "1NT-2C-2H-3C-3NT",
+  "meaning": "Natural, stopper in both the unbid suits",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1375,
+    "bssLine": 1377,
+    "bssPrefix": "001NP2CP2HP3CP3N=NYYYYYY2",
+    "originalMeaning": "Natural, stopper in both the unbid suits"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♥ – (Pass) – 3♣ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-000000000555",
+  "order": 1376
+}

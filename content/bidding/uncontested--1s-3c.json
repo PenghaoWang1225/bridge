@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004f6",
+  "section": "uncontested",
+  "auction": "1S-3C",
+  "meaning": "Invitational with 6+♣",
+  "notes": "",
+  "artificial": false,
+  "forcing": "4",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1270,
+    "bssLine": 1272,
+    "bssPrefix": "001SP3C=NYYYYYY468",
+    "originalMeaning": "Invitational with 6+♣"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000468",
+  "order": 1271
+}

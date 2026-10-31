@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005a7",
+  "section": "uncontested",
+  "auction": "1NT-2D-2H-2S-3S",
+  "meaning": "Maximum wiht 5♠, seeking 5-3 fit or play 3NT",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 5,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 1447,
+    "bssLine": 1449,
+    "bssPrefix": "001NP2DP2HP2SP3S=NYYYYYY655",
+    "originalMeaning": "Maximum wiht 5♠, seeking 5-3 fit or play 3NT"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-00000000059c",
+  "order": 1445
+}

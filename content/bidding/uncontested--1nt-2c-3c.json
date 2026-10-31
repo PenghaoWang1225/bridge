@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000591",
+  "section": "uncontested",
+  "auction": "1NT-2C-3C",
+  "meaning": "4-4 Majors, maximum",
+  "notes": "",
+  "artificial": true,
+  "forcing": "E",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1425,
+    "bssLine": 1427,
+    "bssPrefix": "001NP2CP3C=YYYYYYYE08",
+    "originalMeaning": "4-4 Majors, maximum"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000500",
+  "order": 1426
+}

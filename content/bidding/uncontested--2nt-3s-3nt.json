@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000835",
+  "section": "uncontested",
+  "auction": "2NT-3S-3NT",
+  "meaning": "No 4-card minor, or no interest in playing a minor suit contract",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2101,
+    "bssLine": 2103,
+    "bssPrefix": "002NP3SP3N=NYYYYYY2",
+    "originalMeaning": "No 4-card minor, or no interest in playing a minor suit contract"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♠ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-000000000834",
+  "order": 2102
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005b6",
+  "section": "uncontested",
+  "auction": "1NT-2D-2H-3C-4H",
+  "meaning": "Minimum, not a good fit in responder's suits",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 2,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 1462,
+    "bssLine": 1464,
+    "bssPrefix": "001NP2DP2HP3CP4H=NYYYYYY223",
+    "originalMeaning": "Minimum, not a good fit in responder's suits"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 3♣ – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-0000000005b0",
+  "order": 1462
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008b8",
+  "section": "defense",
+  "auction": "1C-X",
+  "meaning": "akeout Dbl",
+  "notes": "",
+  "artificial": false,
+  "forcing": "T",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2232,
+    "bssLine": 2234,
+    "bssPrefix": "*001CD=NYYYYYYT",
+    "originalMeaning": "akeout Dbl"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – Double",
+  "parentId": null,
+  "order": 2180
+}

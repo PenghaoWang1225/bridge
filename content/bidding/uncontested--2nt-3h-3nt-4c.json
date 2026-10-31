@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000082d",
+  "section": "uncontested",
+  "auction": "2NT-3H-3NT-4C",
+  "meaning": "Slam try with 5♠ and 4+♣, or limited hand with 5-5 in ♠ and ♣",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 2093,
+    "bssLine": 2095,
+    "bssPrefix": "002NP3HP3NP4C=NYYYYYY645",
+    "originalMeaning": "Slam try with 5♠ and 4+♣, or limited hand with 5-5 in ♠ and ♣"
+  },
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♥ – (Pass) – 3NT – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-00000000082c",
+  "order": 2094
+}

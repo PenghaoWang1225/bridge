@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000060c",
+  "section": "uncontested",
+  "auction": "1NT-3D-3H-3S",
+  "meaning": "A general slam try, inviting partner to cue-bid",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1548,
+    "bssLine": 1550,
+    "bssPrefix": "001NP3DP3HP3S=NYYYYYY708",
+    "originalMeaning": "A general slam try, inviting partner to cue-bid"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-00000000060b",
+  "order": 1549
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000855",
+  "section": "uncontested",
+  "auction": "2NT-3S-4NT",
+  "meaning": "4333 shape with very good fit in the minors",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2133,
+    "bssLine": 2135,
+    "bssPrefix": "002NP3SP4N=NYYYYYY7",
+    "originalMeaning": "4333 shape with very good fit in the minors"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♠ – (Pass) – 4NT",
+  "parentId": "10000000-0000-4000-8000-000000000834",
+  "order": 2134
+}

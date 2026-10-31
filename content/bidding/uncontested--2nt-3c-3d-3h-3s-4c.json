@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000076c",
+  "section": "uncontested",
+  "auction": "2NT-3C-3D-3H-3S-4C",
+  "meaning": "Slam try with 5♣ (cue-bid accept)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 5,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 1900,
+    "bssLine": 1902,
+    "bssPrefix": "002NP3CP3DP3HP3SP4C=NYYYYYY755",
+    "originalMeaning": "Slam try with 5♣ (cue-bid accept)"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3♠ – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-000000000765",
+  "order": 1901
+}

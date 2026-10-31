@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000030d",
+  "section": "uncontested",
+  "auction": "1H-1S-2C-2D-2NT",
+  "meaning": "17+ HCP, Balanced or semi-balanced, but without 3♠, could be 1-5-4-3 or 1-5-3-4 or 2-5-3-3 or 2-6-3-2 or 2-6-2-3)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 781,
+    "bssLine": 783,
+    "bssPrefix": "001HP1SP2CP2DP2N=NYYYYYY6",
+    "originalMeaning": "17+ HCP, Balanced or semi-balanced, but without 3♠, could be 1-5-4-3 or 1-5-3-4 or 2-5-3-3 or 2-6-3-2 or 2-6-2-3)"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1♠ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000002f4",
+  "order": 782
+}

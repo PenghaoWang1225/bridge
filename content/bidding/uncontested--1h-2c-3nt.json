@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000044c",
+  "section": "uncontested",
+  "auction": "1H-2C-3NT",
+  "meaning": "18-19 HCP suitable 5♥332 with 3-card ♣ support and stoppers, NF",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1100,
+    "bssLine": 1102,
+    "bssPrefix": "001HP2CP3N=NYYYYYY2",
+    "originalMeaning": "18-19 HCP suitable 5♥332 with 3-card ♣ support and stoppers, NF"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♣ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-000000000416",
+  "order": 1009
+}

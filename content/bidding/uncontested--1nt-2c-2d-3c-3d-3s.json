@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000051c",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-3C-3D-3S",
+  "meaning": "Shows 4♣, but a weak suit (QXXX or worse)",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1308,
+    "bssLine": 1310,
+    "bssPrefix": "001NP2CP2DP3CP3DP3S=YYYYYYY608",
+    "originalMeaning": "Shows 4♣, but a weak suit (QXXX or worse)"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-000000000517",
+  "order": 1309
+}

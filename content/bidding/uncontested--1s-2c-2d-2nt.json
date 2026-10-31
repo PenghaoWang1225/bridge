@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004ba",
+  "section": "uncontested",
+  "auction": "1S-2C-2D-2NT",
+  "meaning": "Natural, not Hx in ♠ and an interesting hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1210,
+    "bssLine": 1212,
+    "bssPrefix": "001SP2CP2DP2N=NYYYYYY6",
+    "originalMeaning": "Natural, not Hx in ♠ and an interesting hand"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000004b0",
+  "order": 1209
+}

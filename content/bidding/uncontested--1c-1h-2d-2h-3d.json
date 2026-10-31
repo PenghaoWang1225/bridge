@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000012c",
+  "section": "uncontested",
+  "auction": "1C-1H-2D-2H-3D",
+  "meaning": "18+ HCP, GF with 6+♣, lacking a stopper in ♥",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 300,
+    "bssLine": 302,
+    "bssPrefix": "001CP1HP2DP2HP3D=YYYYYYY608",
+    "originalMeaning": "18+ HCP, GF with 6+♣, lacking a stopper in ♥"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-00000000011a",
+  "order": 300
+}

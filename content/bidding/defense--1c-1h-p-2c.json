@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000895",
+  "section": "defense",
+  "auction": "1C-1H-P-2C",
+  "meaning": "Relay bid, could be (1)9+ HCP with ♥ support, if 12+, usually balanced; (2)9+ HCP with Hx support; (3)13+ HCP with balanced or semi-balanced hand, no ♥ support",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2197,
+    "bssLine": 2199,
+    "bssPrefix": "*001C1HP2C=NYYYYYY008",
+    "originalMeaning": "Relay bid, could be (1)9+ HCP with ♥ support, if 12+, usually balanced; (2)9+ HCP with Hx support; (3)13+ HCP with balanced or semi-balanced hand, no ♥ support"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Pass) – 2♣",
+  "parentId": "10000000-0000-4000-8000-000000000891",
+  "order": 2199
+}

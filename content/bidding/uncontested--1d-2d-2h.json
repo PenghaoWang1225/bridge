@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002c8",
+  "section": "uncontested",
+  "auction": "1D-2D-2H",
+  "meaning": "A hand that would pass a normal Weak Jump Shift (in this case 2♥)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 1,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 712,
+    "bssLine": 714,
+    "bssPrefix": "001DP2DP2H=NYYYYYY213",
+    "originalMeaning": "A hand that would pass a normal Weak Jump Shift (in this case 2♥)"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♦ – (Pass) – 2♥",
+  "parentId": "10000000-0000-4000-8000-0000000002c7",
+  "order": 713
+}

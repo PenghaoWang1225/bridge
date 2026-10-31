@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000024f",
+  "section": "uncontested",
+  "auction": "1D-1S-1NT",
+  "meaning": "11-14 HCP with 1-3 cards in ♠",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 591,
+    "bssLine": 593,
+    "bssPrefix": "001DP1SP1N=NYYYYYY2",
+    "originalMeaning": "11-14 HCP with 1-3 cards in ♠"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♠ – (Pass) – 1NT",
+  "parentId": "10000000-0000-4000-8000-00000000024c",
+  "order": 590
+}

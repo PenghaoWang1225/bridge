@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008b5",
+  "section": "defense",
+  "auction": "1C-1S-P-2D",
+  "meaning": "5+♥",
+  "notes": "",
+  "artificial": true,
+  "forcing": "A",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2229,
+    "bssLine": 2231,
+    "bssPrefix": "*001C1SP2D=YYYYYYYA08",
+    "originalMeaning": "5+♥"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♠ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-0000000008b4",
+  "order": 2231
+}

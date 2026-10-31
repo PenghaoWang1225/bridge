@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000162",
+  "section": "uncontested",
+  "auction": "1C-1H-2S-3H",
+  "meaning": "Natural GF, looking for 4-4 in ♥",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 4,
+  "source": {
+    "legacyId": 354,
+    "bssLine": 356,
+    "bssPrefix": "001CP1HP2SP3H=NYYYYYY644",
+    "originalMeaning": "Natural GF, looking for 4-4 in ♥"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♠ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-00000000015d",
+  "order": 354
+}

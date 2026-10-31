@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000006c1",
+  "section": "uncontested",
+  "auction": "2D-2S-2NT",
+  "meaning": "Weak hand with ♥",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1729,
+    "bssLine": 1731,
+    "bssPrefix": "002DP2SP2N=YYYYYYY5",
+    "originalMeaning": "Weak hand with ♥"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 2♠ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000006c0",
+  "order": 1730
+}

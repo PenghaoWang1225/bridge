@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008a6",
+  "section": "defense",
+  "auction": "1C-1H-X-1S",
+  "meaning": "Natural, but not a bad suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2214,
+    "bssLine": 2216,
+    "bssPrefix": "*001C1HD1S=NYYYYYY258",
+    "originalMeaning": "Natural, but not a bad suit"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Double) – 1♠",
+  "parentId": "10000000-0000-4000-8000-0000000008a2",
+  "order": 2214
+}

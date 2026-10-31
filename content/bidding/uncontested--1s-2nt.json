@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004ec",
+  "section": "uncontested",
+  "auction": "1S-2NT",
+  "meaning": "12+ HCP with 3+ trumps",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1260,
+    "bssLine": 1262,
+    "bssPrefix": "001SP2N=NYYYYYY5",
+    "originalMeaning": "12+ HCP with 3+ trumps"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-000000000468",
+  "order": 1261
+}

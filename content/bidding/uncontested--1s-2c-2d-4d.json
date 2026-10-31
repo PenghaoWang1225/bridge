@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004c0",
+  "section": "uncontested",
+  "auction": "1S-2C-2D-4D",
+  "meaning": "Strong ST, cannot stop at 4♠ now",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 4,
+  "maxLength": 4,
+  "source": {
+    "legacyId": 1216,
+    "bssLine": 1218,
+    "bssPrefix": "001SP2CP2DP4D=NYYYYYY744",
+    "originalMeaning": "Strong ST, cannot stop at 4♠ now"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 4♦",
+  "parentId": "10000000-0000-4000-8000-0000000004b0",
+  "order": 1216
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000214",
+  "section": "uncontested",
+  "auction": "1D-1H-1S-3D",
+  "meaning": "11-12 HCP with 3+♦ support, invitational",
+  "notes": "",
+  "artificial": false,
+  "forcing": "4",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 532,
+    "bssLine": 534,
+    "bssPrefix": "001DP1HP1SP3D=NYYYYYY438",
+    "originalMeaning": "11-12 HCP with 3+♦ support, invitational"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♥ – (Pass) – 1♠ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-00000000020b",
+  "order": 537
+}

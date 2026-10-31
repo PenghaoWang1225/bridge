@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000080",
+  "section": "uncontested",
+  "auction": "1C-1D-2C-3S",
+  "meaning": "Splinter with 4+♣ support",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 1,
+  "source": {
+    "legacyId": 128,
+    "bssLine": 130,
+    "bssPrefix": "001CP1DP2CP3S=NYYYYYY601",
+    "originalMeaning": "Splinter with 4+♣ support"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 2♣ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-000000000078",
+  "order": 109
+}

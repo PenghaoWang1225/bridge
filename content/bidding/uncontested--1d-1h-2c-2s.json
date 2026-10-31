@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000022e",
+  "section": "uncontested",
+  "auction": "1D-1H-2C-2S",
+  "meaning": "GF with most of the hands except rebid 3♣ in the next round shows 11-12 HCP invitational with ♣ support",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 558,
+    "bssLine": 560,
+    "bssPrefix": "001DP1HP2CP2S=NYYYYYY508",
+    "originalMeaning": "GF with most of the hands except rebid 3♣ in the next round shows 11-12 HCP invitational with ♣ support"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♥ – (Pass) – 2♣ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-00000000022a",
+  "order": 559
+}

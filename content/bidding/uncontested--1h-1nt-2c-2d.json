@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000374",
+  "section": "uncontested",
+  "auction": "1H-1NT-2C-2D",
+  "meaning": "Relay with 8+HCP",
+  "notes": "",
+  "artificial": true,
+  "forcing": "C",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 884,
+    "bssLine": 886,
+    "bssPrefix": "001HP1NP2CP2D=YYYYYYYC08",
+    "originalMeaning": "Relay with 8+HCP"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1NT – (Pass) – 2♣ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-000000000373",
+  "order": 885
+}

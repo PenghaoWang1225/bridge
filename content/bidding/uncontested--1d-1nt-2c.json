@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000293",
+  "section": "uncontested",
+  "auction": "1D-1NT-2C",
+  "meaning": "F1, 15+ HCP, often with 5-4 or better (or (14)4-4 with a singleton major)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 4,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 659,
+    "bssLine": 661,
+    "bssPrefix": "001DP1NP2C=NYYYYYY545",
+    "originalMeaning": "F1, 15+ HCP, often with 5-4 or better (or (14)4-4 with a singleton major)"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1NT – (Pass) – 2♣",
+  "parentId": "10000000-0000-4000-8000-000000000292",
+  "order": 660
+}

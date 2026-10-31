@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000066c",
+  "section": "uncontested",
+  "auction": "2C-2D-2S-2NT-3C",
+  "meaning": "6+♠ single suited hand",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1644,
+    "bssLine": 1646,
+    "bssPrefix": "002CP2DP2SP2NP3C=YYYYYYY608",
+    "originalMeaning": "6+♠ single suited hand"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 2♠ – (Pass) – 2NT – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-00000000066b",
+  "order": 1645
+}

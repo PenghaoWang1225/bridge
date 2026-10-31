@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005d9",
+  "section": "uncontested",
+  "auction": "1NT-2H-3H",
+  "meaning": "Not maximum but a very good fit",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1497,
+    "bssLine": 1499,
+    "bssPrefix": "001NP2HP3H=YYYYYYY508",
+    "originalMeaning": "Not maximum but a very good fit"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♥ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000005c6",
+  "order": 1498
+}

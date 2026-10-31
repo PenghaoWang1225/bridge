@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008de",
+  "section": "defense",
+  "auction": "1S-2C-P-3C",
+  "meaning": "Natural, limited raise",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2270,
+    "bssLine": 2272,
+    "bssPrefix": "*001S2CP3C=NYYYYYY238",
+    "originalMeaning": "Natural, limited raise"
+  },
+  "opening": "1S",
+  "fullAuction": "(1♠) – 2♣ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-0000000008d4",
+  "order": 2265
+}

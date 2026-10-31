@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000846",
+  "section": "uncontested",
+  "auction": "2NT-3S-4D-5D",
+  "meaning": "Only mild slam interest",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 4,
+  "maxLength": 6,
+  "source": {
+    "legacyId": 2118,
+    "bssLine": 2120,
+    "bssPrefix": "002NP3SP4DP5D=NYYYYYY246",
+    "originalMeaning": "Only mild slam interest"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♠ – (Pass) – 4♦ – (Pass) – 5♦",
+  "parentId": "10000000-0000-4000-8000-000000000841",
+  "order": 2119
+}

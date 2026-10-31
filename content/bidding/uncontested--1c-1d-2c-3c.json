@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000007d",
+  "section": "uncontested",
+  "auction": "1C-1D-2C-3C",
+  "meaning": "Invitational raise,  but only mild invitational",
+  "notes": "",
+  "artificial": false,
+  "forcing": "4",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 125,
+    "bssLine": 127,
+    "bssPrefix": "001CP1DP2CP3C=NYYYYYY438",
+    "originalMeaning": "Invitational raise,  but only mild invitational"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 2♣ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000078",
+  "order": 106
+}

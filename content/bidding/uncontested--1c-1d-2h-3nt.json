@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000050",
+  "section": "uncontested",
+  "auction": "1C-1D-2H-3NT",
+  "meaning": "Suggest final contract, normally with 4♥333",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 80,
+    "bssLine": 82,
+    "bssPrefix": "001CP1DP2HP3N=NYYYYYY2",
+    "originalMeaning": "Suggest final contract, normally with 4♥333"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 2♥ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-00000000004e",
+  "order": 167
+}

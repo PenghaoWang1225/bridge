@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000335",
+  "section": "uncontested",
+  "auction": "1H-1S-2C-3H",
+  "meaning": "Nice 5-7 HCP and often unbalanced",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 3,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 821,
+    "bssLine": 823,
+    "bssPrefix": "001HP1SP2CP3H=NYYYYYY033",
+    "originalMeaning": "Nice 5-7 HCP and often unbalanced"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1♠ – (Pass) – 2♣ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000002f3",
+  "order": 822
+}

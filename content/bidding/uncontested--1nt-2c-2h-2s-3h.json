@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000552",
+  "section": "uncontested",
+  "auction": "1NT-2C-2H-2S-3H",
+  "meaning": "Maximum with 5♥ and an honor doubleton in ♠",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 5,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 1362,
+    "bssLine": 1364,
+    "bssPrefix": "001NP2CP2HP2SP3H=NYYYYYY255",
+    "originalMeaning": "Maximum with 5♥ and an honor doubleton in ♠"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-00000000054f",
+  "order": 1363
+}

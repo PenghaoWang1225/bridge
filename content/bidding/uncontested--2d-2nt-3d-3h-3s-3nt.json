@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000006f1",
+  "section": "uncontested",
+  "auction": "2D-2NT-3D-3H-3S-3NT",
+  "meaning": "To play, not a relay",
+  "notes": "",
+  "artificial": false,
+  "forcing": "1",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1777,
+    "bssLine": 1779,
+    "bssPrefix": "002DP2NP3DP3HP3SP3N=NYYYYYY1",
+    "originalMeaning": "To play, not a relay"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 2NT – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3♠ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-0000000006f0",
+  "order": 1778
+}

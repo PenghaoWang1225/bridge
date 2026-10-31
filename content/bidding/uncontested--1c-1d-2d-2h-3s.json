@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000097",
+  "section": "uncontested",
+  "auction": "1C-1D-2D-2H-3S",
+  "meaning": "GF with 17+ HCP and 1-3-4-5 shape",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 1,
+  "maxLength": 1,
+  "source": {
+    "legacyId": 151,
+    "bssLine": 153,
+    "bssPrefix": "001CP1DP2DP2HP3S=NYYYYYY611",
+    "originalMeaning": "GF with 17+ HCP and 1-3-4-5 shape"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-000000000086",
+  "order": 130
+}

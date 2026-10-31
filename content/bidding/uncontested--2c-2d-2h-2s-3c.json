@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000064d",
+  "section": "uncontested",
+  "auction": "2C-2D-2H-2S-3C",
+  "meaning": "GF with 6+♥, often the one-suited hand",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1613,
+    "bssLine": 1615,
+    "bssPrefix": "002CP2DP2HP2SP3C=YYYYYYY608",
+    "originalMeaning": "GF with 6+♥, often the one-suited hand"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-00000000064b",
+  "order": 1614
+}

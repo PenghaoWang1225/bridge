@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000628",
+  "section": "uncontested",
+  "auction": "1NT-3H-3S-4H",
+  "meaning": "Miild slam try with ♥ singleton",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 1,
+  "maxLength": 1,
+  "source": {
+    "legacyId": 1576,
+    "bssLine": 1578,
+    "bssPrefix": "001NP3HP3SP4H=NYYYYYY611",
+    "originalMeaning": "Miild slam try with ♥ singleton"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 3♥ – (Pass) – 3♠ – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-00000000061e",
+  "order": 1577
+}

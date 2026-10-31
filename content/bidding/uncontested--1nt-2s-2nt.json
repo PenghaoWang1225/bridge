@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005dd",
+  "section": "uncontested",
+  "auction": "1NT-2S-2NT",
+  "meaning": "Minimum, often no fit in ♣",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1501,
+    "bssLine": 1503,
+    "bssPrefix": "001NP2SP2N=NYYYYYY2",
+    "originalMeaning": "Minimum, often no fit in ♣"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♠ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000005dc",
+  "order": 1502
+}

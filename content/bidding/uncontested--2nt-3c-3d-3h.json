@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000764",
+  "section": "uncontested",
+  "auction": "2NT-3C-3D-3H",
+  "meaning": "Either 4♠ or a slam try in one or both minors",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1892,
+    "bssLine": 1894,
+    "bssPrefix": "002NP3CP3DP3H=YYYYYYY608",
+    "originalMeaning": "Either 4♠ or a slam try in one or both minors"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000763",
+  "order": 1893
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000006be",
+  "section": "uncontested",
+  "auction": "2D-2H-4C",
+  "meaning": "GF with 4-4-1-4 shape",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 4,
+  "source": {
+    "legacyId": 1726,
+    "bssLine": 1728,
+    "bssPrefix": "002DP2HP4C=NYYYYYY644",
+    "originalMeaning": "GF with 4-4-1-4 shape"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 2♥ – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-0000000006a4",
+  "order": 1726
+}

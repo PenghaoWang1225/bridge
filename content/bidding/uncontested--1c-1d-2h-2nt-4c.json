@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000005d",
+  "section": "uncontested",
+  "auction": "1C-1D-2H-2NT-4C",
+  "meaning": "Maximum with 4♥ support, cue on ♣ (13-14 HCP)",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 93,
+    "bssLine": 95,
+    "bssPrefix": "001CP1DP2HP2NP4C=YYYYYYY638",
+    "originalMeaning": "Maximum with 4♥ support, cue on ♣ (13-14 HCP)"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 2♥ – (Pass) – 2NT – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-000000000056",
+  "order": 160
+}

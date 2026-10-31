@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000006ef",
+  "section": "uncontested",
+  "auction": "2D-2NT-3D-3H",
+  "meaning": "Relay, not GF when non-vulnerable",
+  "notes": "",
+  "artificial": true,
+  "forcing": "C",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1775,
+    "bssLine": 1777,
+    "bssPrefix": "002DP2NP3DP3H=YYYYYYYC08",
+    "originalMeaning": "Relay, not GF when non-vulnerable"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 2NT – (Pass) – 3♦ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000006ee",
+  "order": 1776
+}

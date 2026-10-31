@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000775",
+  "section": "uncontested",
+  "auction": "2NT-3C-3D-3H-3S-4C-5NT",
+  "meaning": "Good ♣ support and hand for slam, 2 KC with ♣Q",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1909,
+    "bssLine": 1911,
+    "bssPrefix": "002NP3CP3DP3HP3SP4CP5N=NYYYYYY7",
+    "originalMeaning": "Good ♣ support and hand for slam, 2 KC with ♣Q"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3♠ – (Pass) – 4♣ – (Pass) – 5NT",
+  "parentId": "10000000-0000-4000-8000-00000000076c",
+  "order": 1910
+}

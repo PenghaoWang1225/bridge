@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000040a",
+  "section": "uncontested",
+  "auction": "1H-4H",
+  "meaning": "Preemptive, usually unbalanced weak hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1034,
+    "bssLine": 1036,
+    "bssPrefix": "001HP4H=NYYYYYY258",
+    "originalMeaning": "Preemptive, usually unbalanced weak hand"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-0000000002e7",
+  "order": 1128
+}

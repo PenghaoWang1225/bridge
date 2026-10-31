@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004a4",
+  "section": "uncontested",
+  "auction": "1S-1NT-2NT-3C",
+  "meaning": "Relay asking with at least 6 HCP",
+  "notes": "",
+  "artificial": true,
+  "forcing": "C",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1188,
+    "bssLine": 1190,
+    "bssPrefix": "001SP1NP2NP3C=YYYYYYYC08",
+    "originalMeaning": "Relay asking with at least 6 HCP"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 1NT – (Pass) – 2NT – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-0000000004a3",
+  "order": 1189
+}

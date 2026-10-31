@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000006ac",
+  "section": "uncontested",
+  "auction": "2D-2H-3C-3D",
+  "meaning": "Relay, weak or balanced",
+  "notes": "",
+  "artificial": true,
+  "forcing": "C",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1708,
+    "bssLine": 1710,
+    "bssPrefix": "002DP2HP3CP3D=YYYYYYYC08",
+    "originalMeaning": "Relay, weak or balanced"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 2♥ – (Pass) – 3♣ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-0000000006ab",
+  "order": 1709
+}

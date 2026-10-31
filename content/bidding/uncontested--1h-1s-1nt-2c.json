@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002ea",
+  "section": "uncontested",
+  "auction": "1H-1S-1NT-2C",
+  "meaning": "Puppet to 2♦, to play 2♦ or any invitational hand",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 746,
+    "bssLine": 748,
+    "bssPrefix": "001HP1SP1NP2C=YYYYYYY508",
+    "originalMeaning": "Puppet to 2♦, to play 2♦ or any invitational hand"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1♠ – (Pass) – 1NT – (Pass) – 2♣",
+  "parentId": "10000000-0000-4000-8000-0000000002e9",
+  "order": 747
+}

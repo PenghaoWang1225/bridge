@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004c5",
+  "section": "uncontested",
+  "auction": "1S-2C-3C",
+  "meaning": "3+♣ support, but with 5♠332 hand and bad ♣ support we prefer 2♠",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1221,
+    "bssLine": 1223,
+    "bssPrefix": "001SP2CP3C=NYYYYYY638",
+    "originalMeaning": "3+♣ support, but with 5♠332 hand and bad ♣ support we prefer 2♠"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 2♣ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-0000000004ae",
+  "order": 1221
+}

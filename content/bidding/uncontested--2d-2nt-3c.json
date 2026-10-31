@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000006dc",
+  "section": "uncontested",
+  "auction": "2D-2NT-3C",
+  "meaning": "6+♥",
+  "notes": "",
+  "artificial": true,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1756,
+    "bssLine": 1758,
+    "bssPrefix": "002DP2NP3C=YYYYYYY208",
+    "originalMeaning": "6+♥"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 2NT – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-0000000006db",
+  "order": 1757
+}

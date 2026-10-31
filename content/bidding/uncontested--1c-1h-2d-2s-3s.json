@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000139",
+  "section": "uncontested",
+  "auction": "1C-1H-2D-2S-3S",
+  "meaning": "GF with 6+♣ with ♠ feature, often shortness in ♥ (OM)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 2,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 313,
+    "bssLine": 315,
+    "bssPrefix": "001CP1HP2DP2SP3S=NYYYYYY623",
+    "originalMeaning": "GF with 6+♣ with ♠ feature, often shortness in ♥ (OM)"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♦ – (Pass) – 2♠ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-000000000132",
+  "order": 314
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000778",
+  "section": "uncontested",
+  "auction": "2NT-3C-3D-3H-3S-4D-4S",
+  "meaning": "Accept ♦, but not good enough for 5-level bids",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 4,
+  "maxLength": 4,
+  "source": {
+    "legacyId": 1912,
+    "bssLine": 1914,
+    "bssPrefix": "002NP3CP3DP3HP3SP4DP4S=NYYYYYY744",
+    "originalMeaning": "Accept ♦, but not good enough for 5-level bids"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3♠ – (Pass) – 4♦ – (Pass) – 4♠",
+  "parentId": "10000000-0000-4000-8000-000000000776",
+  "order": 1913
+}

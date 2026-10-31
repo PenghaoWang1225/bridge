@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000142",
+  "section": "uncontested",
+  "auction": "1C-1H-2D-3H",
+  "meaning": "GF with 5-5 in majors",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 5,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 322,
+    "bssLine": 324,
+    "bssPrefix": "001CP1HP2DP3H=NYYYYYY655",
+    "originalMeaning": "GF with 5-5 in majors"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♦ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000119",
+  "order": 323
+}

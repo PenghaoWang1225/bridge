@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000003c8",
+  "section": "uncontested",
+  "auction": "1H-2H-2S",
+  "meaning": "Relay, asking for Bluhmer",
+  "notes": "",
+  "artificial": true,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 968,
+    "bssLine": 970,
+    "bssPrefix": "001HP2HP2S=YYYYYYY008",
+    "originalMeaning": "Relay, asking for Bluhmer"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♥ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-0000000003ba",
+  "order": 1036
+}

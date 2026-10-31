@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000539",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-3H-3S",
+  "meaning": "Usually not a minimum hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 3,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 1337,
+    "bssLine": 1339,
+    "bssPrefix": "001NP2CP2DP3HP3S=NYYYYYY633",
+    "originalMeaning": "Usually not a minimum hand"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♥ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-000000000538",
+  "order": 1338
+}

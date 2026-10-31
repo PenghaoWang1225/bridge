@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008c1",
+  "section": "defense",
+  "auction": "2D-X",
+  "meaning": "alanced, 13-15 HCP; or strong, 16+ HCP with any distribution",
+  "notes": "",
+  "artificial": false,
+  "forcing": "B",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2241,
+    "bssLine": 2243,
+    "bssPrefix": "*002DD=NYYYYYYB",
+    "originalMeaning": "alanced, 13-15 HCP; or strong, 16+ HCP with any distribution"
+  },
+  "opening": "2D",
+  "fullAuction": "(2♦) – Double",
+  "parentId": "10000000-0000-4000-8000-0000000008bf",
+  "order": 2269
+}

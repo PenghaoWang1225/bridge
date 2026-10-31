@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000069d",
+  "section": "uncontested",
+  "auction": "2C-3S-4D",
+  "meaning": "Slam try with ♣ fit",
+  "notes": "",
+  "artificial": true,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1693,
+    "bssLine": 1695,
+    "bssPrefix": "002CP3SP4D=YYYYYYY708",
+    "originalMeaning": "Slam try with ♣ fit"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 3♠ – (Pass) – 4♦",
+  "parentId": "10000000-0000-4000-8000-00000000069c",
+  "order": 1694
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000000c0",
+  "section": "uncontested",
+  "auction": "1C-1D-2S-2NT",
+  "meaning": "Relay with 4♥",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 192,
+    "bssLine": 194,
+    "bssPrefix": "001CP1DP2SP2N=YYYYYYY5",
+    "originalMeaning": "Relay with 4♥"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 2♠ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000000bf",
+  "order": 172
+}

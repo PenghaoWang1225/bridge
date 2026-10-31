@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008e5",
+  "section": "defense",
+  "auction": "1H-2C-P-2S",
+  "meaning": "Switch, shows 5+♦, now overcaller's 3♥ CANNOT be used as Einar's cue-bid",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2277,
+    "bssLine": 2279,
+    "bssPrefix": "*001H2CP2S=NYYYYYY508",
+    "originalMeaning": "Switch, shows 5+♦, now overcaller's 3♥ CANNOT be used as Einar's cue-bid"
+  },
+  "opening": "1H",
+  "fullAuction": "(1♥) – 2♣ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-0000000008e0",
+  "order": 2254
+}

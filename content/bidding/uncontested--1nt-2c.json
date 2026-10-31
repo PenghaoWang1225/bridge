@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000500",
+  "section": "uncontested",
+  "auction": "1NT-2C",
+  "meaning": "Stayman",
+  "notes": "",
+  "artificial": false,
+  "forcing": "D",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1280,
+    "bssLine": 1282,
+    "bssPrefix": "001NP2C=NYYYYYYD08",
+    "originalMeaning": "Stayman"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣",
+  "parentId": "10000000-0000-4000-8000-0000000004ff",
+  "order": 1281
+}

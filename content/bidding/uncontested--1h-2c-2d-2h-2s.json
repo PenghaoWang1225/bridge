@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000419",
+  "section": "uncontested",
+  "auction": "1H-2C-2D-2H-2S",
+  "meaning": "4th suit, tell me more, responder rebids the same as opener bids 2NT here",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1049,
+    "bssLine": 1051,
+    "bssPrefix": "001HP2CP2DP2HP2S=YYYYYYY608",
+    "originalMeaning": "4th suit, tell me more, responder rebids the same as opener bids 2NT here"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-000000000418",
+  "order": 958
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000071f",
+  "section": "uncontested",
+  "auction": "2H-2NT-3C-3D-3S-3NT",
+  "meaning": "Where is your void?",
+  "notes": "",
+  "artificial": false,
+  "forcing": "D",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1823,
+    "bssLine": 1825,
+    "bssPrefix": "002HP2NP3CP3DP3SP3N=NYYYYYYD",
+    "originalMeaning": "Where is your void?"
+  },
+  "opening": "2H",
+  "fullAuction": "2♥ – (Pass) – 2NT – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 3♠ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-00000000071e",
+  "order": 1824
+}

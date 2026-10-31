@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000208",
+  "section": "uncontested",
+  "auction": "1C-3NT",
+  "meaning": "Good 13-15 HCP without 4-card majors, to play",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 520,
+    "bssLine": 522,
+    "bssPrefix": "001CP3N=NYYYYYY2",
+    "originalMeaning": "Good 13-15 HCP without 4-card majors, to play"
+  },
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-000000000000",
+  "order": 521
+}

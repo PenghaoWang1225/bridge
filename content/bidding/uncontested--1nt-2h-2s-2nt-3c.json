@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005c9",
+  "section": "uncontested",
+  "auction": "1NT-2H-2S-2NT-3C",
+  "meaning": "Relay asking",
+  "notes": "",
+  "artificial": true,
+  "forcing": "E",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1481,
+    "bssLine": 1483,
+    "bssPrefix": "001NP2HP2SP2NP3C=YYYYYYYE08",
+    "originalMeaning": "Relay asking"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 2NT – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-0000000005c8",
+  "order": 1482
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000409",
+  "section": "uncontested",
+  "auction": "1H-2NT-4H",
+  "meaning": "To play, dead minimum with no feature",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1033,
+    "bssLine": 1035,
+    "bssPrefix": "001HP2NP4H=NYYYYYY258",
+    "originalMeaning": "To play, dead minimum with no feature"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2NT – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-0000000003cf",
+  "order": 1120
+}

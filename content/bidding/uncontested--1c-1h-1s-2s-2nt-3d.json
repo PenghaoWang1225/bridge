@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000000f5",
+  "section": "uncontested",
+  "auction": "1C-1H-1S-2S-2NT-3D",
+  "meaning": "4♠5+♦, Canape hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 245,
+    "bssLine": 247,
+    "bssPrefix": "001CP1HP1SP2SP2NP3D=NYYYYYY658",
+    "originalMeaning": "4♠5+♦, Canape hand"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 1♠ – (Pass) – 2♠ – (Pass) – 2NT – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-0000000000f3",
+  "order": 246
+}

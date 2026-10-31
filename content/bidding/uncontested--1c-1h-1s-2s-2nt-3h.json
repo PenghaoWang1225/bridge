@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000000f6",
+  "section": "uncontested",
+  "auction": "1C-1H-1S-2S-2NT-3H",
+  "meaning": "Slam try with 6+♠ without a void",
+  "notes": "",
+  "artificial": true,
+  "forcing": "7",
+  "minLength": 1,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 246,
+    "bssLine": 248,
+    "bssPrefix": "001CP1HP1SP2SP2NP3H=YYYYYYY718",
+    "originalMeaning": "Slam try with 6+♠ without a void"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 1♠ – (Pass) – 2♠ – (Pass) – 2NT – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000000f3",
+  "order": 247
+}

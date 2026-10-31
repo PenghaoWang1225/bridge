@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000006a3",
+  "section": "uncontested",
+  "auction": "2D",
+  "meaning": "(1) Weak two-bid in a major; (2) 25+ balanced; (3) GF with ♦; (4) any 4441 GF hand",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1699,
+    "bssLine": 1701,
+    "bssPrefix": "002D=YYYYYYY508",
+    "originalMeaning": "(1) Weak two-bid in a major; (2) 25+ balanced; (3) GF with ♦; (4) any 4441 GF hand"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦",
+  "parentId": null,
+  "order": 1700
+}

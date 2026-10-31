@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000548",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-4C",
+  "meaning": "At least 5-5 in Majors, slam try",
+  "notes": "",
+  "artificial": true,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1352,
+    "bssLine": 1354,
+    "bssPrefix": "001NP2CP2DP4C=YYYYYYY708",
+    "originalMeaning": "At least 5-5 in Majors, slam try"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-000000000501",
+  "order": 1353
+}

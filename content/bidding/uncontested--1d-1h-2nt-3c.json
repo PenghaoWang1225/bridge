@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000245",
+  "section": "uncontested",
+  "auction": "1D-1H-2NT-3C",
+  "meaning": "Artificial GF",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 581,
+    "bssLine": 583,
+    "bssPrefix": "001DP1HP2NP3C=YYYYYYY608",
+    "originalMeaning": "Artificial GF"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♥ – (Pass) – 2NT – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000244",
+  "order": 580
+}

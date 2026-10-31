@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000082b",
+  "section": "uncontested",
+  "auction": "2NT-3H-3S-4NT",
+  "meaning": "Kickback RKC 1430",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2091,
+    "bssLine": 2093,
+    "bssPrefix": "002NP3HP3SP4N=NYYYYYY7",
+    "originalMeaning": "Kickback RKC 1430"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♥ – (Pass) – 3♠ – (Pass) – 4NT",
+  "parentId": "10000000-0000-4000-8000-000000000825",
+  "order": 2092
+}

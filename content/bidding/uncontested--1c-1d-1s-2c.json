@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000066",
+  "section": "uncontested",
+  "auction": "1C-1D-1S-2C",
+  "meaning": "Transfer to 2♦, to play or any invitational hand",
+  "notes": "",
+  "artificial": true,
+  "forcing": "B",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 102,
+    "bssLine": 104,
+    "bssPrefix": "001CP1DP1SP2C=YYYYYYYB08",
+    "originalMeaning": "Transfer to 2♦, to play or any invitational hand"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 1♠ – (Pass) – 2♣",
+  "parentId": "10000000-0000-4000-8000-000000000062",
+  "order": 69
+}

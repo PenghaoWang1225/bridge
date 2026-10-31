@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008ac",
+  "section": "defense",
+  "auction": "1C-1H-X-1NT-P-2C-P-2NT",
+  "meaning": "Invitational, promise 13-14 HCP and normally 5♣332 shape",
+  "notes": "",
+  "artificial": false,
+  "forcing": "4",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2220,
+    "bssLine": 2222,
+    "bssPrefix": "*001C1HD1NP2CP2N=NYYYYYY4",
+    "originalMeaning": "Invitational, promise 13-14 HCP and normally 5♣332 shape"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Double) – 1NT – (Pass) – 2♣ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000008a8",
+  "order": 2220
+}

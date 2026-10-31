@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000260",
+  "section": "uncontested",
+  "auction": "1D-1S-2H-2S-2NT",
+  "meaning": "F1, 16+ HCP, 5+♦ and 4♥, stopper in ♣; or 18-19 HCP and 1-4-4-4 shape",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 608,
+    "bssLine": 610,
+    "bssPrefix": "001DP1SP2HP2SP2N=NYYYYYY5",
+    "originalMeaning": "F1, 16+ HCP, 5+♦ and 4♥, stopper in ♣; or 18-19 HCP and 1-4-4-4 shape"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♠ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-00000000025f",
+  "order": 612
+}

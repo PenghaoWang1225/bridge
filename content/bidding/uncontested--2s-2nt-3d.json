@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000752",
+  "section": "uncontested",
+  "auction": "2S-2NT-3D",
+  "meaning": "Maximum without a void",
+  "notes": "",
+  "artificial": true,
+  "forcing": "E",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1874,
+    "bssLine": 1876,
+    "bssPrefix": "002SP2NP3D=YYYYYYYE08",
+    "originalMeaning": "Maximum without a void"
+  },
+  "opening": "2S",
+  "fullAuction": "2♠ – (Pass) – 2NT – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-000000000750",
+  "order": 1875
+}

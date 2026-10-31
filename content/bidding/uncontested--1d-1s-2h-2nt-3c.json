@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000275",
+  "section": "uncontested",
+  "auction": "1D-1S-2H-2NT-3C",
+  "meaning": "F1, about 17+ with either (a) 6+♦, perhaps worry about ♥ stopper; (b) 18-19 with 1-4-4-4 or 0-4-5-4",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 4,
+  "source": {
+    "legacyId": 629,
+    "bssLine": 631,
+    "bssPrefix": "001DP1SP2HP2NP3C=YYYYYYY504",
+    "originalMeaning": "F1, about 17+ with either (a) 6+♦, perhaps worry about ♥ stopper; (b) 18-19 with 1-4-4-4 or 0-4-5-4"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♠ – (Pass) – 2♥ – (Pass) – 2NT – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000274",
+  "order": 633
+}

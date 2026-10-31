@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008b0",
+  "section": "defense",
+  "auction": "1C-1H-X-2NT",
+  "meaning": "Invitational or better with 4+♥ support, very often an unbalanced hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2224,
+    "bssLine": 2226,
+    "bssPrefix": "*001C1HD2N=NYYYYYY5",
+    "originalMeaning": "Invitational or better with 4+♥ support, very often an unbalanced hand"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Double) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000008a2",
+  "order": 2226
+}

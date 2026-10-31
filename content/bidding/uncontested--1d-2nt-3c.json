@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002e0",
+  "section": "uncontested",
+  "auction": "1D-2NT-3C",
+  "meaning": "Natural, F1, often a slam try",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 736,
+    "bssLine": 738,
+    "bssPrefix": "001DP2NP3C=NYYYYYY648",
+    "originalMeaning": "Natural, F1, often a slam try"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2NT – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-0000000002df",
+  "order": 737
+}

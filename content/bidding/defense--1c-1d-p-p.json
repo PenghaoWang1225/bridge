@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000884",
+  "section": "defense",
+  "auction": "1C-1D-P-P",
+  "meaning": "eak, nothing to say",
+  "notes": "",
+  "artificial": false,
+  "forcing": "W",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2180,
+    "bssLine": 2182,
+    "bssPrefix": "*001C1DPP=NYYYYYYW",
+    "originalMeaning": "eak, nothing to say"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♦ – (Pass) – Pass",
+  "parentId": "10000000-0000-4000-8000-000000000883",
+  "order": 2182
+}

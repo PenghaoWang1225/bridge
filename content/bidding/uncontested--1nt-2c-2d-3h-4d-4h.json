@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000540",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-3H-4D-4H",
+  "meaning": "Re-transfer to let partner be declarer",
+  "notes": "",
+  "artificial": false,
+  "forcing": "A",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1344,
+    "bssLine": 1346,
+    "bssPrefix": "001NP2CP2DP3HP4DP4H=NYYYYYYA08",
+    "originalMeaning": "Re-transfer to let partner be declarer"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♥ – (Pass) – 4♦ – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-00000000053f",
+  "order": 1344
+}

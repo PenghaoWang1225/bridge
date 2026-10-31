@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000032f",
+  "section": "uncontested",
+  "auction": "1H-1S-2C-2H-3H",
+  "meaning": "Very good 17-18 HCP, Invitational with 6+♥",
+  "notes": "",
+  "artificial": false,
+  "forcing": "4",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 815,
+    "bssLine": 817,
+    "bssPrefix": "001HP1SP2CP2HP3H=NYYYYYY468",
+    "originalMeaning": "Very good 17-18 HCP, Invitational with 6+♥"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1♠ – (Pass) – 2♣ – (Pass) – 2♥ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000326",
+  "order": 816
+}

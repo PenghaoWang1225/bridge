@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000043f",
+  "section": "uncontested",
+  "auction": "1H-2C-2H-3C-3D",
+  "meaning": "Semi-natural with values, often extra values and some ♣ fit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 3,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 1087,
+    "bssLine": 1089,
+    "bssPrefix": "001HP2CP2HP3CP3D=NYYYYYY633",
+    "originalMeaning": "Semi-natural with values, often extra values and some ♣ fit"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♣ – (Pass) – 2♥ – (Pass) – 3♣ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-00000000043e",
+  "order": 997
+}

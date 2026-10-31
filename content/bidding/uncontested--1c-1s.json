@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000171",
+  "section": "uncontested",
+  "auction": "1C-1S",
+  "meaning": "6+ balanced without a major, or 5+♦",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 369,
+    "bssLine": 371,
+    "bssPrefix": "001CP1S=YYYYYYY508",
+    "originalMeaning": "6+ balanced without a major, or 5+♦"
+  },
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♠",
+  "parentId": "10000000-0000-4000-8000-000000000000",
+  "order": 370
+}

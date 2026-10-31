@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002d3",
+  "section": "uncontested",
+  "auction": "1D-2S-2NT-4D",
+  "meaning": "Slam try with 5+♦ support",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 723,
+    "bssLine": 725,
+    "bssPrefix": "001DP2SP2NP4D=NYYYYYY758",
+    "originalMeaning": "Slam try with 5+♦ support"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♠ – (Pass) – 2NT – (Pass) – 4♦",
+  "parentId": "10000000-0000-4000-8000-0000000002ce",
+  "order": 725
+}

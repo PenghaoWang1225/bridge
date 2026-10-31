@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008d3",
+  "section": "defense",
+  "auction": "1D-2C-P-3S",
+  "meaning": "GF with 5+♠ and ♣ support",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2259,
+    "bssLine": 2261,
+    "bssPrefix": "*001D2CP3S=NYYYYYY658",
+    "originalMeaning": "GF with 5+♠ and ♣ support"
+  },
+  "opening": "1D",
+  "fullAuction": "(1♦) – 2♣ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-0000000008cb",
+  "order": 2248
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000428",
+  "section": "uncontested",
+  "auction": "1H-2C-2D-2H-4C",
+  "meaning": "Agree ♥, cue-bid or self-splinter",
+  "notes": "",
+  "artificial": false,
+  "forcing": "8",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1064,
+    "bssLine": 1066,
+    "bssPrefix": "001HP2CP2DP2HP4C=NYYYYYY808",
+    "originalMeaning": "Agree ♥, cue-bid or self-splinter"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-000000000418",
+  "order": 973
+}

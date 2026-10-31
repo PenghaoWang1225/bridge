@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000132",
+  "section": "uncontested",
+  "auction": "1C-1H-2D-2S",
+  "meaning": "a two-way bid: a) a GF relay (like 4th suit); b) a weak hand with a diamond preference",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 4,
+  "maxLength": 4,
+  "source": {
+    "legacyId": 306,
+    "bssLine": 308,
+    "bssPrefix": "001CP1HP2DP2S=NYYYYYY544",
+    "originalMeaning": "a two-way bid: a) a GF relay (like 4th suit); b) a weak hand with a diamond preference"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♦ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-000000000119",
+  "order": 307
+}

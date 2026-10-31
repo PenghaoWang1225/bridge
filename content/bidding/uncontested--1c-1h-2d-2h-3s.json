@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000012a",
+  "section": "uncontested",
+  "auction": "1C-1H-2D-2H-3S",
+  "meaning": "14-16 HCP, either 6♣3♠ or 3-1-4-5 shape",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 3,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 298,
+    "bssLine": 300,
+    "bssPrefix": "001CP1HP2DP2HP3S=NYYYYYY233",
+    "originalMeaning": "14-16 HCP, either 6♣3♠ or 3-1-4-5 shape"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-00000000011a",
+  "order": 302
+}

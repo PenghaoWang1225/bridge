@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000000d5",
+  "section": "uncontested",
+  "auction": "1C-1D-3D",
+  "meaning": "13-15 HCP with 4♥ and a void in ♦ or ♠",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 213,
+    "bssLine": 215,
+    "bssPrefix": "001CP1DP3D=YYYYYYY508",
+    "originalMeaning": "13-15 HCP with 4♥ and a void in ♦ or ♠"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-000000000001",
+  "order": 213
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000003d9",
+  "section": "uncontested",
+  "auction": "1H-2NT-3C-3H",
+  "meaning": "12-13 HCP, limited hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 985,
+    "bssLine": 987,
+    "bssPrefix": "001HP2NP3CP3H=NYYYYYY238",
+    "originalMeaning": "12-13 HCP, limited hand"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2NT – (Pass) – 3♣ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000003d0",
+  "order": 1072
+}

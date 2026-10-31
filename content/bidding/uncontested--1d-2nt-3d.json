@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002e1",
+  "section": "uncontested",
+  "auction": "1D-2NT-3D",
+  "meaning": "To play, reject invitation",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 737,
+    "bssLine": 739,
+    "bssPrefix": "001DP2NP3D=NYYYYYY258",
+    "originalMeaning": "To play, reject invitation"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2NT – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-0000000002df",
+  "order": 738
+}

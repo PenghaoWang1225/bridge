@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000003ed",
+  "section": "uncontested",
+  "auction": "1H-2NT-3D-3S",
+  "meaning": "12-13 HCP minimum hand, no slam interest unless opener is very strong",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1005,
+    "bssLine": 1007,
+    "bssPrefix": "001HP2NP3DP3S=YYYYYYY608",
+    "originalMeaning": "12-13 HCP minimum hand, no slam interest unless opener is very strong"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2NT – (Pass) – 3♦ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-0000000003e7",
+  "order": 1092
+}

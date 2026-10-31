@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000648",
+  "section": "uncontested",
+  "auction": "2C",
+  "meaning": "(1) 18-21 HCP, balanced; (2) GF with ♣, ♥, and ♠",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1608,
+    "bssLine": 1610,
+    "bssPrefix": "002C=YYYYYYY508",
+    "originalMeaning": "(1) 18-21 HCP, balanced; (2) GF with ♣, ♥, and ♠"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣",
+  "parentId": null,
+  "order": 1609
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000006d4",
+  "section": "uncontested",
+  "auction": "2D-2S-3C-5D",
+  "meaning": "Very weak, but unbalanced",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1748,
+    "bssLine": 1750,
+    "bssPrefix": "002DP2SP3CP5D=NYYYYYY238",
+    "originalMeaning": "Very weak, but unbalanced"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 2♠ – (Pass) – 3♣ – (Pass) – 5♦",
+  "parentId": "10000000-0000-4000-8000-0000000006c7",
+  "order": 1748
+}

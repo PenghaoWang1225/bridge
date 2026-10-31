@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000896",
+  "section": "defense",
+  "auction": "1C-1H-P-2C-P-2D",
+  "meaning": "12+ HCP, normal opening hand",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2198,
+    "bssLine": 2200,
+    "bssPrefix": "*001C1HP2CP2D=YYYYYYY508",
+    "originalMeaning": "12+ HCP, normal opening hand"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Pass) – 2♣ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-000000000895",
+  "order": 2200
+}

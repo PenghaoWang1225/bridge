@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000082f",
+  "section": "uncontested",
+  "auction": "2NT-3H-3NT-4H",
+  "meaning": "Re-transfer to 4♠ then pass = to play ; new suit = void",
+  "notes": "",
+  "artificial": false,
+  "forcing": "A",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2095,
+    "bssLine": 2097,
+    "bssPrefix": "002NP3HP3NP4H=NYYYYYYA08",
+    "originalMeaning": "Re-transfer to 4♠ then pass = to play ; new suit = void"
+  },
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♥ – (Pass) – 3NT – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-00000000082c",
+  "order": 2096
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000006d8",
+  "section": "uncontested",
+  "auction": "2D-2S-4NT",
+  "meaning": "Solid ♦, 10 playing tricks, promising all aces",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1752,
+    "bssLine": 1754,
+    "bssPrefix": "002DP2SP4N=NYYYYYY2",
+    "originalMeaning": "Solid ♦, 10 playing tricks, promising all aces"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 2♠ – (Pass) – 4NT",
+  "parentId": "10000000-0000-4000-8000-0000000006c0",
+  "order": 1755
+}

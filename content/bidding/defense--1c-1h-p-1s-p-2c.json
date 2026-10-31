@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000893",
+  "section": "defense",
+  "auction": "1C-1H-P-1S-P-2C",
+  "meaning": "Einar's cuebid",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2195,
+    "bssLine": 2197,
+    "bssPrefix": "*001C1HP1SP2C=YYYYYYY508",
+    "originalMeaning": "Einar's cuebid"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Pass) – 1♠ – (Pass) – 2♣",
+  "parentId": "10000000-0000-4000-8000-000000000892",
+  "order": 2197
+}

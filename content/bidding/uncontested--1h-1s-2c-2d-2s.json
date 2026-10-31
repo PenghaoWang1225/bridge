@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002fb",
+  "section": "uncontested",
+  "auction": "1H-1S-2C-2D-2S",
+  "meaning": "14+ HCP with 3♠, but exclude 3-5-4-1 with 14-15 HCP (bid 2♦ instead of 2♣ gazzilli)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 3,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 763,
+    "bssLine": 765,
+    "bssPrefix": "001HP1SP2CP2DP2S=NYYYYYY533",
+    "originalMeaning": "14+ HCP with 3♠, but exclude 3-5-4-1 with 14-15 HCP (bid 2♦ instead of 2♣ gazzilli)"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1♠ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-0000000002f4",
+  "order": 764
+}

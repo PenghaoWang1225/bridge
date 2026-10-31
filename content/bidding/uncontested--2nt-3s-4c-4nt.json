@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000083e",
+  "section": "uncontested",
+  "auction": "2NT-3S-4C-4NT",
+  "meaning": "Limited hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2110,
+    "bssLine": 2112,
+    "bssPrefix": "002NP3SP4CP4N=NYYYYYY2",
+    "originalMeaning": "Limited hand"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♠ – (Pass) – 4♣ – (Pass) – 4NT",
+  "parentId": "10000000-0000-4000-8000-00000000083a",
+  "order": 2111
+}

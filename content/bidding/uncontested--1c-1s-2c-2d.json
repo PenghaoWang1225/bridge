@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000180",
+  "section": "uncontested",
+  "auction": "1C-1S-2C-2D",
+  "meaning": "GF relay, 6+♦ or 5♦ with ♣ support",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 384,
+    "bssLine": 386,
+    "bssPrefix": "001CP1SP2CP2D=NYYYYYY658",
+    "originalMeaning": "GF relay, 6+♦ or 5♦ with ♣ support"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♠ – (Pass) – 2♣ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-00000000017f",
+  "order": 385
+}

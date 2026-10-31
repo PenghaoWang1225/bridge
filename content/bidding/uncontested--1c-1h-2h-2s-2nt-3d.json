@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000148",
+  "section": "uncontested",
+  "auction": "1C-1H-2H-2S-2NT-3D",
+  "meaning": "4th suit, checking ♦ stopper for 3NT",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 328,
+    "bssLine": 330,
+    "bssPrefix": "001CP1HP2HP2SP2NP3D=NYYYYYY608",
+    "originalMeaning": "4th suit, checking ♦ stopper for 3NT"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 2NT – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-000000000146",
+  "order": 329
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000057",
+  "section": "uncontested",
+  "auction": "1C-1D-2H-2NT-3C",
+  "meaning": "3♥ support, minimum, responder must pass with INV hand, all further bids are GF",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 87,
+    "bssLine": 89,
+    "bssPrefix": "001CP1DP2HP2NP3C=NYYYYYY238",
+    "originalMeaning": "3♥ support, minimum, responder must pass with INV hand, all further bids are GF"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 2♥ – (Pass) – 2NT – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000056",
+  "order": 154
+}

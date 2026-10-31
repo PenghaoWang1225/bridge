@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000136",
+  "section": "uncontested",
+  "auction": "1C-1H-2D-2S-3C",
+  "meaning": "NF with 6+♣, responder must pass with the weak hand",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 310,
+    "bssLine": 312,
+    "bssPrefix": "001CP1HP2DP2SP3C=NYYYYYY268",
+    "originalMeaning": "NF with 6+♣, responder must pass with the weak hand"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♦ – (Pass) – 2♠ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000132",
+  "order": 311
+}

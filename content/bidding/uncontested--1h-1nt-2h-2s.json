@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000003a6",
+  "section": "uncontested",
+  "auction": "1H-1NT-2H-2S",
+  "meaning": "Good ♣ raise",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 934,
+    "bssLine": 936,
+    "bssPrefix": "001HP1NP2HP2S=YYYYYYY508",
+    "originalMeaning": "Good ♣ raise"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1NT – (Pass) – 2♥ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-0000000003a5",
+  "order": 935
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000464",
+  "section": "uncontested",
+  "auction": "1H-2D-4H",
+  "meaning": "Solid 6-7 card ♥ suit, not much else",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 6,
+  "maxLength": 7,
+  "source": {
+    "legacyId": 1124,
+    "bssLine": 1126,
+    "bssPrefix": "001HP2DP4H=NYYYYYY267",
+    "originalMeaning": "Solid 6-7 card ♥ suit, not much else"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♦ – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-000000000451",
+  "order": 1034
+}

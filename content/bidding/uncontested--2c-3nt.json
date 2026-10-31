@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000069f",
+  "section": "uncontested",
+  "auction": "2C-3NT",
+  "meaning": "AKQxxx(x) in any suit, 6+cards",
+  "notes": "",
+  "artificial": true,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1695,
+    "bssLine": 1697,
+    "bssPrefix": "002CP3N=YYYYYYY2",
+    "originalMeaning": "AKQxxx(x) in any suit, 6+cards"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-000000000648",
+  "order": 1696
+}

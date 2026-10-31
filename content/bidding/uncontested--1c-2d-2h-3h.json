@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000001cd",
+  "section": "uncontested",
+  "auction": "1C-2D-2H-3H",
+  "meaning": "6-7 card solid suit, no side Ace or King",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 6,
+  "maxLength": 7,
+  "source": {
+    "legacyId": 461,
+    "bssLine": 463,
+    "bssPrefix": "001CP2DP2HP3H=NYYYYYY667",
+    "originalMeaning": "6-7 card solid suit, no side Ace or King"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000001cc",
+  "order": 466
+}

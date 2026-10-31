@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004ae",
+  "section": "uncontested",
+  "auction": "1S-2C",
+  "meaning": "Natural GF, often 5+♣",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1198,
+    "bssLine": 1200,
+    "bssPrefix": "001SP2C=NYYYYYY658",
+    "originalMeaning": "Natural GF, often 5+♣"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 2♣",
+  "parentId": "10000000-0000-4000-8000-000000000468",
+  "order": 1199
+}

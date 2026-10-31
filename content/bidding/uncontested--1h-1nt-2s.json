@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000003a8",
+  "section": "uncontested",
+  "auction": "1H-1NT-2S",
+  "meaning": "16+ HCP with 4♠ and 6♥ or a nice hand with 5♠ and 6♥",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 4,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 936,
+    "bssLine": 938,
+    "bssPrefix": "001HP1NP2S=NYYYYYY248",
+    "originalMeaning": "16+ HCP with 4♠ and 6♥ or a nice hand with 5♠ and 6♥"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1NT – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-000000000372",
+  "order": 937
+}

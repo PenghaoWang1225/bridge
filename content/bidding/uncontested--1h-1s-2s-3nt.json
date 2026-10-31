@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000358",
+  "section": "uncontested",
+  "auction": "1H-1S-2S-3NT",
+  "meaning": "To play, natural, looks like no-trump",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 856,
+    "bssLine": 858,
+    "bssPrefix": "001HP1SP2SP3N=NYYYYYY2",
+    "originalMeaning": "To play, natural, looks like no-trump"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1♠ – (Pass) – 2♠ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-00000000034b",
+  "order": 857
+}

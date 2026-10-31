@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005a8",
+  "section": "uncontested",
+  "auction": "1NT-2D-2H-2NT",
+  "meaning": "Two way bid: 1) Inv with 5♥4♠; 2) GF, 5♥ and a singleton, usually less than 14 HCP",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1448,
+    "bssLine": 1450,
+    "bssPrefix": "001NP2DP2HP2N=NYYYYYY5",
+    "originalMeaning": "Two way bid: 1) Inv with 5♥4♠; 2) GF, 5♥ and a singleton, usually less than 14 HCP"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-00000000059b",
+  "order": 1448
+}

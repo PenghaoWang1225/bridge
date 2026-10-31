@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000007b5",
+  "section": "uncontested",
+  "auction": "2NT-3C-3D-3S-3NT-4H",
+  "meaning": "Slam try with 5♣ and 3♦",
+  "notes": "",
+  "artificial": true,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1973,
+    "bssLine": 1975,
+    "bssPrefix": "002NP3CP3DP3SP3NP4H=YYYYYYY708",
+    "originalMeaning": "Slam try with 5♣ and 3♦"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 3♠ – (Pass) – 3NT – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-0000000007b2",
+  "order": 1974
+}

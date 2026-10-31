@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000256",
+  "section": "uncontested",
+  "auction": "1D-1S-1NT-3D",
+  "meaning": "4♠5+♦, Canape Invitational",
+  "notes": "",
+  "artificial": false,
+  "forcing": "4",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 598,
+    "bssLine": 600,
+    "bssPrefix": "001DP1SP1NP3D=NYYYYYY458",
+    "originalMeaning": "4♠5+♦, Canape Invitational"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♠ – (Pass) – 1NT – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-00000000024f",
+  "order": 597
+}

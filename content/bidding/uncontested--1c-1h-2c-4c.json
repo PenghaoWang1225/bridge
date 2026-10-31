@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000117",
+  "section": "uncontested",
+  "auction": "1C-1H-2C-4C",
+  "meaning": "Strong ST with ♣ support",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 279,
+    "bssLine": 281,
+    "bssPrefix": "001CP1HP2CP4C=NYYYYYY738",
+    "originalMeaning": "Strong ST with ♣ support"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♣ – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-00000000010b",
+  "order": 281
+}

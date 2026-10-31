@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002dc",
+  "section": "uncontested",
+  "auction": "1D-2S-4H",
+  "meaning": "RKC on ♦",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 732,
+    "bssLine": 734,
+    "bssPrefix": "001DP2SP4H=NYYYYYY700",
+    "originalMeaning": "RKC on ♦"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♠ – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-0000000002cd",
+  "order": 733
+}

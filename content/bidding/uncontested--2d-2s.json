@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000006c0",
+  "section": "uncontested",
+  "auction": "2D-2S",
+  "meaning": "NF, Inv+ if opener has ♥",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 1,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1728,
+    "bssLine": 1730,
+    "bssPrefix": "002DP2S=NYYYYYY218",
+    "originalMeaning": "NF, Inv+ if opener has ♥"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-0000000006a3",
+  "order": 1729
+}

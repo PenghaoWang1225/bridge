@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000703",
+  "section": "uncontested",
+  "auction": "2D-3C-3S",
+  "meaning": "6+♠ good suit, no ♥ fit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1795,
+    "bssLine": 1797,
+    "bssPrefix": "002DP3CP3S=NYYYYYY268",
+    "originalMeaning": "6+♠ good suit, no ♥ fit"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 3♣ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-000000000700",
+  "order": 1796
+}

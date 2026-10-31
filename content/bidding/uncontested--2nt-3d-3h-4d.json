@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000080d",
+  "section": "uncontested",
+  "auction": "2NT-3D-3H-4D",
+  "meaning": "Asks for a preference to 4♥ if opener doesn't have 4♠ (responder wants to play game or slam in a major)",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 2061,
+    "bssLine": 2063,
+    "bssPrefix": "002NP3DP3HP4D=YYYYYYY645",
+    "originalMeaning": "Asks for a preference to 4♥ if opener doesn't have 4♠ (responder wants to play game or slam in a major)"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 4♦",
+  "parentId": "10000000-0000-4000-8000-0000000007fa",
+  "order": 2062
+}

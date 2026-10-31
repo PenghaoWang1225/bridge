@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000039f",
+  "section": "uncontested",
+  "auction": "1H-1NT-2C-3H",
+  "meaning": "Good 5-7 HCP with 3♥ support, often unbalanced",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 3,
+  "maxLength": 3,
+  "source": {
+    "legacyId": 927,
+    "bssLine": 929,
+    "bssPrefix": "001HP1NP2CP3H=NYYYYYY233",
+    "originalMeaning": "Good 5-7 HCP with 3♥ support, often unbalanced"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1NT – (Pass) – 2♣ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000373",
+  "order": 928
+}

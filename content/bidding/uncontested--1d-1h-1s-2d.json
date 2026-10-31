@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000211",
+  "section": "uncontested",
+  "auction": "1D-1H-1S-2D",
+  "meaning": "Puppet to 2♥, to play or any GF hand",
+  "notes": "",
+  "artificial": true,
+  "forcing": "B",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 529,
+    "bssLine": 531,
+    "bssPrefix": "001DP1HP1SP2D=YYYYYYYB08",
+    "originalMeaning": "Puppet to 2♥, to play or any GF hand"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♥ – (Pass) – 1♠ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-00000000020b",
+  "order": 530
+}

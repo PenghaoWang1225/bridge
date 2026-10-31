@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002bf",
+  "section": "uncontested",
+  "auction": "1D-2C-2S",
+  "meaning": "GF, 15+ HCP, natural or semi-natural reverse bid",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 703,
+    "bssLine": 705,
+    "bssPrefix": "001DP2CP2S=NYYYYYY638",
+    "originalMeaning": "GF, 15+ HCP, natural or semi-natural reverse bid"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♣ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-0000000002a0",
+  "order": 704
+}

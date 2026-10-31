@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000042b",
+  "section": "uncontested",
+  "auction": "1H-2C-2D-2S",
+  "meaning": "4th suit, but 5♠6♣ if rebid ♠ next round",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1067,
+    "bssLine": 1069,
+    "bssPrefix": "001HP2CP2DP2S=NYYYYYY638",
+    "originalMeaning": "4th suit, but 5♠6♣ if rebid ♠ next round"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-000000000417",
+  "order": 976
+}

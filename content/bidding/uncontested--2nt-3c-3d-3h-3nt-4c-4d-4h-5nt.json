@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000791",
+  "section": "uncontested",
+  "auction": "2NT-3C-3D-3H-3NT-4C-4D-4H-5NT",
+  "meaning": "2 KC with Q, agreeing ♣",
+  "notes": "",
+  "artificial": true,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1937,
+    "bssLine": 1939,
+    "bssPrefix": "002NP3CP3DP3HP3NP4CP4DP4HP5N=YYYYYYY7",
+    "originalMeaning": "2 KC with Q, agreeing ♣"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3NT – (Pass) – 4♣ – (Pass) – 4♦ – (Pass) – 4♥ – (Pass) – 5NT",
+  "parentId": "10000000-0000-4000-8000-00000000078a",
+  "order": 1938
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000080f",
+  "section": "uncontested",
+  "auction": "2NT-3D-3H-4D-4H",
+  "meaning": "Preference, often Hx in ♥, not as negative as 4NT",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 2,
+  "maxLength": 2,
+  "source": {
+    "legacyId": 2063,
+    "bssLine": 2065,
+    "bssPrefix": "002NP3DP3HP4DP4H=NYYYYYY222",
+    "originalMeaning": "Preference, often Hx in ♥, not as negative as 4NT"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 4♦ – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-00000000080d",
+  "order": 2063
+}

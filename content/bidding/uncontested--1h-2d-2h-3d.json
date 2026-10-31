@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000045b",
+  "section": "uncontested",
+  "auction": "1H-2D-2H-3D",
+  "meaning": "6-card minor, not always extra strength",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1115,
+    "bssLine": 1117,
+    "bssPrefix": "001HP2DP2HP3D=NYYYYYY668",
+    "originalMeaning": "6-card minor, not always extra strength"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-000000000452",
+  "order": 1024
+}

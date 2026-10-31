@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000064b",
+  "section": "uncontested",
+  "auction": "2C-2D-2H-2S",
+  "meaning": "May still be weak if no 5+card suit",
+  "notes": "",
+  "artificial": true,
+  "forcing": "C",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1611,
+    "bssLine": 1613,
+    "bssPrefix": "002CP2DP2HP2S=YYYYYYYC08",
+    "originalMeaning": "May still be weak if no 5+card suit"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-00000000064a",
+  "order": 1612
+}

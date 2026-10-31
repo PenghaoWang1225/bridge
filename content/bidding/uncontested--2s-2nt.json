@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000750",
+  "section": "uncontested",
+  "auction": "2S-2NT",
+  "meaning": "Relay asking bid",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1872,
+    "bssLine": 1874,
+    "bssPrefix": "002SP2N=YYYYYYY5",
+    "originalMeaning": "Relay asking bid"
+  },
+  "opening": "2S",
+  "fullAuction": "2♠ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-00000000074f",
+  "order": 1873
+}

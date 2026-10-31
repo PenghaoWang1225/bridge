@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000037d",
+  "section": "uncontested",
+  "auction": "1H-1NT-2C-2D-2S",
+  "meaning": "16+ HCP, GF with a semi-balanced hand but is more suit-oriented",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 893,
+    "bssLine": 895,
+    "bssPrefix": "001HP1NP2CP2DP2S=YYYYYYY608",
+    "originalMeaning": "16+ HCP, GF with a semi-balanced hand but is more suit-oriented"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-000000000374",
+  "order": 894
+}

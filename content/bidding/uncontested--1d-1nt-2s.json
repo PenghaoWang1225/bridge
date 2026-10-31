@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000298",
+  "section": "uncontested",
+  "auction": "1D-1NT-2S",
+  "meaning": "F1, Natural reverse bid, can sometimes be a 3-card suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 3,
+  "maxLength": 4,
+  "source": {
+    "legacyId": 664,
+    "bssLine": 666,
+    "bssPrefix": "001DP1NP2S=NYYYYYY534",
+    "originalMeaning": "F1, Natural reverse bid, can sometimes be a 3-card suit"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1NT – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-000000000292",
+  "order": 664
+}

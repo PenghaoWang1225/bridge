@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000834",
+  "section": "uncontested",
+  "auction": "2NT-3S",
+  "meaning": "Both minors (at least 5-4) and often a slam try",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2100,
+    "bssLine": 2102,
+    "bssPrefix": "002NP3S=YYYYYYY608",
+    "originalMeaning": "Both minors (at least 5-4) and often a slam try"
+  },
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-000000000761",
+  "order": 2101
+}

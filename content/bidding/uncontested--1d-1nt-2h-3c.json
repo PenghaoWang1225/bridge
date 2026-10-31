@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000297",
+  "section": "uncontested",
+  "auction": "1D-1NT-2H-3C",
+  "meaning": "F1, forcing to at least 3♦, usually lacking ♠ stopper with 10-12 HCP",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 4,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 663,
+    "bssLine": 665,
+    "bssPrefix": "001DP1NP2HP3C=NYYYYYY548",
+    "originalMeaning": "F1, forcing to at least 3♦, usually lacking ♠ stopper with 10-12 HCP"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1NT – (Pass) – 2♥ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000296",
+  "order": 663
+}

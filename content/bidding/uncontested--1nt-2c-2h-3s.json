@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000569",
+  "section": "uncontested",
+  "auction": "1NT-2C-2H-3S",
+  "meaning": "Either a slam try with 4♥ support or exactly 3♥",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1385,
+    "bssLine": 1387,
+    "bssPrefix": "001NP2CP2HP3S=YYYYYYY608",
+    "originalMeaning": "Either a slam try with 4♥ support or exactly 3♥"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♥ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-00000000054e",
+  "order": 1385
+}

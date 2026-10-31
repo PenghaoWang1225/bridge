@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005b9",
+  "section": "uncontested",
+  "auction": "1NT-2D-2H-3D-3S",
+  "meaning": "Natural or semi-natural, often a fit in the minor but not good enough values to raise the suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 3,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 1465,
+    "bssLine": 1467,
+    "bssPrefix": "001NP2DP2HP3DP3S=NYYYYYY635",
+    "originalMeaning": "Natural or semi-natural, often a fit in the minor but not good enough values to raise the suit"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 3♦ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-0000000005b7",
+  "order": 1465
+}

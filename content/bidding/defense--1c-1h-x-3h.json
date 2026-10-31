@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008b3",
+  "section": "defense",
+  "auction": "1C-1H-X-3H",
+  "meaning": "Preemptive with 4+♥, but promising some values in the live auction",
+  "notes": "",
+  "artificial": false,
+  "forcing": "9",
+  "minLength": 4,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2227,
+    "bssLine": 2229,
+    "bssPrefix": "*001C1HD3H=NYYYYYY948",
+    "originalMeaning": "Preemptive with 4+♥, but promising some values in the live auction"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1♥ – (Double) – 3♥",
+  "parentId": "10000000-0000-4000-8000-0000000008a2",
+  "order": 2229
+}

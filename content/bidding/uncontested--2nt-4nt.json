@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000874",
+  "section": "uncontested",
+  "auction": "2NT-4NT",
+  "meaning": "Natural invitation to 6NT",
+  "notes": "",
+  "artificial": false,
+  "forcing": "4",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2164,
+    "bssLine": 2166,
+    "bssPrefix": "002NP4N=NYYYYYY4",
+    "originalMeaning": "Natural invitation to 6NT"
+  },
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 4NT",
+  "parentId": "10000000-0000-4000-8000-000000000761",
+  "order": 2165
+}

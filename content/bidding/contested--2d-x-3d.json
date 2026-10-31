@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000717",
+  "section": "contested",
+  "auction": "2D-X-3D",
+  "meaning": "Inv with a good 6+Major (3/4Ma from opener = pass/correct)",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1815,
+    "bssLine": 1817,
+    "bssPrefix": "002DD3D=YYYYYYY508",
+    "originalMeaning": "Inv with a good 6+Major (3/4Ma from opener = pass/correct)"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Double) – 3♦",
+  "parentId": "10000000-0000-4000-8000-0000000006a3",
+  "order": 1816
+}

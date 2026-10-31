@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000068b",
+  "section": "uncontested",
+  "auction": "2C-2D-4NT",
+  "meaning": "10 tricks with solid ♣ (promise all aces)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1675,
+    "bssLine": 1677,
+    "bssPrefix": "002CP2DP4N=NYYYYYY2",
+    "originalMeaning": "10 tricks with solid ♣ (promise all aces)"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 4NT",
+  "parentId": "10000000-0000-4000-8000-000000000649",
+  "order": 1676
+}

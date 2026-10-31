@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000405",
+  "section": "uncontested",
+  "auction": "1H-2NT-3NT-4S",
+  "meaning": "Kickback RKC on ♥",
+  "notes": "",
+  "artificial": true,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1029,
+    "bssLine": 1031,
+    "bssPrefix": "001HP2NP3NP4S=YYYYYYY708",
+    "originalMeaning": "Kickback RKC on ♥"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2NT – (Pass) – 3NT – (Pass) – 4♠",
+  "parentId": "10000000-0000-4000-8000-000000000402",
+  "order": 1117
+}

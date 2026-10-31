@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000023",
+  "section": "uncontested",
+  "auction": "1C-1D-1H-2H-2S",
+  "meaning": "Relay asking shortness",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 35,
+    "bssLine": 37,
+    "bssPrefix": "001CP1DP1HP2HP2S=YYYYYYY508",
+    "originalMeaning": "Relay asking shortness"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 1♥ – (Pass) – 2♥ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-000000000022",
+  "order": 38
+}

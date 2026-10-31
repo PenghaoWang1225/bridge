@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005c4",
+  "section": "uncontested",
+  "auction": "1NT-2D-3C",
+  "meaning": "Natural, but unusual",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 6,
+  "maxLength": 6,
+  "source": {
+    "legacyId": 1476,
+    "bssLine": 1478,
+    "bssPrefix": "001NP2DP3C=NYYYYYY266",
+    "originalMeaning": "Natural, but unusual"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♦ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000599",
+  "order": 1476
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000144",
+  "section": "uncontested",
+  "auction": "1C-1H-2H",
+  "meaning": "Reverse F1, semi-natural with either (a) 16+, 6+♣, not suitable for 2NT; (b) 14+, natural or semi-natural with 5+♣ and 3♠",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 324,
+    "bssLine": 326,
+    "bssPrefix": "001CP1HP2H=NYYYYYY538",
+    "originalMeaning": "Reverse F1, semi-natural with either (a) 16+, 6+♣, not suitable for 2NT; (b) 14+, natural or semi-natural with 5+♣ and 3♠"
+  },
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♥",
+  "parentId": "10000000-0000-4000-8000-0000000000d9",
+  "order": 325
+}

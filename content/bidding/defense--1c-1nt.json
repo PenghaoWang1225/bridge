@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008b7",
+  "section": "defense",
+  "auction": "1C-1NT",
+  "meaning": "15-18 HCP balanced with ♣ stopper",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2231,
+    "bssLine": 2233,
+    "bssPrefix": "*001C1N=NYYYYYY2",
+    "originalMeaning": "15-18 HCP balanced with ♣ stopper"
+  },
+  "opening": "1C",
+  "fullAuction": "(1♣) – 1NT",
+  "parentId": null,
+  "order": 2233
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004e4",
+  "section": "uncontested",
+  "auction": "1S-2H-3S",
+  "meaning": "Extra values with a good suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1252,
+    "bssLine": 1254,
+    "bssPrefix": "001SP2HP3S=NYYYYYY668",
+    "originalMeaning": "Extra values with a good suit"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 2♥ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-0000000004d6",
+  "order": 1253
+}

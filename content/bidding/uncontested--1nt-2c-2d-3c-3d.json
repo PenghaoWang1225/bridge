@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000517",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-3C-3D",
+  "meaning": "Shows 44 or 54 in the minors",
+  "notes": "",
+  "artificial": true,
+  "forcing": "E",
+  "minLength": 4,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 1303,
+    "bssLine": 1305,
+    "bssPrefix": "001NP2CP2DP3CP3D=YYYYYYYE45",
+    "originalMeaning": "Shows 44 or 54 in the minors"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♣ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-000000000516",
+  "order": 1304
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000064e",
+  "section": "uncontested",
+  "auction": "2C-2D-2H-2S-3C-3D",
+  "meaning": "Relay, either negative or no fit in ♥",
+  "notes": "",
+  "artificial": true,
+  "forcing": "C",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1614,
+    "bssLine": 1616,
+    "bssPrefix": "002CP2DP2HP2SP3CP3D=YYYYYYYC08",
+    "originalMeaning": "Relay, either negative or no fit in ♥"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 3♣ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-00000000064d",
+  "order": 1615
+}

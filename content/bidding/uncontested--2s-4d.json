@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000760",
+  "section": "uncontested",
+  "auction": "2S-4D",
+  "meaning": "♠ support with ♦ shortness",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 1,
+  "source": {
+    "legacyId": 1888,
+    "bssLine": 1890,
+    "bssPrefix": "002SP4D=NYYYYYY601",
+    "originalMeaning": "♠ support with ♦ shortness"
+  },
+  "opening": "2S",
+  "fullAuction": "2♠ – (Pass) – 4♦",
+  "parentId": "10000000-0000-4000-8000-00000000074f",
+  "order": 1888
+}

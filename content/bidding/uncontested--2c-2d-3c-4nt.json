@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000685",
+  "section": "uncontested",
+  "auction": "2C-2D-3C-4NT",
+  "meaning": "5-7 HCP with good ♣ support, no Ace",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1669,
+    "bssLine": 1671,
+    "bssPrefix": "002CP2DP3CP4N=NYYYYYY2",
+    "originalMeaning": "5-7 HCP with good ♣ support, no Ace"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 3♣ – (Pass) – 4NT",
+  "parentId": "10000000-0000-4000-8000-00000000067a",
+  "order": 1670
+}

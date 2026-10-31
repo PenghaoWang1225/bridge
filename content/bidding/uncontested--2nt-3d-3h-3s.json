@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000007fb",
+  "section": "uncontested",
+  "auction": "2NT-3D-3H-3S",
+  "meaning": "Puppet to 3NT, either to play 3NT or slam try with 5♥ and 4+m",
+  "notes": "",
+  "artificial": false,
+  "forcing": "B",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2043,
+    "bssLine": 2045,
+    "bssPrefix": "002NP3DP3HP3S=NYYYYYYB08",
+    "originalMeaning": "Puppet to 3NT, either to play 3NT or slam try with 5♥ and 4+m"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-0000000007fa",
+  "order": 2044
+}

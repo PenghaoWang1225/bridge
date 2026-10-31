@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000006d",
+  "section": "uncontested",
+  "auction": "1C-1D-1S-2D-2H-2S",
+  "meaning": "Force partner to bid 2NT",
+  "notes": "",
+  "artificial": false,
+  "forcing": "B",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 109,
+    "bssLine": 111,
+    "bssPrefix": "001CP1DP1SP2DP2HP2S=NYYYYYYB08",
+    "originalMeaning": "Force partner to bid 2NT"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 1♠ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-00000000006c",
+  "order": 76
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000611",
+  "section": "uncontested",
+  "auction": "1NT-3D-3H-3NT",
+  "meaning": "3-1-5-4 or 3-1-4-5, no slam ambitions",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1553,
+    "bssLine": 1555,
+    "bssPrefix": "001NP3DP3HP3N=NYYYYYY2",
+    "originalMeaning": "3-1-5-4 or 3-1-4-5, no slam ambitions"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-00000000060b",
+  "order": 1554
+}

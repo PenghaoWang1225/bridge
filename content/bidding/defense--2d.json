@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000008bf",
+  "section": "defense",
+  "auction": "2D",
+  "meaning": "Multi with weak 2 in Majors",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2239,
+    "bssLine": 2241,
+    "bssPrefix": "*002D=NYYYYYY008",
+    "originalMeaning": "Multi with weak 2 in Majors"
+  },
+  "opening": "2D",
+  "fullAuction": "(2♦)",
+  "parentId": null,
+  "order": 2267
+}

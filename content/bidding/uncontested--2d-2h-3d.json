@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000006b9",
+  "section": "uncontested",
+  "auction": "2D-2H-3D",
+  "meaning": "GF with 5+♦ and 4+♣",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1721,
+    "bssLine": 1723,
+    "bssPrefix": "002DP2HP3D=NYYYYYY658",
+    "originalMeaning": "GF with 5+♦ and 4+♣"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 2♥ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-0000000006a4",
+  "order": 1722
+}

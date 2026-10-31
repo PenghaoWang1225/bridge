@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000005a2",
+  "section": "uncontested",
+  "auction": "1NT-2D-2H-2S-2NT-3NT",
+  "meaning": "To play, give up the slam aspirations",
+  "notes": "",
+  "artificial": false,
+  "forcing": "1",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1442,
+    "bssLine": 1444,
+    "bssPrefix": "001NP2DP2HP2SP2NP3N=NYYYYYY1",
+    "originalMeaning": "To play, give up the slam aspirations"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 2NT – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-00000000059d",
+  "order": 1442
+}

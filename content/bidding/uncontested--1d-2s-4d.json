@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002db",
+  "section": "uncontested",
+  "auction": "1D-2S-4D",
+  "meaning": "ST in ♦, inviting cue-bid",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 4,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 731,
+    "bssLine": 733,
+    "bssPrefix": "001DP2SP4D=NYYYYYY748",
+    "originalMeaning": "ST in ♦, inviting cue-bid"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♠ – (Pass) – 4♦",
+  "parentId": "10000000-0000-4000-8000-0000000002cd",
+  "order": 732
+}

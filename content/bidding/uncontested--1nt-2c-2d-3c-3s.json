@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000521",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-3C-3S",
+  "meaning": "Shows 5♦ (Lissabon)",
+  "notes": "",
+  "artificial": true,
+  "forcing": "E",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1313,
+    "bssLine": 1315,
+    "bssPrefix": "001NP2CP2DP3CP3S=YYYYYYYE08",
+    "originalMeaning": "Shows 5♦ (Lissabon)"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♣ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-000000000516",
+  "order": 1314
+}

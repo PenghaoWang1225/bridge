@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000561",
+  "section": "uncontested",
+  "auction": "1NT-2C-2H-3D-3H",
+  "meaning": "Promise ♣ stopper, either with 5♥, or 4♥ and weak ♠",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 1377,
+    "bssLine": 1379,
+    "bssPrefix": "001NP2CP2HP3DP3H=NYYYYYY645",
+    "originalMeaning": "Promise ♣ stopper, either with 5♥, or 4♥ and weak ♠"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♥ – (Pass) – 3♦ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000560",
+  "order": 1378
+}

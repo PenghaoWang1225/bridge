@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000188",
+  "section": "uncontested",
+  "auction": "1C-1S-2D",
+  "meaning": "a) 11+, 5♣ and 4♦; b) 16+, 6♣ not suitable for 2NT or reverse in a major",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 392,
+    "bssLine": 394,
+    "bssPrefix": "001CP1SP2D=NYYYYYY538",
+    "originalMeaning": "a) 11+, 5♣ and 4♦; b) 16+, 6♣ not suitable for 2NT or reverse in a major"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♠ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-000000000171",
+  "order": 393
+}

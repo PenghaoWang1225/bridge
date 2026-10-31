@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004ed",
+  "section": "uncontested",
+  "auction": "1S-2NT-3C",
+  "meaning": "11-14 HCP no void, or 14-17 HCP with a void",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1261,
+    "bssLine": 1263,
+    "bssPrefix": "001SP2NP3C=YYYYYYY608",
+    "originalMeaning": "11-14 HCP no void, or 14-17 HCP with a void"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 2NT – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-0000000004ec",
+  "order": 1262
+}

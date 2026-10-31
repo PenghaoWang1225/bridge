@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000221",
+  "section": "uncontested",
+  "auction": "1D-1H-1NT-2NT",
+  "meaning": "Puppet to 3♣, TCB 2NT module",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 545,
+    "bssLine": 547,
+    "bssPrefix": "001DP1HP1NP2N=YYYYYYY6",
+    "originalMeaning": "Puppet to 3♣, TCB 2NT module"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♥ – (Pass) – 1NT – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-00000000021b",
+  "order": 546
+}

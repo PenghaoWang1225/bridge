@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002cb",
+  "section": "uncontested",
+  "auction": "1D-2D-2NT",
+  "meaning": "F1 with a strong unbalanced hand, often without a fit in ♥",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 715,
+    "bssLine": 717,
+    "bssPrefix": "001DP2DP2N=NYYYYYY5",
+    "originalMeaning": "F1 with a strong unbalanced hand, often without a fit in ♥"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♦ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000002c7",
+  "order": 716
+}

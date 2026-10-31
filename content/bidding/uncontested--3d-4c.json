@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000087e",
+  "section": "uncontested",
+  "auction": "3D-4C",
+  "meaning": "Baby blackwood (0, 1, 1.5, 2, 2.5)",
+  "notes": "",
+  "artificial": true,
+  "forcing": "D",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 2174,
+    "bssLine": 2176,
+    "bssPrefix": "003DP4C=YYYYYYYD08",
+    "originalMeaning": "Baby blackwood (0, 1, 1.5, 2, 2.5)"
+  },
+  "opening": "3D",
+  "fullAuction": "3♦ – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-00000000087d",
+  "order": 2170
+}

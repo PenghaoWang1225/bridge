@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000007f1",
+  "section": "uncontested",
+  "auction": "2NT-3C-3NT-4D-4H-5C",
+  "meaning": "Exclusion RKC with ♣ void",
+  "notes": "",
+  "artificial": true,
+  "forcing": "D",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 2033,
+    "bssLine": 2035,
+    "bssPrefix": "002NP3CP3NP4DP4HP5C=YYYYYYYD00",
+    "originalMeaning": "Exclusion RKC with ♣ void"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣ – (Pass) – 3NT – (Pass) – 4♦ – (Pass) – 4♥ – (Pass) – 5♣",
+  "parentId": "10000000-0000-4000-8000-0000000007ee",
+  "order": 2034
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000292",
+  "section": "uncontested",
+  "auction": "1D-1NT",
+  "meaning": "6-11 HCP without a major",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 658,
+    "bssLine": 660,
+    "bssPrefix": "001DP1N=NYYYYYY2",
+    "originalMeaning": "6-11 HCP without a major"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1NT",
+  "parentId": "10000000-0000-4000-8000-000000000209",
+  "order": 659
+}

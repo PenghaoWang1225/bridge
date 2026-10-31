@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000001c4",
+  "section": "uncontested",
+  "auction": "1C-2C-2NT",
+  "meaning": "13-14 HCP with suitable stoppers. New suit from responder shows shortness/weakness",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 452,
+    "bssLine": 454,
+    "bssPrefix": "001CP2CP2N=NYYYYYY6",
+    "originalMeaning": "13-14 HCP with suitable stoppers. New suit from responder shows shortness/weakness"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 2♣ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000001b0",
+  "order": 453
+}

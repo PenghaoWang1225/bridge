@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000064a",
+  "section": "uncontested",
+  "auction": "2C-2D-2H",
+  "meaning": "18-19 balanced, or GF with 5+♥",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 2,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1610,
+    "bssLine": 1612,
+    "bssPrefix": "002CP2DP2H=YYYYYYY528",
+    "originalMeaning": "18-19 balanced, or GF with 5+♥"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2♦ – (Pass) – 2♥",
+  "parentId": "10000000-0000-4000-8000-000000000649",
+  "order": 1611
+}

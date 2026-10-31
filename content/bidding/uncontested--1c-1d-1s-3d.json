@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000076",
+  "section": "uncontested",
+  "auction": "1C-1D-1S-3D",
+  "meaning": "GF with 5♥ and 5♦ (good quality), bad quality go through 2♦ then 3♦",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 5,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 118,
+    "bssLine": 120,
+    "bssPrefix": "001CP1DP1SP3D=NYYYYYY655",
+    "originalMeaning": "GF with 5♥ and 5♦ (good quality), bad quality go through 2♦ then 3♦"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 1♠ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-000000000062",
+  "order": 85
+}

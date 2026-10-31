@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000641",
+  "section": "uncontested",
+  "auction": "1NT-3S-4D",
+  "meaning": "A nice hand for a minor suit contract",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 6,
+  "source": {
+    "legacyId": 1601,
+    "bssLine": 1603,
+    "bssPrefix": "001NP3SP4D=NYYYYYY646",
+    "originalMeaning": "A nice hand for a minor suit contract"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 3♠ – (Pass) – 4♦",
+  "parentId": "10000000-0000-4000-8000-00000000062c",
+  "order": 1602
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000031e",
+  "section": "uncontested",
+  "auction": "1H-1S-2C-2D-3D",
+  "meaning": "17+ HCP, GF with 5♥-5♦ (or 5-4 with very strong suits), may have 3♠ like 3-5-5-0",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 5,
+  "source": {
+    "legacyId": 798,
+    "bssLine": 800,
+    "bssPrefix": "001HP1SP2CP2DP3D=NYYYYYY645",
+    "originalMeaning": "17+ HCP, GF with 5♥-5♦ (or 5-4 with very strong suits), may have 3♠ like 3-5-5-0"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1♠ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♦",
+  "parentId": "10000000-0000-4000-8000-0000000002f4",
+  "order": 799
+}

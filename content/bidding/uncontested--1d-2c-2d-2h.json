@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002a2",
+  "section": "uncontested",
+  "auction": "1D-2C-2D-2H",
+  "meaning": "F1, all hands with ♦ support. Can still stop at 3♦ if both hands are minimum",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 674,
+    "bssLine": 676,
+    "bssPrefix": "001DP2CP2DP2H=YYYYYYY508",
+    "originalMeaning": "F1, all hands with ♦ support. Can still stop at 3♦ if both hands are minimum"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥",
+  "parentId": "10000000-0000-4000-8000-0000000002a1",
+  "order": 675
+}

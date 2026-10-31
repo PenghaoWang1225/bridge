@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000018b",
+  "section": "uncontested",
+  "auction": "1C-1S-2D-2H-2S-2NT",
+  "meaning": "Forcing-invitational, opener rebid 3♣ shows minimum, and we can stop at 3♣/3♦",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 395,
+    "bssLine": 397,
+    "bssPrefix": "001CP1SP2DP2HP2SP2N=NYYYYYY5",
+    "originalMeaning": "Forcing-invitational, opener rebid 3♣ shows minimum, and we can stop at 3♣/3♦"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♠ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-00000000018a",
+  "order": 396
+}

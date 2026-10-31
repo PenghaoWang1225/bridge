@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000288",
+  "section": "uncontested",
+  "auction": "1D-1S-2H-3S",
+  "meaning": "6+♠, 8-12 HCP and a semi-solid suit (0-1 loser)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 648,
+    "bssLine": 650,
+    "bssPrefix": "001DP1SP2HP3S=NYYYYYY668",
+    "originalMeaning": "6+♠, 8-12 HCP and a semi-solid suit (0-1 loser)"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♠ – (Pass) – 2♥ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-00000000025e",
+  "order": 652
+}

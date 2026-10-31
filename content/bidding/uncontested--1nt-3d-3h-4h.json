@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000061a",
+  "section": "uncontested",
+  "auction": "1NT-3D-3H-4H",
+  "meaning": "Very mild slam try, asking for a super fit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1562,
+    "bssLine": 1564,
+    "bssPrefix": "001NP3DP3HP4H=NYYYYYY268",
+    "originalMeaning": "Very mild slam try, asking for a super fit"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-00000000060b",
+  "order": 1563
+}

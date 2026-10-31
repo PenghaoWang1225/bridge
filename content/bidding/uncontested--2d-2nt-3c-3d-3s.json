@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000006e4",
+  "section": "uncontested",
+  "auction": "2D-2NT-3C-3D-3S",
+  "meaning": "Extras, just accept of a game try",
+  "notes": "",
+  "artificial": true,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1764,
+    "bssLine": 1766,
+    "bssPrefix": "002DP2NP3CP3DP3S=YYYYYYY608",
+    "originalMeaning": "Extras, just accept of a game try"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 2NT – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-0000000006dd",
+  "order": 1765
+}

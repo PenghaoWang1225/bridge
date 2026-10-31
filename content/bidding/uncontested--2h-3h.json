@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000749",
+  "section": "uncontested",
+  "auction": "2H-3H",
+  "meaning": "Mild invitational, but not a weak preempt",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 3,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1865,
+    "bssLine": 1867,
+    "bssPrefix": "002HP3H=NYYYYYY238",
+    "originalMeaning": "Mild invitational, but not a weak preempt"
+  },
+  "opening": "2H",
+  "fullAuction": "2♥ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000718",
+  "order": 1866
+}

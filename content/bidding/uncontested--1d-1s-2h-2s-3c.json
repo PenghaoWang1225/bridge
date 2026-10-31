@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000267",
+  "section": "uncontested",
+  "auction": "1D-1S-2H-2S-3C",
+  "meaning": "F1, 4th suit, artificial with either (a) GF with 6+♦ (or = 3-4-5-1, 14+); (b) 4♥, no ♣ stopper",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 615,
+    "bssLine": 617,
+    "bssPrefix": "001DP1SP2HP2SP3C=YYYYYYY508",
+    "originalMeaning": "F1, 4th suit, artificial with either (a) GF with 6+♦ (or = 3-4-5-1, 14+); (b) 4♥, no ♣ stopper"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♠ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-00000000025f",
+  "order": 619
+}

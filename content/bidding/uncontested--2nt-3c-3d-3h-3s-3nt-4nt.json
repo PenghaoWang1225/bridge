@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000076b",
+  "section": "uncontested",
+  "auction": "2NT-3C-3D-3H-3S-3NT-4NT",
+  "meaning": "3-3-4-3 or 3-3-3-4, or very bad slam cards",
+  "notes": "",
+  "artificial": false,
+  "forcing": "1",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1899,
+    "bssLine": 1901,
+    "bssPrefix": "002NP3CP3DP3HP3SP3NP4N=NYYYYYY1",
+    "originalMeaning": "3-3-4-3 or 3-3-3-4, or very bad slam cards"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♣ – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 3♠ – (Pass) – 3NT – (Pass) – 4NT",
+  "parentId": "10000000-0000-4000-8000-000000000766",
+  "order": 1900
+}

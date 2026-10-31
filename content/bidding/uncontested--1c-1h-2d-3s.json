@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000143",
+  "section": "uncontested",
+  "auction": "1C-1H-2D-3S",
+  "meaning": "GF with 6+♠ semi-solid suit, 8-12 HCP",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 323,
+    "bssLine": 325,
+    "bssPrefix": "001CP1HP2DP3S=NYYYYYY668",
+    "originalMeaning": "GF with 6+♠ semi-solid suit, 8-12 HCP"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♦ – (Pass) – 3♠",
+  "parentId": "10000000-0000-4000-8000-000000000119",
+  "order": 324
+}

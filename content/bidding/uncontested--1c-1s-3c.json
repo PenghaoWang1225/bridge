@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-0000000001ab",
+  "section": "uncontested",
+  "auction": "1C-1S-3C",
+  "meaning": "13-15 HCP with good ♣, mild invitational to 3NT",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 7,
+  "maxLength": 7,
+  "source": {
+    "legacyId": 427,
+    "bssLine": 429,
+    "bssPrefix": "001CP1SP3C=NYYYYYY277",
+    "originalMeaning": "13-15 HCP with good ♣, mild invitational to 3NT"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♠ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-000000000171",
+  "order": 428
+}

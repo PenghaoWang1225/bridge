@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000000dd",
+  "section": "uncontested",
+  "auction": "1C-1H-1S-2C-2D",
+  "meaning": "Forced",
+  "notes": "",
+  "artificial": false,
+  "forcing": "B",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 221,
+    "bssLine": 223,
+    "bssPrefix": "001CP1HP1SP2CP2D=NYYYYYYB08",
+    "originalMeaning": "Forced"
+  },
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 1♠ – (Pass) – 2♣ – (Pass) – 2♦",
+  "parentId": "10000000-0000-4000-8000-0000000000dc",
+  "order": 222
+}

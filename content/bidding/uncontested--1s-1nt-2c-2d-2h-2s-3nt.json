@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000475",
+  "section": "uncontested",
+  "auction": "1S-1NT-2C-2D-2H-2S-3NT",
+  "meaning": "17-19 HCP with 5♠332 shape",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1141,
+    "bssLine": 1143,
+    "bssPrefix": "001SP1NP2CP2DP2HP2SP3N=NYYYYYY2",
+    "originalMeaning": "17-19 HCP with 5♠332 shape"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-00000000046d",
+  "order": 1142
+}

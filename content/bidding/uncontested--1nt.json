@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004ff",
+  "section": "uncontested",
+  "auction": "1NT",
+  "meaning": "15-17 HCP balanced",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1279,
+    "bssLine": 1281,
+    "bssPrefix": "001N=NYYYYYY2",
+    "originalMeaning": "15-17 HCP balanced"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT",
+  "parentId": null,
+  "order": 1280
+}

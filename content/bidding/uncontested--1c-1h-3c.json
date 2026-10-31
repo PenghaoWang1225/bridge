@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000016a",
+  "section": "uncontested",
+  "auction": "1C-1H-3C",
+  "meaning": "nice 13-15 HCP with a good long ♣ suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "3",
+  "minLength": 7,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 362,
+    "bssLine": 364,
+    "bssPrefix": "001CP1HP3C=NYYYYYY378",
+    "originalMeaning": "nice 13-15 HCP with a good long ♣ suit"
+  },
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-0000000000d9",
+  "order": 363
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000070f",
+  "section": "uncontested",
+  "auction": "2D-4H",
+  "meaning": "To play, responder is long in this suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "1",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1807,
+    "bssLine": 1809,
+    "bssPrefix": "002DP4H=NYYYYYY168",
+    "originalMeaning": "To play, responder is long in this suit"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-0000000006a3",
+  "order": 1808
+}

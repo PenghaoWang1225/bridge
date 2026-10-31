@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000046a",
+  "section": "uncontested",
+  "auction": "1S-1NT-2C",
+  "meaning": "Gazzilli, 1) 14+ HCP with 6+♠; 2) 16+ HCP with other hands",
+  "notes": "",
+  "artificial": false,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1130,
+    "bssLine": 1132,
+    "bssPrefix": "001SP1NP2C=NYYYYYY508",
+    "originalMeaning": "Gazzilli, 1) 14+ HCP with 6+♠; 2) 16+ HCP with other hands"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 1NT – (Pass) – 2♣",
+  "parentId": "10000000-0000-4000-8000-000000000469",
+  "order": 1131
+}

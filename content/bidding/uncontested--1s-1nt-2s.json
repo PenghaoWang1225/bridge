@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004a2",
+  "section": "uncontested",
+  "auction": "1S-1NT-2S",
+  "meaning": "11-16 HCP with 4+♣ (but 14-16 5-3-1-4 hand will go through gazzilli2♣)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1186,
+    "bssLine": 1188,
+    "bssPrefix": "001SP1NP2S=NYYYYYY258",
+    "originalMeaning": "11-16 HCP with 4+♣ (but 14-16 5-3-1-4 hand will go through gazzilli2♣)"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 1NT – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-000000000469",
+  "order": 1187
+}

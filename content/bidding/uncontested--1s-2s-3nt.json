@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000004ea",
+  "section": "uncontested",
+  "auction": "1S-2S-3NT",
+  "meaning": "17+ HCP with an unknown singleton, 4♣ relay asking, 4♦ = ♦ singleton; 4♥ = ♥ singleton, 4♠ = ♣ singleton",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1258,
+    "bssLine": 1260,
+    "bssPrefix": "001SP2SP3N=NYYYYYY7",
+    "originalMeaning": "17+ HCP with an unknown singleton, 4♣ relay asking, 4♦ = ♦ singleton; 4♥ = ♥ singleton, 4♠ = ♣ singleton"
+  },
+  "opening": "1S",
+  "fullAuction": "1♠ – (Pass) – 2♠ – (Pass) – 3NT",
+  "parentId": "10000000-0000-4000-8000-0000000004e9",
+  "order": 1260
+}

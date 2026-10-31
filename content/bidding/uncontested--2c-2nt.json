@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000068e",
+  "section": "uncontested",
+  "auction": "2C-2NT",
+  "meaning": "0-4(5) HCP with a minor",
+  "notes": "",
+  "artificial": true,
+  "forcing": "2",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1678,
+    "bssLine": 1680,
+    "bssPrefix": "002CP2N=YYYYYYY2",
+    "originalMeaning": "0-4(5) HCP with a minor"
+  },
+  "opening": "2C",
+  "fullAuction": "2♣ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-000000000648",
+  "order": 1679
+}

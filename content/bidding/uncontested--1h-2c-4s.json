@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000044f",
+  "section": "uncontested",
+  "auction": "1H-2C-4S",
+  "meaning": "4+♣ with ♠ void, after this 4NT = OKCB",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 1103,
+    "bssLine": 1105,
+    "bssPrefix": "001HP2CP4S=NYYYYYY700",
+    "originalMeaning": "4+♣ with ♠ void, after this 4NT = OKCB"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♣ – (Pass) – 4♠",
+  "parentId": "10000000-0000-4000-8000-000000000416",
+  "order": 1013
+}

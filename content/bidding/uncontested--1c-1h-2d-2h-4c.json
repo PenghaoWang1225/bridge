@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000012f",
+  "section": "uncontested",
+  "auction": "1C-1H-2D-2H-4C",
+  "meaning": "17+ HCP, cue-bid with 3-2-2-6 hand (impossible hand when partner first bid is 1♦)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 6,
+  "maxLength": 6,
+  "source": {
+    "legacyId": 303,
+    "bssLine": 305,
+    "bssPrefix": "001CP1HP2DP2HP4C=NYYYYYY766",
+    "originalMeaning": "17+ HCP, cue-bid with 3-2-2-6 hand (impossible hand when partner first bid is 1♦)"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♥ – (Pass) – 2♦ – (Pass) – 2♥ – (Pass) – 4♣",
+  "parentId": "10000000-0000-4000-8000-00000000011a",
+  "order": 304
+}

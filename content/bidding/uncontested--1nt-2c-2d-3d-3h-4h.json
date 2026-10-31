@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000533",
+  "section": "uncontested",
+  "auction": "1NT-2C-2D-3D-3H-4H",
+  "meaning": "Singleton ♥, 15+ HCP with precise 4-1-4-4 shape",
+  "notes": "",
+  "artificial": false,
+  "forcing": "E",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1331,
+    "bssLine": 1333,
+    "bssPrefix": "001NP2CP2DP3DP3HP4H=NYYYYYYE08",
+    "originalMeaning": "Singleton ♥, 15+ HCP with precise 4-1-4-4 shape"
+  },
+  "opening": "1NT",
+  "fullAuction": "1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 3♦ – (Pass) – 3♥ – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-000000000526",
+  "order": 1332
+}

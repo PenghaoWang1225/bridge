@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002c1",
+  "section": "uncontested",
+  "auction": "1D-2C-3C",
+  "meaning": "GF, 15+ HCP with 4+♣, no shortness (or singleton honor)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 4,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 705,
+    "bssLine": 707,
+    "bssPrefix": "001DP2CP3C=NYYYYYY648",
+    "originalMeaning": "GF, 15+ HCP with 4+♣, no shortness (or singleton honor)"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♣ – (Pass) – 3♣",
+  "parentId": "10000000-0000-4000-8000-0000000002a0",
+  "order": 706
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002cd",
+  "section": "uncontested",
+  "auction": "1D-2S",
+  "meaning": "5+♦ support, 10+ HCP",
+  "notes": "",
+  "artificial": true,
+  "forcing": "5",
+  "minLength": 0,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 717,
+    "bssLine": 719,
+    "bssPrefix": "001DP2S=YYYYYYY508",
+    "originalMeaning": "5+♦ support, 10+ HCP"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-000000000209",
+  "order": 718
+}

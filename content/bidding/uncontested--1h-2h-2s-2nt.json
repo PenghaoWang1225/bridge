@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000003c9",
+  "section": "uncontested",
+  "auction": "1H-2H-2S-2NT",
+  "meaning": "Bluhmer in ♠, non-minimum",
+  "notes": "",
+  "artificial": true,
+  "forcing": "E",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 969,
+    "bssLine": 971,
+    "bssPrefix": "001HP2HP2SP2N=YYYYYYYE",
+    "originalMeaning": "Bluhmer in ♠, non-minimum"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 2♥ – (Pass) – 2♠ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000003c8",
+  "order": 1037
+}

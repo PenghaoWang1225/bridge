@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-0000000002ee",
+  "section": "uncontested",
+  "auction": "1H-1S-1NT-2NT",
+  "meaning": "Puppet to 3♣, to play 3♣ or GF Canape hand",
+  "notes": "",
+  "artificial": true,
+  "forcing": "B",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 750,
+    "bssLine": 752,
+    "bssPrefix": "001HP1SP1NP2N=YYYYYYYB",
+    "originalMeaning": "Puppet to 3♣, to play 3♣ or GF Canape hand"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1♠ – (Pass) – 1NT – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-0000000002e9",
+  "order": 751
+}

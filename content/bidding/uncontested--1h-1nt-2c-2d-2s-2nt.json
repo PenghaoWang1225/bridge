@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000037e",
+  "section": "uncontested",
+  "auction": "1H-1NT-2C-2D-2S-2NT",
+  "meaning": "Balanced hand, asking",
+  "notes": "",
+  "artificial": false,
+  "forcing": "D",
+  "minLength": 0,
+  "maxLength": 0,
+  "source": {
+    "legacyId": 894,
+    "bssLine": 896,
+    "bssPrefix": "001HP1NP2CP2DP2SP2N=NYYYYYYD",
+    "originalMeaning": "Balanced hand, asking"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1NT – (Pass) – 2♣ – (Pass) – 2♦ – (Pass) – 2♠ – (Pass) – 2NT",
+  "parentId": "10000000-0000-4000-8000-00000000037d",
+  "order": 895
+}

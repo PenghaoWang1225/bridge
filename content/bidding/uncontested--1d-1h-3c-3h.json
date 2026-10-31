@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000248",
+  "section": "uncontested",
+  "auction": "1D-1H-3C-3H",
+  "meaning": "GF with 6+♥",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 584,
+    "bssLine": 586,
+    "bssPrefix": "001DP1HP3CP3H=NYYYYYY668",
+    "originalMeaning": "GF with 6+♥"
+  },
+  "opening": "1D",
+  "fullAuction": "1♦ – (Pass) – 1♥ – (Pass) – 3♣ – (Pass) – 3♥",
+  "parentId": "10000000-0000-4000-8000-000000000246",
+  "order": 583
+}

@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-00000000033a",
+  "section": "uncontested",
+  "auction": "1H-1S-2D-2S",
+  "meaning": "10-12 HCP with 6+♠ (because 6-9 with 6+♠ we bid 2♠ over 1♥)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "4",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 826,
+    "bssLine": 828,
+    "bssPrefix": "001HP1SP2DP2S=NYYYYYY468",
+    "originalMeaning": "10-12 HCP with 6+♠ (because 6-9 with 6+♠ we bid 2♠ over 1♥)"
+  },
+  "opening": "1H",
+  "fullAuction": "1♥ – (Pass) – 1♠ – (Pass) – 2♦ – (Pass) – 2♠",
+  "parentId": "10000000-0000-4000-8000-000000000337",
+  "order": 827
+}

@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-00000000003e",
+  "section": "uncontested",
+  "auction": "1C-1D-1H-4H",
+  "meaning": "To play",
+  "notes": "",
+  "artificial": false,
+  "forcing": "1",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 62,
+    "bssLine": 64,
+    "bssPrefix": "001CP1DP1HP4H=NYYYYYY168",
+    "originalMeaning": "To play"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "1C",
+  "fullAuction": "1♣ – (Pass) – 1♦ – (Pass) – 1♥ – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-000000000002",
+  "order": 64
+}

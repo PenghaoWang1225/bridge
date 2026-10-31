@@ -1,0 +1,22 @@
+{
+  "id": "10000000-0000-4000-8000-000000000838",
+  "section": "uncontested",
+  "auction": "2NT-3S-3NT-4H",
+  "meaning": "Shortness with 5-5 in the minors",
+  "notes": "",
+  "artificial": false,
+  "forcing": "7",
+  "minLength": 0,
+  "maxLength": 1,
+  "source": {
+    "legacyId": 2104,
+    "bssLine": 2106,
+    "bssPrefix": "002NP3SP3NP4H=NYYYYYY701",
+    "originalMeaning": "Shortness with 5-5 in the minors"
+  },
+  "meaningUpdatedAt": "2026-10-29T04:29:50.029Z",
+  "opening": "2NT",
+  "fullAuction": "2NT – (Pass) – 3♠ – (Pass) – 3NT – (Pass) – 4♥",
+  "parentId": "10000000-0000-4000-8000-000000000835",
+  "order": 2105
+}
