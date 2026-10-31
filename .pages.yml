@@ -701,6 +701,229 @@ content:
                 hidden: true
                 readonly: true
       -
+        name: "unresolved-00e84af5-8a75-4cc2-84ea-f4a929450505"
+        label: "1D-X-3C · Our opening"
+        type: "file"
+        path: "content/bidding/contested/02-1d/contested--1d-x-3c.json"
+        format: "json"
+        description: "Edit this original bidding entry. Turn off Needs discussion when resolved, then save. Refresh the website and CMS sidebar after publication."
+        operations:
+          create: false
+          rename: false
+          delete: false
+        fields:
+          -
+            name: "id"
+            label: "Permanent ID"
+            type: "uuid"
+            required: true
+            hidden: true
+            readonly: true
+            options:
+              editable: false
+              generate: false
+          -
+            name: "section"
+            label: "Section"
+            type: "select"
+            required: true
+            default: "uncontested"
+            options:
+              values:
+                -
+                  value: "uncontested"
+                  label: "Uncontested"
+                -
+                  value: "contested"
+                  label: "Contested: Our opening"
+                -
+                  value: "defense"
+                  label: "Contested: Opponent opening"
+          -
+            name: "auction"
+            label: "Auction"
+            type: "string"
+            required: true
+            description: "Use letters and hyphens. Uncontested: enter only our calls, such as 1NT-2C-2S. Contested: Our opening: enter all calls, such as 1H-P-1S-2C. Contested: Opponent opening: enter all calls, such as 1NT-X. Use P for pass, X for double, and XX for redouble. To add a child, copy the parent auction and append the next call(s)."
+            pattern:
+              regex: "^[1-7](?:[cCdDhHsS]|[nN][tT]?)(?:[ -]+(?:[1-7](?:[cCdDhHsS]|[nN][tT]?)|[pP]|[xX]{1,2}))*$"
+              message: "Use calls such as 1NT-2C-2S, with C, D, H, S, NT, P, X, or XX."
+          -
+            name: "meaning"
+            label: "Meaning"
+            type: "text"
+            options:
+              maxlength: 50000
+            description: "Blank meanings are allowed. They do not remove the auction."
+          -
+            name: "notes"
+            label: "Notes"
+            type: "text"
+            description: "Notes appear below the meaning. They do not replace it."
+          -
+            name: "reference"
+            label: "Source document"
+            type: "text"
+            readonly: true
+          -
+            name: "needsDiscussion"
+            label: "Needs discussion"
+            type: "boolean"
+            description: "Turn on to add this sequence to Unresolved. Turn off when resolved. Save, wait for publication, then refresh the website and CMS sidebar."
+          -
+            name: "artificial"
+            label: "Artificial"
+            type: "boolean"
+          -
+            name: "forcing"
+            label: "Agreement"
+            type: "select"
+            default: "0"
+            options:
+              values:
+                -
+                  value: "0"
+                  label: "No special agreement"
+                -
+                  value: "1"
+                  label: "To play"
+                -
+                  value: "2"
+                  label: "Non-forcing"
+                -
+                  value: "3"
+                  label: "Constructive"
+                -
+                  value: "4"
+                  label: "Invitational"
+                -
+                  value: "5"
+                  label: "Forcing"
+                -
+                  value: "6"
+                  label: "Game forcing"
+                -
+                  value: "7"
+                  label: "Slam try"
+                -
+                  value: "8"
+                  label: "Control bid"
+                -
+                  value: "9"
+                  label: "Preemptive"
+                -
+                  value: "A"
+                  label: "Transfer"
+                -
+                  value: "B"
+                  label: "Puppet"
+                -
+                  value: "C"
+                  label: "Relay"
+                -
+                  value: "D"
+                  label: "Asking bid"
+                -
+                  value: "E"
+                  label: "Asking response"
+                -
+                  value: "M"
+                  label: "Original BSS status M"
+                -
+                  value: "N"
+                  label: "Original BSS status N"
+                -
+                  value: "S"
+                  label: "Original BSS status S"
+                -
+                  value: "T"
+                  label: "Original BSS status T"
+                -
+                  value: "W"
+                  label: "Original BSS status W"
+          -
+            name: "minLength"
+            label: "Minimum suit length"
+            type: "number"
+            default: 0
+            options:
+              min: 0
+              max: 8
+              step: 1
+            description: "0 means unspecified. This applies to the suit of the last bid."
+          -
+            name: "maxLength"
+            label: "Maximum suit length"
+            type: "number"
+            default: 8
+            options:
+              min: 0
+              max: 8
+              step: 1
+            description: "8 keeps the original BSS convention for no stated upper limit."
+          -
+            name: "order"
+            label: "Order"
+            type: "number"
+            readonly: true
+            default: 0
+            description: "Calculated after saving. Refresh the list after publication to see the new position."
+          -
+            name: "parentId"
+            label: "parentId"
+            type: "string"
+            hidden: true
+            readonly: true
+          -
+            name: "opening"
+            label: "opening"
+            type: "string"
+            hidden: true
+            readonly: true
+          -
+            name: "fullAuction"
+            label: "fullAuction"
+            type: "string"
+            hidden: true
+            readonly: true
+          -
+            name: "meaningUpdatedAt"
+            label: "meaningUpdatedAt"
+            type: "string"
+            hidden: true
+            readonly: true
+          -
+            name: "source"
+            label: "Original BSS source"
+            type: "object"
+            hidden: true
+            readonly: true
+            fields:
+              -
+                name: "legacyId"
+                label: "legacyId"
+                type: "number"
+                hidden: true
+                readonly: true
+              -
+                name: "bssLine"
+                label: "bssLine"
+                type: "number"
+                hidden: true
+                readonly: true
+              -
+                name: "bssPrefix"
+                label: "bssPrefix"
+                type: "string"
+                hidden: true
+                readonly: true
+              -
+                name: "originalMeaning"
+                label: "originalMeaning"
+                type: "text"
+                hidden: true
+                readonly: true
+      -
         name: "unresolved-55fd26da-a99e-4514-800e-91f22bc379ac"
         label: "1D-1NT-2D · Our opening"
         type: "file"
