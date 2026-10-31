@@ -366,7 +366,7 @@ button[aria-pressed="true"] .suit-diamonds { color: #fdba74; }
 button[aria-pressed="true"] .suit-hearts { color: #fca5a5; }
 button[aria-pressed="true"] .suit-spades { color: #ffffff; }
 
-/* This review list belongs to the browser, not the published system. */
+/* Shared unresolved entries and earlier browser bookmarks. */
 .unresolved-panel {
   background: #fffaf0;
   border: 1px solid #dfc88d;
@@ -382,7 +382,8 @@ button[aria-pressed="true"] .suit-spades { color: #ffffff; }
   color: var(--muted);
   margin-left: 6px;
 }
-#unresolvedList {
+#unresolvedList,
+#browserReviewList {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -400,13 +401,26 @@ button[aria-pressed="true"] .suit-spades { color: #ffffff; }
   flex: 1;
   min-width: 0;
 }
-.unresolved-item > button {
+.unresolved-item > .cms-review-link {
   flex-shrink: 0;
 }
-.unresolved-toggle {
-  margin: 8px 8px 4px 0;
-  font-size: 0.85rem;
+.cms-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
 }
+.cms-review-link {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 8px 13px;
+  background: white;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+.cms-review-link:hover { background: #edf3f8; }
+.cms-review-link:focus-visible { outline: 3px solid #bf8a21; outline-offset: 3px; }
+.unresolved-item > .cms-review-link { margin-top: 0; }
 @media (max-width: 620px) {
   .unresolved-panel { padding: 14px; }
   .unresolved-item { flex-direction: column; gap: 10px; }

@@ -27,8 +27,8 @@ const query = new URLSearchParams(location.search);
 const editorShortcuts = query.get("edit") === "1";
 const readerUrl = (hash = "") =>
   `?view=${view}${editorShortcuts ? "&edit=1" : ""}${hash}`;
-function editLink(n) {
-  const link = el("a", "Edit in Pages CMS", "cms-edit-link");
+function editLink(n, text = "Edit in Pages CMS") {
+  const link = el("a", text, "cms-edit-link");
   link.href = `https://app.pagescms.org/PenghaoWang1225/bridge/main/collection/bidding/edit/${encodeURIComponent(n.editPath)}`;
   link.target = "_blank";
   link.rel = "noopener noreferrer";
@@ -149,24 +149,22 @@ function meaning(n) {
   if (n.notes) box.append(el("p", n.notes, "entry-note"));
   return box;
 }
-// Keep personal review choices separate from the published bidding data.
+// Keep earlier browser-only bookmarks available without changing or deleting them.
 const UNRESOLVED_KEY = "bridge.scanian.unresolved.v1";
-let unresolved = new Map();
-let unresolvedStorageError = "";
-function readUnresolved(raw) {
-  if (raw === null) return new Map();
-  const saved = JSON.parse(raw);
-  if (saved.version !== 1 || !Array.isArray(saved.entries) ||
-      saved.entries.some((item) => !item || typeof item.id !== "string" ||
-        typeof item.fullAuction !== "string"))
-    throw Error("Invalid unresolved list");
-  return new Map(saved.entries.map((item) => [item.id, item]));
-}
-function loadUnresolved() {
+let browserReviews = new Map();
+let browserReviewError = "";
+function loadBrowserReviews() {
   try {
-    unresolved = readUnresolved(localStorage.getItem(UNRESOLVED_KEY));
+    const raw = localStorage.getItem(UNRESOLVED_KEY);
+    if (raw === null) return;
+    const saved = JSON.parse(raw);
+    if (saved.version !== 1 || !Array.isArray(saved.entries) ||
+        saved.entries.some((item) => !item || typeof item.id !== "string" ||
+          typeof item.fullAuction !== "string"))
+      throw Error("Invalid browser list");
+    browserReviews = new Map(saved.entries.map((item) => [item.id, item]));
   } catch {
-    unresolvedStorageError = "The saved list could not be read. Changes in this tab will not be saved.";
+    browserReviewError = "The earlier browser list could not be read. Its saved data has not been changed.";
   }
 }
 function auctionLink(n) {
@@ -186,54 +184,43 @@ function auctionLink(n) {
   };
   return link;
 }
-function updateUnresolvedButtons() {
-  for (const button of document.querySelectorAll(".unresolved-toggle")) {
-    const added = unresolved.has(button.dataset.id);
-    button.textContent = added ? "Mark resolved" : "Add to unresolved";
-    button.setAttribute("aria-pressed", String(added));
-  }
+function reviewLink(n) {
+  const link = editLink(n, n.needsDiscussion ? "Resolve in Pages CMS" : "Add to unresolved in CMS");
+  link.classList.add("cms-review-link");
+  link.title = n.needsDiscussion
+    ? "Turn off Needs discussion, then save in Pages CMS."
+    : "Turn on Needs discussion, then save in Pages CMS.";
+  return link;
 }
-function changeUnresolved(n, add) {
-  if (add) {
-    const item = { id: n.id, fullAuction: n.fullAuction };
-    unresolved = new Map([[n.id, item], ...[...unresolved].filter(([id]) => id !== n.id)]);
-  } else {
-    unresolved.delete(n.id);
-  }
-  if (!unresolvedStorageError) {
-    try {
-      localStorage.setItem(UNRESOLVED_KEY, JSON.stringify({
-        version: 1,
-        entries: [...unresolved.values()],
-      }));
-    } catch {
-      unresolvedStorageError = "This browser could not save the list. Changes in this tab will be lost when you close or reload it.";
-    }
-  }
-  renderUnresolved();
-  updateUnresolvedButtons();
-  $("unresolvedPanel").open = true;
-  $("unresolvedStatus").textContent = unresolvedStorageError ||
-    (add ? "Added to Unresolved at the top. Saved in this browser." : "Marked resolved. Saved in this browser.");
-}
-function unresolvedButton(n) {
-  const button = el("button", undefined, "unresolved-toggle");
-  button.type = "button";
-  button.dataset.id = n.id;
-  const added = unresolved.has(n.id);
-  button.textContent = added ? "Mark resolved" : "Add to unresolved";
-  button.setAttribute("aria-pressed", String(added));
-  button.onclick = () => changeUnresolved(n, !unresolved.has(n.id));
-  return button;
+function editorActions(n) {
+  const actions = el("div", undefined, "cms-actions");
+  if (!n.needsDiscussion) actions.append(editLink(n));
+  actions.append(reviewLink(n));
+  return actions;
 }
 function renderUnresolved() {
+  const pending = nodes.filter((n) => n.needsDiscussion);
   $("unresolvedPanel").hidden = false;
-  $("unresolvedCount").textContent = `(${unresolved.size})`;
-  $("unresolvedError").textContent = unresolvedStorageError;
-  $("unresolvedError").hidden = !unresolvedStorageError;
-  const list = $("unresolvedList");
-  list.replaceChildren();
-  for (const saved of unresolved.values()) {
+  $("unresolvedCount").textContent = `(${pending.length})`;
+  if (editorShortcuts)
+    $("unresolvedHelp").textContent = "Open an entry in Pages CMS. Turn off Needs discussion and save when resolved. Refresh this page after publication.";
+  $("unresolvedList").replaceChildren(...pending.map((n) => {
+    const item = el("li", undefined, "unresolved-item");
+    const content = el("div", undefined, "unresolved-content");
+    content.append(auctionLink(n), meaning(n));
+    item.append(content);
+    if (editorShortcuts) item.append(reviewLink(n));
+    return item;
+  }));
+  $("unresolvedEmpty").hidden = pending.length > 0;
+}
+function renderBrowserReviews() {
+  $("browserReviewPanel").hidden = !browserReviews.size && !browserReviewError;
+  $("browserReviewCount").textContent = `(${browserReviews.size})`;
+  $("browserReviewHelp").textContent = browserReviewError || (editorShortcuts
+    ? "These earlier bookmarks are stored only in this browser. To add one to the shared list, open its CMS entry, turn on Needs discussion, and save. Your earlier bookmarks have not been changed."
+    : "These earlier bookmarks are stored only in this browser. They are separate from the shared Unresolved list. Use the editor view to save them in Pages CMS.");
+  $("browserReviewList").replaceChildren(...[...browserReviews.values()].map((saved) => {
     const n = byId.get(saved.id);
     const item = el("li", undefined, "unresolved-item");
     const content = el("div", undefined, "unresolved-content");
@@ -242,33 +229,15 @@ function renderUnresolved() {
       el("strong", saved.fullAuction, "result-auction"),
       el("p", "This sequence is no longer in the published tree.", "view-note"),
     );
-    const resolve = el("button", "Mark resolved");
-    resolve.type = "button";
-    resolve.onclick = () => {
-      changeUnresolved(saved, false);
-      $("unresolvedSummary").focus();
-    };
-    item.append(content, resolve);
-    list.append(item);
-  }
-  $("unresolvedEmpty").hidden = unresolved.size > 0;
+    item.append(content);
+    if (n && editorShortcuts) item.append(reviewLink(n));
+    return item;
+  }));
 }
-window.addEventListener("storage", (event) => {
-  if (event.key !== UNRESOLVED_KEY && event.key !== null) return;
-  // Keep unsaved choices in this tab if storage has failed.
-  if (unresolvedStorageError || !nodes.length) return;
-  try {
-    unresolved = readUnresolved(event.newValue);
-    renderUnresolved();
-    updateUnresolvedButtons();
-  } catch {
-    // Keep the current list if another tab writes an unsupported format.
-  }
-});
 function detailsFor(n) {
   const meta = el("div", undefined, "auction-info");
-  meta.append(el("p", `Full auction: ${n.fullAuction}`), unresolvedButton(n));
-  if (editorShortcuts) meta.append(editLink(n));
+  meta.append(el("p", `Full auction: ${n.fullAuction}`));
+  if (editorShortcuts) meta.append(editorActions(n));
   if (n.reference) {
     const reference = el("details", undefined, "source-note");
     reference.append(el("summary", "Source document"), el("p", n.reference));
@@ -364,8 +333,8 @@ function renderSearch() {
   );
   for (const n of matches.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)) {
     const card = el("article", undefined, "search-result");
-    card.append(auctionLink(n), meaning(n), badges(n), unresolvedButton(n));
-    if (editorShortcuts) card.append(editLink(n));
+    card.append(auctionLink(n), meaning(n), badges(n));
+    if (editorShortcuts) card.append(editorActions(n));
     box.append(card);
   }
   if (!matches.length)
@@ -462,9 +431,10 @@ async function start() {
       view = "all";
       selectedOpening = openingKey(linked);
     }
-    loadUnresolved();
+    loadBrowserReviews();
     renderUnresolved();
-    $("unresolvedPanel").open = unresolved.size > 0 || !!unresolvedStorageError;
+    renderBrowserReviews();
+    $("unresolvedPanel").open = editorShortcuts && nodes.some((n) => n.needsDiscussion);
     render();
     if (linked) reveal(linked.id);
     if (editorShortcuts) {
@@ -472,7 +442,7 @@ async function start() {
       info.append(
         el("strong", "Editor shortcuts. "),
         document.createTextNode(
-          "Search an auction, then use Edit in Pages CMS. Saving requires your GitHub sign-in. ",
+          "Search an auction, then open its Pages CMS entry. Turn on Needs discussion to add it to Unresolved. Turn it off when resolved. Save, wait for publication, and refresh this page. Saving requires your GitHub sign-in. ",
         ),
       );
       const cms = el("a", "Open Pages CMS");

@@ -23,11 +23,15 @@ CMS search covers the current folder. To search all auctions and notes, use [edi
 
 **General rules** edits the notebook. **Homepage and navigation** edits the page titles and introductions. There is no partner-question section.
 
-## Keep a personal unresolved list
+## Resolve bidding questions
 
-In the reader, open a sequence and click **Add to unresolved** below its full auction. Search results have the same button. The **Unresolved** list is at the top and covers all three sections. New items appear first. Click an auction to return to its branch. Click **Mark resolved** to remove it from your list.
+Open the [editor view](https://penghaowang1225.github.io/bridge/scanian/?edit=1&view=all). Search for a sequence, then click **Add to unresolved in CMS**. In that entry, turn on **Needs discussion** and click **Save**. After publication, refresh the website. The entry appears in **Unresolved** at the top. CMS shows it in the **Unresolved** sidebar group too.
 
-The list is saved only in the current browser. It stays after a reload or browser restart. It does not sync to other browsers or devices. Clearing site data removes it. This feature does not change the bidding JSON, Pages CMS, or the **Needs discussion** field.
+Click **Resolve in Pages CMS** to open the original entry. Edit the meaning or notes, turn off **Needs discussion**, and save. After publication, refresh the website and CMS sidebar. The entry leaves the unresolved list. Opening the editor alone does not change its status.
+
+The flag in each bidding JSON file is the single source of truth. The generated CMS sidebar links to those same files. It stores no duplicate entries. The shared unresolved list follows bidding order and is visible on the public website. CMS buttons appear only with `?edit=1`. This view is unlisted, not private. GitHub permissions control saving.
+
+Earlier browser-only bookmarks remain under **Earlier browser list** in the browser where they were saved. They are not deleted or published automatically. Use their CMS links in the editor view to add them to the shared list.
 
 ## Add a branch or subtree
 

@@ -161,7 +161,7 @@ test("Each file is named by its section and auction; generated fields are determ
 
 test("CMS supports searchable entries and creation, with no partner-question form", () => {
   const config = cmsConfig();
-  assert.equal(config.content.length, 3);
+  assert.equal(config.content.length, 4);
   const bidding = config.content[0];
   assert.equal(bidding.type, "collection");
   assert.equal(bidding.operations.create, true);
@@ -262,4 +262,35 @@ test("The competitive import accounts for every document table row", () => {
     const row = report.coverage.find(c => c.sourceRow === key);
     assert(row?.targets.length, `Missing source row ${key}`);
   }
+});
+
+
+test("Unresolved CMS shortcuts edit the original files and follow their saved flags", () => {
+  const flagged = make("1NT");
+  flagged.data.needsDiscussion = true;
+  flagged.data.notes = "Keep this question and its notes.";
+  const clear = make("1NT-2C");
+  let compiled = compile([flagged, clear]);
+  const config = cmsConfig(compiled);
+  const group = config.content.find((entry) => entry.name === "unresolved");
+  assert.equal(group.type, "group");
+  assert.equal(group.items.length, 1);
+  const shortcut = group.items[0];
+  assert.equal(shortcut.path, publicEntry(compiled[0]).editPath);
+  assert.deepEqual(shortcut.fields, config.content[0].fields);
+  assert.deepEqual(shortcut.operations, { create: false, rename: false, delete: false });
+  assert(shortcut.label.includes("1NT"));
+
+  // Resolving changes only the flag. The entry, notes, and stable identity remain.
+  const resolved = sourceEntry(compiled[0]);
+  resolved.needsDiscussion = false;
+  compiled = compile([{ file: compiled[0].file, data: resolved }, clear]);
+  assert.equal(cmsConfig(compiled).content.find((entry) => entry.name === "unresolved").items.length, 0);
+  assert.equal(compiled[0].id, flagged.data.id);
+  assert.equal(compiled[0].notes, flagged.data.notes);
+  assert.equal(compiled[0].meaning, flagged.data.meaning);
+
+  const actual = compile(entries, baseline);
+  const shortcuts = cmsConfig(actual).content.find((entry) => entry.name === "unresolved").items;
+  assert.deepEqual(shortcuts.map((entry) => entry.path), actual.filter((n) => n.needsDiscussion).map((n) => publicEntry(n).editPath));
 });

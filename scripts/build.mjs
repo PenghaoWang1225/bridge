@@ -93,7 +93,7 @@ export function build({ sync = false } = {}) {
       if (!expected.has(file))
         fs.unlinkSync(path.join(root, "content/bidding", file));
   }
-  write(path.join(root, ".pages.yml"), cmsYaml());
+  write(path.join(root, ".pages.yml"), cmsYaml(nodes));
   const data = {
     version: 2,
     title: site.systemTitle,
@@ -143,7 +143,7 @@ export function build({ sync = false } = {}) {
   }
   const rules = notebook.rules.filter((r) => !r.section || r.section === "all").map((r) => `<li>${esc(r.text)}</li>`).join("");
   const controls = `<section class="reader-controls" aria-label="Find auctions"><div class="view-tabs" role="group" aria-label="Auction section">${site.sections.map((s) => `<button data-view="${s.key}">${esc(s.title)}</button>`).join("")}<button data-view="all">All auctions</button></div><div class="search-row"><label class="sr-only" for="search">Search auctions and meanings</label><input id="search" type="search" placeholder="Search an auction or meaning, e.g. 1NT-2C-2S" autocomplete="off"><button id="clearSearch">Clear</button><button id="expandAll">Expand all</button><button id="collapseAll">Collapse all</button></div></section>`;
-  const unresolved = `<details id="unresolvedPanel" class="unresolved-panel" hidden><summary id="unresolvedSummary">Unresolved <span id="unresolvedCount">(0)</span></summary><p class="view-note">Your review list covers all sections. It is saved only in this browser. Clearing site data removes it.</p><p id="unresolvedError" class="error" role="alert" hidden></p><p id="unresolvedEmpty" class="view-note">Open a sequence or search for it, then click Add to unresolved.</p><ul id="unresolvedList"></ul></details><p id="unresolvedStatus" class="sr-only" role="status" aria-live="polite"></p>`;
+  const unresolved = `<details id="unresolvedPanel" class="unresolved-panel" hidden><summary id="unresolvedSummary">Unresolved <span id="unresolvedCount">(0)</span></summary><p id="unresolvedHelp" class="view-note">Sequences marked Needs discussion. Open a sequence to read it.</p><p id="unresolvedEmpty" class="view-note">No sequences are marked unresolved.</p><ul id="unresolvedList"></ul></details><details id="browserReviewPanel" class="unresolved-panel" hidden><summary>Earlier browser list <span id="browserReviewCount"></span></summary><p id="browserReviewHelp" class="view-note"></p><ul id="browserReviewList"></ul></details>`;
   const reader = `<header class="reader-header"><div class="reader-wrap">${nav(site, "../")}<h1>${esc(site.systemTitle)}</h1><p>Search auctions and meanings. Open a bid to see its continuations.</p><p class="book-links">Books: ${bookLinks("../")}</p></div></header><main class="reader-wrap">${unresolved}<details class="notebook" open><summary>General rules</summary><ol>${rules}</ol></details><details id="sectionRules" class="notebook" hidden><summary>Section agreements</summary><ol id="sectionRuleList"></ol></details>${controls}<p id="readerStatus" role="status" aria-live="polite">Loading ${nodes.length.toLocaleString("en-US")} auctions…</p><div class="reader-layout"><aside id="openings" aria-label="Opening bids"></aside><section id="tree" aria-label="Bidding tree"></section></div><noscript><p>Enable JavaScript to use the expandable tree and search.</p></noscript></main>${footer("../")}<script type="module" src="../reader.js?v=${version}" data-source="data/bidding.json?v=${version}"></script>`;
   write(
     path.join(out, "scanian/index.html"),
