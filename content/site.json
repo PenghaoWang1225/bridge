@@ -5,18 +5,18 @@
   "sections": [
     {
       "key": "uncontested",
-      "title": "Uncontested Bidding System",
-      "description": "Opening bids, responses, and agreements when the opponents pass."
+      "title": "Uncontested",
+      "description": "Our side opens, and the opponents pass."
     },
     {
       "key": "contested",
-      "title": "Contested",
-      "description": "Partnership agreements when the opponents enter the auction."
+      "title": "Contested: Our opening",
+      "description": "Our side opens, and the opponents enter the auction."
     },
     {
       "key": "defense",
-      "title": "Defense",
-      "description": "Responses to opponent openings and defensive agreements."
+      "title": "Contested: Opponent opening",
+      "description": "The opponents open, and our side enters the auction."
     }
   ]
 }

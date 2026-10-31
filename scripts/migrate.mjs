@@ -83,21 +83,21 @@ fs.writeFileSync(
       sections: [
         {
           key: "uncontested",
-          title: "Uncontested Bidding System",
+          title: "Uncontested",
           description:
-            "Opening bids, responses, and agreements when the opponents pass.",
+            "Our side opens, and the opponents pass.",
         },
         {
           key: "contested",
-          title: "Contested",
+          title: "Contested: Our opening",
           description:
-            "Partnership agreements when the opponents enter the auction.",
+            "Our side opens, and the opponents enter the auction.",
         },
         {
           key: "defense",
-          title: "Defense",
+          title: "Contested: Opponent opening",
           description:
-            "Responses to opponent openings and defensive agreements.",
+            "The opponents open, and our side enters the auction.",
         },
       ],
     },

@@ -12,7 +12,7 @@ Sign in with GitHub. Select `bridge` and branch `main`.
 
 If the sidebar still shows **Bidding meanings** or **Partner questions**, it is showing the earlier configuration. Do not overwrite the current `.pages.yml` with that older version. Adding a blank line has not fixed this in the live CMS. Check the CMS save error and GitHub App access before changing the configuration.
 
-1. Open **Bidding system**, then choose an opening-bid folder. For example, `05-1nt` contains our 1NT openings. Opponent openings are under `defense`.
+1. Open **Bidding system**, then choose an opening-bid folder. For example, `05-1nt` contains our 1NT openings. For **Contested: Opponent opening**, open `defense`, then choose the opponent opening folder.
 2. Search within that folder by auction or meaning.
 3. Open a result. Edit **Meaning**, **Notes**, or the agreement fields.
 4. Click **Save**. This saves the JSON to GitHub.
@@ -28,15 +28,17 @@ CMS search covers the current folder. To search all auctions and notes, use [edi
 Open the matching opening folder in **Bidding system**, then use **Add an entry**. Enter the full auction and its meaning. The build finds the nearest existing parent automatically.
 
 - **Uncontested:** enter only our partnership's calls, for example `1NT-2C-2S-3C`. Opponent passes are inserted automatically. A `P` you enter here is our partnership's pass.
-- **Contested:** include every call, for example `1H-P-1S-2C`. We make the first call.
-- **Defense:** include every call, for example `1NT-X`. The opponents make the first call.
+- **Contested: Our opening:** include every call, for example `1H-P-1S-2C`. We make the first call.
+- **Contested: Opponent opening:** include every call, for example `1NT-X`. The opponents make the first call.
 - Use `C`, `D`, `H`, `S`, `NT`, `P`, `X`, and `XX`. Separate calls with hyphens.
 
-To add a reply, copy its parent's auction and append the next call or calls. Save the parent first, then add its children. A new opening has a one-call auction. Defense may begin with our response to an opponent opening that has no separate definition.
+To add a reply, copy its parent's auction and append the next call or calls. Save the parent first, then add its children. A new opening has a one-call auction. Contested: Opponent opening may begin with our response to an opponent opening that has no separate definition.
 
 A full auction can appear only once for the same opening side. The build rejects duplicate entries, invalid calls, illegal new auctions, and missing opening branches. Original BSS auctions are protected. To add a different auction, create a new entry instead of changing an original one.
 
-The filename comes from the section and auction, for example:
+The saved section keys remain `uncontested`, `contested`, and `defense`. They correspond to Uncontested, Contested: Our opening, and Contested: Opponent opening. Existing folders and links still work.
+
+The filename comes from the section key and auction, for example:
 
 ```text
 content/bidding/05-1nt/uncontested--1nt-2c-2s-3c.json

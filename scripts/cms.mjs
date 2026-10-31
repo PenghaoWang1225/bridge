@@ -21,7 +21,7 @@ export function cmsConfig() {
         format: "json",
         subfolders: true,
         description:
-          "Open an opening-bid folder, then search by auction or meaning. Use Add an entry to add a branch. Search all auctions at https://penghaowang1225.github.io/bridge/scanian/?edit=1&view=all and follow Edit in Pages CMS. For Uncontested, enter only our calls, such as 1NT-2C-2S. For Contested and Defense, include every call. The build finds the parent, folder, and bidding order.",
+          "Open an opening-bid folder, then search by auction or meaning. Use Add an entry to add a branch. Search all auctions at https://penghaowang1225.github.io/bridge/scanian/?edit=1&view=all and follow Edit in Pages CMS. For Uncontested, enter only our calls, such as 1NT-2C-2S. For both Contested sections, include every call. Choose Our opening when our side opens. Choose Opponent opening when the opponents open. The build finds the parent, folder, and bidding order.",
         filename: { template: "{section}--{auction}.json", field: false },
         operations: { create: true, rename: false, delete: false },
         view: {
@@ -43,11 +43,11 @@ export function cmsConfig() {
             default: "uncontested",
             options: {
               values: [
-                { value: "uncontested", label: "Uncontested — our calls only" },
-                { value: "contested", label: "Contested — all calls" },
+                { value: "uncontested", label: "Uncontested" },
+                { value: "contested", label: "Contested: Our opening" },
                 {
                   value: "defense",
-                  label: "Defense — opponents open; all calls",
+                  label: "Contested: Opponent opening",
                 },
               ],
             },
@@ -55,7 +55,7 @@ export function cmsConfig() {
           f("auction", "Auction", "string", {
             required: true,
             description:
-              "Use letters and hyphens. Uncontested: 1NT-2C-2S. Contested: 1H-P-1S-2C. Defense: 1NT-X. Use P for pass, X for double, and XX for redouble. To add a child, copy the parent auction and append the next call(s).",
+              "Use letters and hyphens. Uncontested: enter only our calls, such as 1NT-2C-2S. Contested: Our opening: enter all calls, such as 1H-P-1S-2C. Contested: Opponent opening: enter all calls, such as 1NT-X. Use P for pass, X for double, and XX for redouble. To add a child, copy the parent auction and append the next call(s).",
             pattern: {
               regex:
                 "^[1-7](?:[cCdDhHsS]|[nN][tT]?)(?:[ -]+(?:[1-7](?:[cCdDhHsS]|[nN][tT]?)|[pP]|[xX]{1,2}))*$",

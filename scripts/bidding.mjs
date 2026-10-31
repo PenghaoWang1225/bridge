@@ -51,7 +51,7 @@ export function parseAuction(value, section) {
   if (typeof value !== "string" || !value.trim())
     throw Error("Enter an auction.");
   if (!SECTIONS.includes(section))
-    throw Error("Choose Uncontested, Contested, or Defense.");
+    throw Error("Choose Uncontested, Contested: Our opening, or Contested: Opponent opening.");
   const words = value
     .trim()
     .toUpperCase()
@@ -68,7 +68,7 @@ export function parseAuction(value, section) {
   if (!/^[1-7]/.test(words[0]))
     throw Error("Start the auction with an opening bid.");
   if (section === "uncontested" && words.some((x) => x === "X" || x === "XX"))
-    throw Error("Use Contested for an auction with a double or redouble.");
+    throw Error("Use Contested: Our opening for an auction with a double or redouble after our opening.");
   const calls =
     section === "uncontested"
       ? words.flatMap((x, i) => (i ? ["P", x] : [x]))
