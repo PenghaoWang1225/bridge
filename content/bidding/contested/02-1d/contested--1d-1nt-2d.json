@@ -8,7 +8,7 @@
   "forcing": "0",
   "minLength": 0,
   "maxLength": 8,
-  "needsDiscussion": true,
+  "needsDiscussion": false,
   "opening": "1D",
   "fullAuction": "1♦ – (1NT) – 2♦",
   "parentId": "e09c448f-967e-4ecf-8d0f-e1b955de4a3d",
