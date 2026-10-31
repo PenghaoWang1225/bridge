@@ -16,5 +16,7 @@
   "opening": "1C",
   "fullAuction": "(1♣) – Double",
   "order": 2460,
-  "needsDiscussion": false
+  "needsDiscussion": false,
+  "notes": "",
+  "parentId": null
 }
