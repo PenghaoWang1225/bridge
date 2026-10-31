@@ -12,20 +12,20 @@ Sign in with GitHub. Select `bridge` and branch `main`.
 
 If the sidebar still shows **Bidding meanings** or **Partner questions**, it is showing the earlier configuration. Do not overwrite the current `.pages.yml` with that older version. Adding a blank line has not fixed this in the live CMS. Check the CMS save error and GitHub App access before changing the configuration.
 
-1. Open **Bidding system**.
-2. Search by an auction, such as `1NT-2C-2S`, or a word in its meaning.
+1. Open **Bidding system**, then choose an opening-bid folder. For example, `05-1nt` contains our 1NT openings. Opponent openings are under `defense`.
+2. Search within that folder by auction or meaning.
 3. Open a result. Edit **Meaning**, **Notes**, or the agreement fields.
 4. Click **Save**. This saves the JSON to GitHub.
 5. Check [Build and publish Bridge](https://github.com/PenghaoWang1225/bridge/actions/workflows/pages.yml). A successful run publishes the website.
 
 The **Order** column follows bridge bidding order. It is calculated automatically. Refresh the CMS list after publication to see the order of new entries.
-The list searches the visible auction, meaning, and section fields. Use the public reader to search free notes as well.
+CMS search covers the current folder. To search all auctions and notes, use [editor shortcuts](https://penghaowang1225.github.io/bridge/scanian/?edit=1&view=all). Each result has **Edit in Pages CMS**, which opens that entry directly. The normal public reader has no edit links. This shortcut view is unlisted, not private. GitHub sign-in controls who can save.
 
 **General rules** edits the notebook. **Homepage and navigation** edits the page titles and introductions. There is no partner-question section.
 
 ## Add a branch or subtree
 
-Use **New entry** in the Bidding system collection. Enter the full auction and its meaning. The build finds the nearest existing parent automatically.
+Open the matching opening folder in **Bidding system**, then use **Add an entry**. Enter the full auction and its meaning. The build finds the nearest existing parent automatically.
 
 - **Uncontested:** enter only our partnership's calls, for example `1NT-2C-2S-3C`. Opponent passes are inserted automatically. A `P` you enter here is our partnership's pass.
 - **Contested:** include every call, for example `1H-P-1S-2C`. We make the first call.
@@ -39,12 +39,12 @@ A full auction can appear only once for the same opening side. The build rejects
 The filename comes from the section and auction, for example:
 
 ```text
-content/bidding/uncontested--1nt-2c-2s-3c.json
-content/bidding/contested--1h-p-1s-2c.json
-content/bidding/defense--1nt-x.json
+content/bidding/05-1nt/uncontested--1nt-2c-2s-3c.json
+content/bidding/03-1h/contested--1h-p-1s-2c.json
+content/bidding/defense/05-1nt/defense--1nt-x.json
 ```
 
-All entries share one folder so the hosted CMS can search the complete collection. The website groups them by section and opening. Stable IDs keep entry links independent of filenames.
+Opening folders keep each CMS request small. The former request for all 2,278 file contents failed with a gateway error. Folder prefixes follow bridge bidding order. The build moves new entries into the correct folder after saving. Stable IDs preserve tree links when a file moves. If a new opening has no folder yet, create its first entry at the collection root; the build creates the folder.
 
 ## Save and publication
 
@@ -62,7 +62,7 @@ Do not edit generated HTML or the combined website data. Change the source JSON,
 
 ## Files
 
-- `content/bidding/*.json`: editable auctions, meanings, and notes.
+- `content/bidding/**/*.json`: editable auctions, meanings, and notes.
 - `content/notebook.json`: general rules.
 - `content/site.json`: homepage and navigation text.
 - `scripts/bidding.mjs`: parsing, validation, parent links, and ordering.

@@ -6,6 +6,16 @@ const el = (tag, text, className) => {
   return n;
 };
 const query = new URLSearchParams(location.search);
+const editorShortcuts = query.get("edit") === "1";
+const readerUrl = (hash = "") =>
+  `?view=${view}${editorShortcuts ? "&edit=1" : ""}${hash}`;
+function editLink(n) {
+  const link = el("a", "Edit in Pages CMS", "cms-edit-link");
+  link.href = `https://app.pagescms.org/PenghaoWang1225/bridge/main/collection/bidding/edit/${encodeURIComponent(n.editPath)}`;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  return link;
+}
 let view = ["uncontested", "contested", "defense", "all"].includes(
   query.get("view"),
 )
@@ -122,6 +132,7 @@ function meaning(n) {
 function detailsFor(n) {
   const meta = el("div", undefined, "auction-info");
   meta.append(el("p", `Full auction: ${n.fullAuction}`));
+  if (editorShortcuts) meta.append(editLink(n));
   if (n.source) {
     const source = el("details", undefined, "source-note");
     source.append(
@@ -213,17 +224,18 @@ function renderSearch() {
   for (const n of matches.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)) {
     const card = el("article", undefined, "search-result");
     const link = el("a", n.fullAuction, "result-auction");
-    link.href = `?view=${view}#bid-${n.id}`;
+    link.href = readerUrl(`#bid-${n.id}`);
     link.onclick = (e) => {
       e.preventDefault();
       $("search").value = "";
       selectedOpening = openingKey(n);
       page = 0;
       render();
-      history.replaceState(null, "", `?view=${view}#bid-${n.id}`);
+      history.replaceState(null, "", readerUrl(`#bid-${n.id}`));
       reveal(n.id);
     };
     card.append(link, meaning(n), badges(n));
+    if (editorShortcuts) card.append(editLink(n));
     box.append(card);
   }
   if (!matches.length)
@@ -271,7 +283,7 @@ for (const button of document.querySelectorAll("[data-view]"))
   button.onclick = () => {
     view = button.dataset.view;
     page = 0;
-    history.replaceState(null, "", `?view=${view}`);
+    history.replaceState(null, "", readerUrl());
     render();
   };
 $("search").addEventListener("input", () => {
@@ -317,9 +329,14 @@ async function start() {
     }
     render();
     if (linked) reveal(linked.id);
-    if (query.get("edit") === "1") {
+    if (editorShortcuts) {
       const info = el("div", undefined, "legacy-editor-note");
-      info.append(el("strong", "Editing has moved to Pages CMS. "));
+      info.append(
+        el("strong", "Editor shortcuts. "),
+        document.createTextNode(
+          "Search an auction, then use Edit in Pages CMS. Saving requires your GitHub sign-in. ",
+        ),
+      );
       const cms = el("a", "Open Pages CMS");
       cms.href = "https://app.pagescms.org/PenghaoWang1225/bridge/main";
       const recovery = el("a", "Recover an old browser draft");

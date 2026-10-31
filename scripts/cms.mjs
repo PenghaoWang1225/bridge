@@ -19,9 +19,9 @@ export function cmsConfig() {
         type: "collection",
         path: "content/bidding",
         format: "json",
-        subfolders: false,
+        subfolders: true,
         description:
-          "Search by auction or meaning. Use New entry to add a branch. For Uncontested, enter only our calls, such as 1NT-2C-2S. For Contested and Defense, include every call: 1H-P-1S-2C. The build finds the parent and sorts the tree. Keep existing BSS auctions unchanged. Save to GitHub, then check the publication status.",
+          "Open an opening-bid folder, then search by auction or meaning. Use Add an entry to add a branch. Search all auctions at https://penghaowang1225.github.io/bridge/scanian/?edit=1&view=all and follow Edit in Pages CMS. For Uncontested, enter only our calls, such as 1NT-2C-2S. For Contested and Defense, include every call. The build finds the parent, folder, and bidding order.",
         filename: { template: "{section}--{auction}.json", field: false },
         operations: { create: true, rename: false, delete: false },
         view: {

@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
+import os from "node:os";
 import { randomUUID } from "node:crypto";
 import {
   compile,
@@ -164,6 +165,7 @@ test("CMS supports searchable entries and creation, with no partner-question for
   const bidding = config.content[0];
   assert.equal(bidding.type, "collection");
   assert.equal(bidding.operations.create, true);
+  assert.equal(bidding.subfolders, true);
   assert.equal(bidding.view.default.sort, "order");
   assert(bidding.view.search.includes("meaning"));
   assert(bidding.view.search.includes("auction"));
@@ -173,6 +175,49 @@ test("CMS supports searchable entries and creation, with no partner-question for
   for (const e of entries)
     for (const k of Object.keys(e.data))
       assert(fields.has(k), `CMS would omit ${k}`);
+});
+
+test("CMS folders keep bulk reads small and follow opening-bid order", () => {
+  const folders = new Map();
+  for (const n of compile(entries, baseline)) {
+    const folder = path.posix.dirname(n.file);
+    folders.set(folder, (folders.get(folder) ?? 0) + 1);
+    assert.equal(publicEntry(n).editPath, `content/bidding/${n.file}`);
+  }
+  for (const [folder, count] of folders)
+    assert(
+      count <= 600,
+      `${folder} has ${count} entries. Split this CMS folder before publication.`,
+    );
+  assert.equal(
+    filename({ section: "uncontested", auction: "1NT-2C" }),
+    "05-1nt/uncontested--1nt-2c.json",
+  );
+  assert.equal(
+    filename({ section: "defense", auction: "1NT-X" }),
+    "defense/05-1nt/defense--1nt-x.json",
+  );
+  assert(
+    filename({ section: "uncontested", auction: "1S" }) <
+      filename({ section: "uncontested", auction: "1NT" }),
+  );
+});
+
+test("Source reads include nested folders and newly created root entries", () => {
+  const fixture = fs.mkdtempSync(path.join(os.tmpdir(), "bridge-folders-"));
+  try {
+    const folder = path.join(fixture, "content/bidding");
+    fs.mkdirSync(path.join(folder, "defense/05-1nt"), { recursive: true });
+    const files = ["new.json", "defense/05-1nt/defense--1nt-x.json"];
+    for (const file of files)
+      fs.writeFileSync(path.join(folder, file), JSON.stringify({ file }));
+    assert.deepEqual(
+      readEntries(fixture),
+      [...files].sort().map((file) => ({ file, data: { file } })),
+    );
+  } finally {
+    fs.rmSync(fixture, { recursive: true, force: true });
+  }
 });
 
 test("General rules can be empty; navigation keeps valid section paths", () => {

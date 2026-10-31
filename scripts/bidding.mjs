@@ -128,13 +128,25 @@ export function checkLegal(calls) {
   }
 }
 export function filename(node) {
-  return `${node.section}--${node.auction.toLowerCase()}.json`;
+  const opening = node.auction.split("-")[0];
+  const openingFolder = `${String(rank(opening) - 2).padStart(2, "0")}-${opening.toLowerCase()}`;
+  const folder =
+    node.section === "defense" ? `defense/${openingFolder}` : openingFolder;
+  return `${folder}/${node.section}--${node.auction.toLowerCase()}.json`;
 }
 export function readEntries(root) {
   const folder = path.join(root, "content/bidding");
-  return fs
-    .readdirSync(folder)
-    .filter((x) => x.endsWith(".json"))
+  function files(relative = "") {
+    return fs
+      .readdirSync(path.join(folder, relative), { withFileTypes: true })
+      .flatMap((entry) => {
+        const file = path.posix.join(relative, entry.name);
+        if (entry.isDirectory()) return files(file);
+        return entry.isFile() && entry.name.endsWith(".json") ? [file] : [];
+      });
+  }
+  return files()
+    .sort()
     .map((file) => {
       try {
         return {
@@ -291,6 +303,7 @@ export function sourceEntry(n) {
 export function publicEntry(n) {
   return {
     id: n.id,
+    editPath: `content/bidding/${n.file}`,
     parentId: n.parentId,
     order: n.order,
     section: n.section,

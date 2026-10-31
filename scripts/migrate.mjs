@@ -7,6 +7,7 @@ import {
   filename,
   compile,
   sourceEntry,
+  readEntries,
 } from "./bidding.mjs";
 const root = path.resolve(import.meta.dirname, "..");
 const read = (name) =>
@@ -58,13 +59,15 @@ const entries = records.map((r) => {
 });
 const nodes = compile(entries, records);
 const folder = path.join(root, "content/bidding");
-if (fs.readdirSync(folder).some((x) => x.endsWith(".json")))
+if (readEntries(root).length)
   throw Error("Migration only runs into an empty bidding folder.");
-for (const n of nodes)
+for (const n of nodes) {
+  fs.mkdirSync(path.dirname(path.join(folder, n.file)), { recursive: true });
   fs.writeFileSync(
     path.join(folder, n.file),
     JSON.stringify(sourceEntry(n), null, 2) + "\n",
   );
+}
 fs.writeFileSync(
   path.join(root, "content/notebook.json"),
   JSON.stringify({ rules: saved.notebook.items }, null, 2) + "\n",

@@ -158,7 +158,7 @@ export function build({ sync = false } = {}) {
     JSON.stringify({
       version,
       entries: nodes.length,
-      source: "content/bidding/*.json",
+      source: "content/bidding/**/*.json",
       commit: process.env.GITHUB_SHA ?? null,
     }) + "\n",
   );
