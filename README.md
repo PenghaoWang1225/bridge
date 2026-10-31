@@ -10,7 +10,7 @@ The bidding JSON files are the source of truth. The website and Pages CMS config
 
 Sign in with GitHub. Select `bridge` and branch `main`.
 
-If the sidebar still shows **Bidding meanings** or **Partner questions**, the CMS has an old cached configuration. Open **Configuration**. Check that it contains `name: "bidding"` and `path: "content/bidding"`. Add a blank line at the end, then click **Save**. This asks the CMS to load the new configuration. The build will remove the extra blank line. Then open **Bidding system**. If the old menu remains, close and reopen the repository in Pages CMS.
+If the sidebar still shows **Bidding meanings** or **Partner questions**, it is showing the earlier configuration. Do not overwrite the current `.pages.yml` with that older version. Adding a blank line has not fixed this in the live CMS. Check the CMS save error and GitHub App access before changing the configuration.
 
 1. Open **Bidding system**.
 2. Search by an auction, such as `1NT-2C-2S`, or a word in its meaning.
