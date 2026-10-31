@@ -353,3 +353,15 @@ button:disabled {
   white-space: pre-wrap;
   margin-bottom: 12px;
 }
+
+/* Suit colors are display-only. The source text stays unchanged. */
+.suit-clubs { color: #15803d; }
+.suit-diamonds { color: #b45309; }
+.suit-hearts { color: #c62828; }
+.suit-spades { color: #18212b; }
+
+/* Keep suit symbols readable on the selected opening button. */
+button[aria-pressed="true"] .suit-clubs { color: #86efac; }
+button[aria-pressed="true"] .suit-diamonds { color: #fdba74; }
+button[aria-pressed="true"] .suit-hearts { color: #fca5a5; }
+button[aria-pressed="true"] .suit-spades { color: #ffffff; }

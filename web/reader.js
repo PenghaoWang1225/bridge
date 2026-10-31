@@ -1,7 +1,25 @@
 const $ = (id) => document.getElementById(id);
+const SUIT_CLASSES = {
+  "♣": "suit-clubs",
+  "♦": "suit-diamonds",
+  "♥": "suit-hearts",
+  "♠": "suit-spades",
+};
+function setSuitText(node, text) {
+  // Keep saved text literal. Only suit symbols get display-only spans.
+  const parts = String(text ?? "").split(/([♣♦♥♠])/u);
+  node.replaceChildren(...parts.map((part) => {
+    const suitClass = SUIT_CLASSES[part];
+    if (!suitClass) return document.createTextNode(part);
+    const suit = document.createElement("span");
+    suit.className = `suit ${suitClass}`;
+    suit.textContent = part;
+    return suit;
+  }));
+}
 const el = (tag, text, className) => {
   const n = document.createElement(tag);
-  if (text !== undefined) n.textContent = text;
+  if (text !== undefined) setSuitText(n, text);
   if (className) n.className = className;
   return n;
 };
@@ -313,6 +331,8 @@ $("collapseAll").onclick = () => {
   for (const d of $("tree").querySelectorAll("details")) d.open = false;
 };
 async function start() {
+  for (const item of document.querySelectorAll(".notebook li"))
+    setSuitText(item, item.textContent);
   try {
     const url = document.querySelector("script[data-source]").dataset.source;
     const response = await fetch(url, { cache: "no-cache" });
