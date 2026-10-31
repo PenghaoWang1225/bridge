@@ -23,6 +23,12 @@ CMS search covers the current folder. To search all auctions and notes, use [edi
 
 **General rules** edits the notebook. **Homepage and navigation** edits the page titles and introductions. There is no partner-question section.
 
+## Keep a personal unresolved list
+
+In the reader, open a sequence and click **Add to unresolved** below its full auction. Search results have the same button. The **Unresolved** list is at the top and covers all three sections. New items appear first. Click an auction to return to its branch. Click **Mark resolved** to remove it from your list.
+
+The list is saved only in the current browser. It stays after a reload or browser restart. It does not sync to other browsers or devices. Clearing site data removes it. This feature does not change the bidding JSON, Pages CMS, or the **Needs discussion** field.
+
 ## Add a branch or subtree
 
 Open the matching opening folder in **Bidding system**, then use **Add an entry**. Enter the full auction and its meaning. The build finds the nearest existing parent automatically.
@@ -61,6 +67,10 @@ Each CMS save makes a GitHub commit. The publication workflow then:
 A failed check keeps the last successful website online. The saved source change remains in GitHub for correction. Open the failed workflow to read the file name and error. Correct that entry in Pages CMS and save again.
 
 Do not edit generated HTML or the combined website data. Change the source JSON, or edit it through Pages CMS.
+
+## PDF books
+
+The homepage and bidding-tree header link to **Notrump Bidding** and **Competitive Bids** by Mats Nilsland. Each link opens the PDF in a new tab. The source copies are in `books/`. The build copies them unchanged to `site/books/`. Relative links work under `/bridge/` and on the local preview.
 
 ## Files
 

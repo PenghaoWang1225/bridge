@@ -111,8 +111,12 @@ export function build({ sync = false } = {}) {
   fs.mkdirSync(out, { recursive: true });
   for (const file of ["style.css", "reader.css", "reader.js", "recovery.js"])
     fs.copyFileSync(path.join(root, "web", file), path.join(out, file));
+  fs.mkdirSync(path.join(out, "books"), { recursive: true });
+  for (const file of ["notrumpbidding_both.pdf", "competitivebids2020.pdf"])
+    fs.copyFileSync(path.join(root, "books", file), path.join(out, "books", file));
   write(path.join(out, "scanian/data/bidding.json"), body);
   write(path.join(out, ".nojekyll"), "");
+  const bookLinks = (prefix) => `<a href="${prefix}books/notrumpbidding_both.pdf" target="_blank" rel="noopener">Notrump Bidding (PDF)</a> · <a href="${prefix}books/competitivebids2020.pdf" target="_blank" rel="noopener">Competitive Bids (PDF)</a>`;
   const cards = site.sections
     .map(
       (s) =>
@@ -123,7 +127,7 @@ export function build({ sync = false } = {}) {
     path.join(out, "index.html"),
     document(
       site.title,
-      `<header class="site-header"><div class="container"><nav class="site-nav" aria-label="Main navigation"><a href="https://penghaowang1225.github.io/">Penghao Wang</a><a href="./" aria-current="page">Bridge</a></nav><h1>${esc(site.title)}</h1><p>${esc(site.description)}</p></div></header><main class="container"><section class="page-grid" aria-label="Bridge topics">${cards}</section><p class="section-note"><a href="scanian/">Open the full Scanian notebook</a></p></main>${footer("./")}`,
+      `<header class="site-header"><div class="container"><nav class="site-nav" aria-label="Main navigation"><a href="https://penghaowang1225.github.io/">Penghao Wang</a><a href="./" aria-current="page">Bridge</a></nav><h1>${esc(site.title)}</h1><p>${esc(site.description)}</p></div></header><main class="container"><section class="page-grid" aria-label="Bridge topics">${cards}</section><section class="card"><h2>Books by Mats Nilsland</h2><p>${bookLinks("./")}</p></section><p class="section-note"><a href="scanian/">Open the full Scanian notebook</a></p></main>${footer("./")}`,
       "./",
     ),
   );
@@ -139,7 +143,8 @@ export function build({ sync = false } = {}) {
   }
   const rules = notebook.rules.filter((r) => !r.section || r.section === "all").map((r) => `<li>${esc(r.text)}</li>`).join("");
   const controls = `<section class="reader-controls" aria-label="Find auctions"><div class="view-tabs" role="group" aria-label="Auction section">${site.sections.map((s) => `<button data-view="${s.key}">${esc(s.title)}</button>`).join("")}<button data-view="all">All auctions</button></div><div class="search-row"><label class="sr-only" for="search">Search auctions and meanings</label><input id="search" type="search" placeholder="Search an auction or meaning, e.g. 1NT-2C-2S" autocomplete="off"><button id="clearSearch">Clear</button><button id="expandAll">Expand all</button><button id="collapseAll">Collapse all</button></div></section>`;
-  const reader = `<header class="reader-header"><div class="reader-wrap">${nav(site, "../")}<h1>${esc(site.systemTitle)}</h1><p>Search auctions and meanings. Open a bid to see its continuations.</p></div></header><main class="reader-wrap"><details class="notebook" open><summary>General rules</summary><ol>${rules}</ol></details><details id="sectionRules" class="notebook" hidden><summary>Section agreements</summary><ol id="sectionRuleList"></ol></details>${controls}<p id="readerStatus" role="status" aria-live="polite">Loading ${nodes.length.toLocaleString("en-US")} auctions…</p><div class="reader-layout"><aside id="openings" aria-label="Opening bids"></aside><section id="tree" aria-label="Bidding tree"></section></div><noscript><p>Enable JavaScript to use the expandable tree and search.</p></noscript></main>${footer("../")}<script type="module" src="../reader.js?v=${version}" data-source="data/bidding.json?v=${version}"></script>`;
+  const unresolved = `<details id="unresolvedPanel" class="unresolved-panel" hidden><summary id="unresolvedSummary">Unresolved <span id="unresolvedCount">(0)</span></summary><p class="view-note">Your review list covers all sections. It is saved only in this browser. Clearing site data removes it.</p><p id="unresolvedError" class="error" role="alert" hidden></p><p id="unresolvedEmpty" class="view-note">Open a sequence or search for it, then click Add to unresolved.</p><ul id="unresolvedList"></ul></details><p id="unresolvedStatus" class="sr-only" role="status" aria-live="polite"></p>`;
+  const reader = `<header class="reader-header"><div class="reader-wrap">${nav(site, "../")}<h1>${esc(site.systemTitle)}</h1><p>Search auctions and meanings. Open a bid to see its continuations.</p><p class="book-links">Books: ${bookLinks("../")}</p></div></header><main class="reader-wrap">${unresolved}<details class="notebook" open><summary>General rules</summary><ol>${rules}</ol></details><details id="sectionRules" class="notebook" hidden><summary>Section agreements</summary><ol id="sectionRuleList"></ol></details>${controls}<p id="readerStatus" role="status" aria-live="polite">Loading ${nodes.length.toLocaleString("en-US")} auctions…</p><div class="reader-layout"><aside id="openings" aria-label="Opening bids"></aside><section id="tree" aria-label="Bidding tree"></section></div><noscript><p>Enable JavaScript to use the expandable tree and search.</p></noscript></main>${footer("../")}<script type="module" src="../reader.js?v=${version}" data-source="data/bidding.json?v=${version}"></script>`;
   write(
     path.join(out, "scanian/index.html"),
     document(

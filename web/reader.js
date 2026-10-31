@@ -149,9 +149,125 @@ function meaning(n) {
   if (n.notes) box.append(el("p", n.notes, "entry-note"));
   return box;
 }
+// Keep personal review choices separate from the published bidding data.
+const UNRESOLVED_KEY = "bridge.scanian.unresolved.v1";
+let unresolved = new Map();
+let unresolvedStorageError = "";
+function readUnresolved(raw) {
+  if (raw === null) return new Map();
+  const saved = JSON.parse(raw);
+  if (saved.version !== 1 || !Array.isArray(saved.entries) ||
+      saved.entries.some((item) => !item || typeof item.id !== "string" ||
+        typeof item.fullAuction !== "string"))
+    throw Error("Invalid unresolved list");
+  return new Map(saved.entries.map((item) => [item.id, item]));
+}
+function loadUnresolved() {
+  try {
+    unresolved = readUnresolved(localStorage.getItem(UNRESOLVED_KEY));
+  } catch {
+    unresolvedStorageError = "The saved list could not be read. Changes in this tab will not be saved.";
+  }
+}
+function auctionLink(n) {
+  const link = el("a", n.fullAuction, "result-auction");
+  link.href = `?view=${n.section}${editorShortcuts ? "&edit=1" : ""}#bid-${n.id}`;
+  link.onclick = (event) => {
+    // Keep the usual link behavior for opening a new tab.
+    if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    if (!direct(n)) view = n.section;
+    $("search").value = "";
+    selectedOpening = openingKey(n);
+    page = 0;
+    render();
+    history.replaceState(null, "", readerUrl(`#bid-${n.id}`));
+    reveal(n.id);
+  };
+  return link;
+}
+function updateUnresolvedButtons() {
+  for (const button of document.querySelectorAll(".unresolved-toggle")) {
+    const added = unresolved.has(button.dataset.id);
+    button.textContent = added ? "Mark resolved" : "Add to unresolved";
+    button.setAttribute("aria-pressed", String(added));
+  }
+}
+function changeUnresolved(n, add) {
+  if (add) {
+    const item = { id: n.id, fullAuction: n.fullAuction };
+    unresolved = new Map([[n.id, item], ...[...unresolved].filter(([id]) => id !== n.id)]);
+  } else {
+    unresolved.delete(n.id);
+  }
+  if (!unresolvedStorageError) {
+    try {
+      localStorage.setItem(UNRESOLVED_KEY, JSON.stringify({
+        version: 1,
+        entries: [...unresolved.values()],
+      }));
+    } catch {
+      unresolvedStorageError = "This browser could not save the list. Changes in this tab will be lost when you close or reload it.";
+    }
+  }
+  renderUnresolved();
+  updateUnresolvedButtons();
+  $("unresolvedPanel").open = true;
+  $("unresolvedStatus").textContent = unresolvedStorageError ||
+    (add ? "Added to Unresolved at the top. Saved in this browser." : "Marked resolved. Saved in this browser.");
+}
+function unresolvedButton(n) {
+  const button = el("button", undefined, "unresolved-toggle");
+  button.type = "button";
+  button.dataset.id = n.id;
+  const added = unresolved.has(n.id);
+  button.textContent = added ? "Mark resolved" : "Add to unresolved";
+  button.setAttribute("aria-pressed", String(added));
+  button.onclick = () => changeUnresolved(n, !unresolved.has(n.id));
+  return button;
+}
+function renderUnresolved() {
+  $("unresolvedPanel").hidden = false;
+  $("unresolvedCount").textContent = `(${unresolved.size})`;
+  $("unresolvedError").textContent = unresolvedStorageError;
+  $("unresolvedError").hidden = !unresolvedStorageError;
+  const list = $("unresolvedList");
+  list.replaceChildren();
+  for (const saved of unresolved.values()) {
+    const n = byId.get(saved.id);
+    const item = el("li", undefined, "unresolved-item");
+    const content = el("div", undefined, "unresolved-content");
+    if (n) content.append(auctionLink(n), meaning(n));
+    else content.append(
+      el("strong", saved.fullAuction, "result-auction"),
+      el("p", "This sequence is no longer in the published tree.", "view-note"),
+    );
+    const resolve = el("button", "Mark resolved");
+    resolve.type = "button";
+    resolve.onclick = () => {
+      changeUnresolved(saved, false);
+      $("unresolvedSummary").focus();
+    };
+    item.append(content, resolve);
+    list.append(item);
+  }
+  $("unresolvedEmpty").hidden = unresolved.size > 0;
+}
+window.addEventListener("storage", (event) => {
+  if (event.key !== UNRESOLVED_KEY && event.key !== null) return;
+  // Keep unsaved choices in this tab if storage has failed.
+  if (unresolvedStorageError || !nodes.length) return;
+  try {
+    unresolved = readUnresolved(event.newValue);
+    renderUnresolved();
+    updateUnresolvedButtons();
+  } catch {
+    // Keep the current list if another tab writes an unsupported format.
+  }
+});
 function detailsFor(n) {
   const meta = el("div", undefined, "auction-info");
-  meta.append(el("p", `Full auction: ${n.fullAuction}`));
+  meta.append(el("p", `Full auction: ${n.fullAuction}`), unresolvedButton(n));
   if (editorShortcuts) meta.append(editLink(n));
   if (n.reference) {
     const reference = el("details", undefined, "source-note");
@@ -248,18 +364,7 @@ function renderSearch() {
   );
   for (const n of matches.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)) {
     const card = el("article", undefined, "search-result");
-    const link = el("a", n.fullAuction, "result-auction");
-    link.href = readerUrl(`#bid-${n.id}`);
-    link.onclick = (e) => {
-      e.preventDefault();
-      $("search").value = "";
-      selectedOpening = openingKey(n);
-      page = 0;
-      render();
-      history.replaceState(null, "", readerUrl(`#bid-${n.id}`));
-      reveal(n.id);
-    };
-    card.append(link, meaning(n), badges(n));
+    card.append(auctionLink(n), meaning(n), badges(n), unresolvedButton(n));
     if (editorShortcuts) card.append(editLink(n));
     box.append(card);
   }
@@ -357,6 +462,9 @@ async function start() {
       view = "all";
       selectedOpening = openingKey(linked);
     }
+    loadUnresolved();
+    renderUnresolved();
+    $("unresolvedPanel").open = unresolved.size > 0 || !!unresolvedStorageError;
     render();
     if (linked) reveal(linked.id);
     if (editorShortcuts) {
