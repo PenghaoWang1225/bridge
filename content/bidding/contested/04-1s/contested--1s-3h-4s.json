@@ -1,0 +1,16 @@
+{
+  "id": "12693cc8-ba7c-47f4-819a-3fa990ce4df0",
+  "section": "contested",
+  "auction": "1S-3H-4S",
+  "meaning": "If the overcall is a natural preempt: natural raise, but if an opening hand, without control",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1S",
+  "fullAuction": "1♠ – (3♥) – 4♠",
+  "parentId": "efb6e060-94fb-4908-87e7-bdbcaf592c6a",
+  "order": 1557,
+  "reference": "Scanian Competitive Method — 1Ma-(3X) (natural preemptive)"
+}

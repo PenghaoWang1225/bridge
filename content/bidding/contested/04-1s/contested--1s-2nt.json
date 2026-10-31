@@ -1,0 +1,16 @@
+{
+  "id": "4547ec96-cd56-458f-85cf-38bcdbb8d36f",
+  "section": "contested",
+  "auction": "1S-2NT",
+  "meaning": "Opponents show two specified suits. Use these agreements only for that meaning of the overcall.",
+  "notes": "3X: F1, lowest suit shows the lower suit of partner’s Ma and the unbid suit\n\n3Y: F1, highest suit shows the higher suit\n\n4mi: 4mi slam try: 4♣=slam try, shortness in the lowest of their suits; 4♦=slam try, shortness in the highest of their suits\n\nHere X and Y name their lower and higher suits. They do not mean double and redouble. The two shown suits must be known before choosing a cue-bid.",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1S",
+  "fullAuction": "1♠ – (2NT)",
+  "parentId": "10000000-0000-4000-8000-000000000468",
+  "order": 1535,
+  "reference": "Scanian Competitive Method — 1Ma-(2NT/3♣) (two specified suits, X=lower+Y=higher)"
+}

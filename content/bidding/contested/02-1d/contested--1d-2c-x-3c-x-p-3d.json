@@ -1,0 +1,16 @@
+{
+  "id": "04c3b72f-e27b-4826-8e8c-955218e5f10f",
+  "section": "contested",
+  "auction": "1D-2C-X-3C-X-P-3D",
+  "meaning": "Non-forcing with diamond support.",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (2♣) – Double – (3♣) – Double – (Pass) – 3♦",
+  "parentId": "adc63d92-17da-41b3-85a7-ec9846fd003b",
+  "order": 874,
+  "reference": "Scanian Competitive Method — 1♦-(2♣)-Dble-(3♣)"
+}

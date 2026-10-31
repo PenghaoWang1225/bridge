@@ -1,0 +1,16 @@
+{
+  "id": "1a7654f0-84b0-4a48-80e5-03fb3a5571e7",
+  "section": "contested",
+  "auction": "1H-2H-2NT",
+  "meaning": "almost GF with support",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (2♥) – 2NT",
+  "parentId": "52edccfd-6d85-4aaa-825a-c82e8998090c",
+  "order": 1320,
+  "reference": "Scanian Competitive Method — 1♥-(2♥) (Michael’s cue-bid, two suiter with spades and an unspecified minor)"
+}

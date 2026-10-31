@@ -1,0 +1,16 @@
+{
+  "id": "d0bed053-1766-4688-84fb-23ff846281d0",
+  "section": "contested",
+  "auction": "1D-X",
+  "meaning": "Competitive agreements after 1♦-(Dble).",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (Double)",
+  "parentId": "10000000-0000-4000-8000-000000000209",
+  "order": 824,
+  "reference": "Scanian Competitive Method — 1♦-(Dble)"
+}

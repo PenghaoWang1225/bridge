@@ -1,0 +1,16 @@
+{
+  "id": "9e517257-4885-4482-8105-5a6aea8f069a",
+  "section": "contested",
+  "auction": "1D-1H-1NT",
+  "meaning": "6+ with at least 4-4 in spades and diamonds",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (1♥) – 1NT",
+  "parentId": "d219e6b3-6b9e-47ef-87c6-a4ab70d175c3",
+  "order": 839,
+  "reference": "Scanian Competitive Method — 1♦-(1♥)"
+}

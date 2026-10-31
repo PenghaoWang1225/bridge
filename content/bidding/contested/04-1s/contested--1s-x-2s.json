@@ -1,0 +1,17 @@
+{
+  "id": "48fd1299-1b9f-4ab7-8734-9b8d24b71713",
+  "section": "contested",
+  "auction": "1S-X-2S",
+  "meaning": "Needs discussion: the document lists more than one meaning for this bid.",
+  "notes": "The document also lists 2♠: 6-9, 6 spades\n\nOther meaning in the same document: normal raise",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "needsDiscussion": true,
+  "opening": "1S",
+  "fullAuction": "1♠ – (Double) – 2♠",
+  "parentId": "83f42759-7e41-4c77-8d57-6796b9a9aa04",
+  "order": 1507,
+  "reference": "Scanian Competitive Method — 1Ma-(Dble)"
+}

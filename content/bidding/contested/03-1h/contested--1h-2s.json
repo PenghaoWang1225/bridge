@@ -1,0 +1,16 @@
+{
+  "id": "b3c86377-5af0-474f-89aa-b162daf80845",
+  "section": "contested",
+  "auction": "1H-2S",
+  "meaning": "Competitive agreements after 1♥-(2♠).",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (2♠)",
+  "parentId": "10000000-0000-4000-8000-0000000002e7",
+  "order": 1324,
+  "reference": "Scanian Competitive Method — 1♥-(2♠)"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2c132a68-dcf1-4021-86cc-9261e4fd3f56",
+  "section": "contested",
+  "auction": "1H-2NT-4C",
+  "meaning": "If the overcall shows two specified suits: Slam try; shortness in their lower suit.",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (2NT) – 4♣",
+  "parentId": "1cbf384c-704a-43c0-8a80-4a4b93cda27b",
+  "order": 1329,
+  "reference": "Scanian Competitive Method — When the opponent shows two specified suits"
+}

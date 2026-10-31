@@ -1,0 +1,16 @@
+{
+  "id": "560328af-2e88-43a7-80f5-a0e240300146",
+  "section": "contested",
+  "auction": "1S-1NT",
+  "meaning": "Opponents overcall 1NT after our major opening.",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1S",
+  "fullAuction": "1♠ – (1NT)",
+  "parentId": "10000000-0000-4000-8000-000000000468",
+  "order": 1509,
+  "reference": "Scanian Competitive Method — 1Ma-(1NT)"
+}

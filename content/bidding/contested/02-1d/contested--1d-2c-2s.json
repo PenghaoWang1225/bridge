@@ -1,0 +1,16 @@
+{
+  "id": "55e32677-4c0f-446f-84c0-97a397af1727",
+  "section": "contested",
+  "auction": "1D-2C-2S",
+  "meaning": "INV+, 4+ diamonds",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (2♣) – 2♠",
+  "parentId": "35e44b06-d4ba-49aa-8c52-8b77e1e8251b",
+  "order": 879,
+  "reference": "Scanian Competitive Method — 1♦-(2♣)"
+}

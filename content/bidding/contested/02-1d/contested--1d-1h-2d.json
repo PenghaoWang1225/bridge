@@ -1,0 +1,16 @@
+{
+  "id": "22699543-113e-4c9c-8aff-149769737315",
+  "section": "contested",
+  "auction": "1D-1H-2D",
+  "meaning": "5-9, natural raise with 3+ diamonds",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (1♥) – 2♦",
+  "parentId": "d219e6b3-6b9e-47ef-87c6-a4ab70d175c3",
+  "order": 841,
+  "reference": "Scanian Competitive Method — 1♦-(1♥)"
+}

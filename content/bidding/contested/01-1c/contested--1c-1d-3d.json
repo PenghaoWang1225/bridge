@@ -1,0 +1,16 @@
+{
+  "id": "b91fcd08-cc0a-496b-80fe-4f81f2a1e4aa",
+  "section": "contested",
+  "auction": "1C-1D-3D",
+  "meaning": "10+, INV+ with one 5+Ma and 5+ clubs→3/4Ma = p/c; 4♣ = NF",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1C",
+  "fullAuction": "1♣ – (1♦) – 3♦",
+  "parentId": "77e6fdde-0150-4921-8b8f-01e14dbf1ee7",
+  "order": 548,
+  "reference": "Scanian Competitive Method — 1♣-(1♦)"
+}

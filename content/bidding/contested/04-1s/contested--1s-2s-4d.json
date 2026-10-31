@@ -1,0 +1,16 @@
+{
+  "id": "372ca1be-b250-4e17-8e36-6d6291f40c54",
+  "section": "contested",
+  "auction": "1S-2S-4D",
+  "meaning": "Slam try without heart control.",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1S",
+  "fullAuction": "1♠ – (2♠) – 4♦",
+  "parentId": "0ce90596-d34d-4888-82e6-6970c1e0a476",
+  "order": 1533,
+  "reference": "Scanian Competitive Method — 1♠-(2♠) (Michael’s cue-bid, two suiter with hearts and an unspecified minor)"
+}

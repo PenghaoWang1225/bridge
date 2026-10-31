@@ -1,0 +1,16 @@
+{
+  "id": "93d7fdf1-334b-4e6c-8405-85fa666d8368",
+  "section": "contested",
+  "auction": "1D-1S-3D",
+  "meaning": "5-9, natural raise/preemptive raise",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (1♠) – 3♦",
+  "parentId": "009d8392-dc2b-40df-81e6-dac77f137519",
+  "order": 856,
+  "reference": "Scanian Competitive Method — 1mi-(1♠)"
+}

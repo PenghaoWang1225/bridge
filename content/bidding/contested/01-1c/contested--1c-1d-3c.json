@@ -1,0 +1,16 @@
+{
+  "id": "79c64fdb-b73b-4c16-8717-5c7fec402ef2",
+  "section": "contested",
+  "auction": "1C-1D-3C",
+  "meaning": "5-9, natural, preemptive raise, 5+ clubs",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1C",
+  "fullAuction": "1♣ – (1♦) – 3♣",
+  "parentId": "77e6fdde-0150-4921-8b8f-01e14dbf1ee7",
+  "order": 547,
+  "reference": "Scanian Competitive Method — 1♣-(1♦)"
+}

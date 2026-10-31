@@ -1,0 +1,16 @@
+{
+  "id": "d093b21d-8cd0-4d12-8b35-1f36d90033cf",
+  "section": "contested",
+  "auction": "1H-2S-3S",
+  "meaning": "GF with support, establish FP",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (2♠) – 3♠",
+  "parentId": "b3c86377-5af0-474f-89aa-b162daf80845",
+  "order": 1326,
+  "reference": "Scanian Competitive Method — 1♥-(2♠)"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "e20767b9-bc9a-41c0-87bf-164b892efe84",
+  "section": "contested",
+  "auction": "1D-2D-2S",
+  "meaning": "INV+ in diamonds",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (2♦) – 2♠",
+  "parentId": "5098e1c7-8675-4cce-8df4-6026b08904ee",
+  "order": 886,
+  "reference": "Scanian Competitive Method — 1mi-(2mi) (showing both majors)"
+}

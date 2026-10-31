@@ -344,3 +344,12 @@ button:disabled {
   margin-top: 10px;
   font-weight: 600;
 }
+
+.badge.discussion {
+  color: #784400;
+  background: #fff0cf;
+}
+#sectionRuleList li {
+  white-space: pre-wrap;
+  margin-bottom: 12px;
+}

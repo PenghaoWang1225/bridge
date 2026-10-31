@@ -1,0 +1,16 @@
+{
+  "id": "00e84af5-8a75-4cc2-84ea-f4a929450505",
+  "section": "contested",
+  "auction": "1D-X-3C",
+  "meaning": "preemptive with clubs",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (Double) – 3♣",
+  "parentId": "d0bed053-1766-4688-84fb-23ff846281d0",
+  "order": 834,
+  "reference": "Scanian Competitive Method — 1♦-(Dble)"
+}

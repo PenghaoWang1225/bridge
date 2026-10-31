@@ -1,0 +1,16 @@
+{
+  "id": "3b66ea4c-de7b-4a04-8d45-16cad3a640a1",
+  "section": "contested",
+  "auction": "1S-3D",
+  "meaning": "Opponents make a natural three-level preempt after our major opening.",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1S",
+  "fullAuction": "1♠ – (3♦)",
+  "parentId": "10000000-0000-4000-8000-000000000468",
+  "order": 1546,
+  "reference": "Scanian Competitive Method — 1Ma-(3X) (natural preemptive)"
+}

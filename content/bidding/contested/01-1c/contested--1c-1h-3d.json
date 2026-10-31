@@ -1,0 +1,16 @@
+{
+  "id": "5323e6a3-e2de-4fcc-8af1-15cce46362e7",
+  "section": "contested",
+  "auction": "1C-1H-3D",
+  "meaning": "10+, INV+ 5+ spades and 5+ clubs",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1C",
+  "fullAuction": "1♣ – (1♥) – 3♦",
+  "parentId": "ac7f5abc-c062-429d-8b9e-918cd4c95739",
+  "order": 564,
+  "reference": "Scanian Competitive Method — 1♣-(1♥)"
+}

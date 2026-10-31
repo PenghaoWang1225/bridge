@@ -1,0 +1,16 @@
+{
+  "id": "95505f29-d146-408c-8dd8-d71eac7010c7",
+  "section": "contested",
+  "auction": "1D-2C-X-P-2D-P-2NT",
+  "meaning": "and higher bids GF",
+  "notes": "",
+  "artificial": false,
+  "forcing": "6",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (2♣) – Double – (Pass) – 2♦ – (Pass) – 2NT",
+  "parentId": "c47d1d9b-15e0-4ae3-8c29-77daf4ea768b",
+  "order": 870,
+  "reference": "Scanian Competitive Method — 1♦-(2♣)-Dble; 2♦ (11-15)"
+}

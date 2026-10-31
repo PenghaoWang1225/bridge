@@ -1,0 +1,16 @@
+{
+  "id": "d76f36c1-b032-4851-83c4-827dbb0196f1",
+  "section": "contested",
+  "auction": "1H-2H-4H",
+  "meaning": "if opening strength, no spade control",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (2♥) – 4♥",
+  "parentId": "52edccfd-6d85-4aaa-825a-c82e8998090c",
+  "order": 1323,
+  "reference": "Scanian Competitive Method — 1♥-(2♥) (Michael’s cue-bid, two suiter with spades and an unspecified minor)"
+}

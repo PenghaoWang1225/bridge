@@ -21,7 +21,7 @@ export function cmsConfig() {
         format: "json",
         subfolders: true,
         description:
-          "Open an opening-bid folder, then search by auction or meaning. Use Add an entry to add a branch. Search all auctions at https://penghaowang1225.github.io/bridge/scanian/?edit=1&view=all and follow Edit in Pages CMS. For Uncontested, enter only our calls, such as 1NT-2C-2S. For both Contested sections, include every call. Choose Our opening when our side opens. Choose Opponent opening when the opponents open. The build finds the parent, folder, and bidding order.",
+          "For Uncontested, open an opening-bid folder. For Contested: Our opening, open contested first. For Contested: Opponent opening, open defense first. Then open an opening-bid folder and search by auction or meaning. Use Add an entry to add a branch. Search all auctions at https://penghaowang1225.github.io/bridge/scanian/?edit=1&view=all and follow Edit in Pages CMS. For Uncontested, enter only our calls, such as 1NT-2C-2S. For both Contested sections, include every call. Choose Our opening when our side opens. Choose Opponent opening when the opponents open. The build finds the parent, folder, and bidding order.",
         filename: { template: "{section}--{auction}.json", field: false },
         operations: { create: true, rename: false, delete: false },
         view: {
@@ -71,6 +71,10 @@ export function cmsConfig() {
           f("notes", "Notes", "text", {
             description:
               "Notes appear below the meaning. They do not replace it.",
+          }),
+          f("reference", "Source document", "text", { readonly: true }),
+          f("needsDiscussion", "Needs discussion", "boolean", {
+            description: "Mark an unresolved question or a conflict between meanings.",
           }),
           f("artificial", "Artificial", "boolean"),
           f("forcing", "Agreement", "select", {
@@ -128,6 +132,15 @@ export function cmsConfig() {
                 readonly: true,
               }),
               f("text", "Rule", "text", { required: true }),
+              f("section", "Applies to", "select", {
+                default: "all",
+                options: { values: [
+                  { value: "all", label: "All sections" },
+                  { value: "uncontested", label: "Uncontested" },
+                  { value: "contested", label: "Contested: Our opening" },
+                  { value: "defense", label: "Contested: Opponent opening" },
+                ] },
+              }),
             ],
           }),
         ],

@@ -1,0 +1,16 @@
+{
+  "id": "578a502c-6326-426e-86db-9fc1fbdff3fc",
+  "section": "contested",
+  "auction": "1D-2S-X",
+  "meaning": "8+, values, usually more",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (2♠) – Double",
+  "parentId": "fc46c5b2-5e91-40e2-89a9-c3f2da939621",
+  "order": 895,
+  "reference": "Scanian Competitive Method — 1mi-(2X) (natural jump overcall)"
+}

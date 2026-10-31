@@ -1,0 +1,16 @@
+{
+  "id": "8afb4ba4-f7b8-4f46-8f32-209e3d57e42a",
+  "section": "contested",
+  "auction": "1C-1D-1NT-P-2D-P-2H",
+  "meaning": "May have only four hearts.",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1C",
+  "fullAuction": "1♣ – (1♦) – 1NT – (Pass) – 2♦ – (Pass) – 2♥",
+  "parentId": "2ddb517f-263f-4568-8112-9579bfed81c3",
+  "order": 540,
+  "reference": "Scanian Competitive Method — 1♣-(1♦)"
+}

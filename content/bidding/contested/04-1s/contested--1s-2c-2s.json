@@ -1,0 +1,16 @@
+{
+  "id": "0141b75e-7225-4167-86d0-b17face00544",
+  "section": "contested",
+  "auction": "1S-2C-2S",
+  "meaning": "normal raise",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1S",
+  "fullAuction": "1♠ – (2♣) – 2♠",
+  "parentId": "0852b675-5601-4242-827f-db8761e0aef9",
+  "order": 1520,
+  "reference": "Scanian Competitive Method — 1Ma-(2♣)"
+}

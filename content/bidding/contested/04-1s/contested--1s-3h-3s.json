@@ -1,0 +1,16 @@
+{
+  "id": "556c01b0-1a0c-4e50-83e0-23c7453a9422",
+  "section": "contested",
+  "auction": "1S-3H-3S",
+  "meaning": "natural raise",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1S",
+  "fullAuction": "1♠ – (3♥) – 3♠",
+  "parentId": "efb6e060-94fb-4908-87e7-bdbcaf592c6a",
+  "order": 1553,
+  "reference": "Scanian Competitive Method — 1Ma-(3X) (natural preemptive)"
+}

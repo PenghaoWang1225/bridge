@@ -1,0 +1,16 @@
+{
+  "id": "b9af9b1d-83d7-4807-83f2-5363cd82c1d0",
+  "section": "contested",
+  "auction": "1C-1D-3D-P-4S",
+  "meaning": "Pass or correct to responder’s major.",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1C",
+  "fullAuction": "1♣ – (1♦) – 3♦ – (Pass) – 4♠",
+  "parentId": "b91fcd08-cc0a-496b-80fe-4f81f2a1e4aa",
+  "order": 553,
+  "reference": "Scanian Competitive Method — 1♣-(1♦)"
+}

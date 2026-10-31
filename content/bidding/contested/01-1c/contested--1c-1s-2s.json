@@ -1,0 +1,16 @@
+{
+  "id": "02a3569f-723f-4b12-8775-535df540e47c",
+  "section": "contested",
+  "auction": "1C-1S-2S",
+  "meaning": "10+, INV+ (10+) with support",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1C",
+  "fullAuction": "1♣ – (1♠) – 2♠",
+  "parentId": "4b78e535-b3af-4cdf-8260-5262d19c753b",
+  "order": 571,
+  "reference": "Scanian Competitive Method — 1mi-(1♠)"
+}

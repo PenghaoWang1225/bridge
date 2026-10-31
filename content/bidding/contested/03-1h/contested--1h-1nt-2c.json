@@ -1,0 +1,16 @@
+{
+  "id": "036fed2d-b97f-45e1-8dc6-8e4e70278b72",
+  "section": "contested",
+  "auction": "1H-1NT-2C",
+  "meaning": "8-10, a good raise in major, promise top honor",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (1NT) – 2♣",
+  "parentId": "c40e116b-b5d1-40ae-8bec-ec09a4193049",
+  "order": 1303,
+  "reference": "Scanian Competitive Method — 1Ma-(1NT)"
+}

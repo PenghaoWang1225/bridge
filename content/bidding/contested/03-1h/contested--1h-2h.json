@@ -1,0 +1,16 @@
+{
+  "id": "52edccfd-6d85-4aaa-825a-c82e8998090c",
+  "section": "contested",
+  "auction": "1H-2H",
+  "meaning": "Michaels cue-bid: the other major and an unspecified minor.",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (2♥)",
+  "parentId": "10000000-0000-4000-8000-0000000002e7",
+  "order": 1318,
+  "reference": "Scanian Competitive Method — 1♥-(2♥) (Michael’s cue-bid, two suiter with spades and an unspecified minor)"
+}

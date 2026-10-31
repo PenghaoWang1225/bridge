@@ -1,0 +1,16 @@
+{
+  "id": "e09c448f-967e-4ecf-8d0f-e1b955de4a3d",
+  "section": "contested",
+  "auction": "1D-1NT",
+  "meaning": "Opponents overcall a natural, strong 1NT after our minor opening.",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (1NT)",
+  "parentId": "10000000-0000-4000-8000-000000000209",
+  "order": 857,
+  "reference": "Scanian Competitive Method — 1mi-(1NT) (natural, strong notrump)"
+}

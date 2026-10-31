@@ -1,0 +1,16 @@
+{
+  "id": "d90b6f92-8d80-4873-83ee-bfb12fd67ff8",
+  "section": "contested",
+  "auction": "1H-3C-X",
+  "meaning": "values, further doubles are for penalties",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (3♣) – Double",
+  "parentId": "93471d3b-45e8-476e-8dc5-bad84792ee92",
+  "order": 1332,
+  "reference": "Scanian Competitive Method — 1Ma-(2NT/3♣) (two specified suits, X=lower+Y=higher)"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "c4a2c1d5-8555-4ee1-844e-3c8f9c06a54e",
+  "section": "contested",
+  "auction": "1D-X-2D",
+  "meaning": "8+, 5+ major (transfer) and 4+ support",
+  "notes": "",
+  "artificial": true,
+  "forcing": "A",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (Double) – 2♦",
+  "parentId": "d0bed053-1766-4688-84fb-23ff846281d0",
+  "order": 830,
+  "reference": "Scanian Competitive Method — 1♦-(Dble)"
+}

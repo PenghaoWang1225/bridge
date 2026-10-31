@@ -1,0 +1,16 @@
+{
+  "id": "228f7636-9075-4926-80ca-51b3e039cfff",
+  "section": "contested",
+  "auction": "1H-2C-2S",
+  "meaning": "10+ with diamonds",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (2♣) – 2♠",
+  "parentId": "da8f8628-f815-43db-8ad6-986562a9d17b",
+  "order": 1312,
+  "reference": "Scanian Competitive Method — 1Ma-(2♣)"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "7cd35707-8c24-4459-8906-d43c2bc73768",
+  "section": "contested",
+  "auction": "1H-X-2D",
+  "meaning": "8+, hearts",
+  "notes": "Needs discussion: the table also lists 2U as a good major raise. If 2U means one step below 2M, it overlaps with this 2♦ meaning.",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "needsDiscussion": true,
+  "opening": "1H",
+  "fullAuction": "1♥ – (Double) – 2♦",
+  "parentId": "558f7087-e995-49cc-8e91-533fff73b1b0",
+  "order": 1287,
+  "reference": "Scanian Competitive Method — 1Ma-(Dble)"
+}

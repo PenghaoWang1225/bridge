@@ -1,0 +1,16 @@
+{
+  "id": "f8467eef-9fca-4eeb-81f6-580f6cf0fbd0",
+  "section": "contested",
+  "auction": "1H-X-2S",
+  "meaning": "6-9, 6 spades",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (Double) – 2♠",
+  "parentId": "558f7087-e995-49cc-8e91-533fff73b1b0",
+  "order": 1289,
+  "reference": "Scanian Competitive Method — 1Ma-(Dble)"
+}

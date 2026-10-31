@@ -1,0 +1,16 @@
+{
+  "id": "6b058fdc-52f5-4a4a-8919-2d010d9731b9",
+  "section": "contested",
+  "auction": "1D-1H-2NT",
+  "meaning": "10+, INV+ with 5-5 in unbid suits",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (1♥) – 2NT",
+  "parentId": "d219e6b3-6b9e-47ef-87c6-a4ab70d175c3",
+  "order": 844,
+  "reference": "Scanian Competitive Method — 1♦-(1♥)"
+}

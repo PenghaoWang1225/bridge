@@ -1,0 +1,17 @@
+{
+  "id": "7b84b7d1-f324-49bc-8e93-18daaa0e51b6",
+  "section": "contested",
+  "auction": "1H-X-1S",
+  "meaning": "Not agreed.",
+  "notes": "The document questions the original 1♠ method and gives no replacement.",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "needsDiscussion": true,
+  "opening": "1H",
+  "fullAuction": "1♥ – (Double) – 1♠",
+  "parentId": "558f7087-e995-49cc-8e91-533fff73b1b0",
+  "order": 1284,
+  "reference": "Scanian Competitive Method — 1Ma-(Dble)"
+}

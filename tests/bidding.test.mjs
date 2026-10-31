@@ -135,7 +135,7 @@ test("CMS may omit blank fields without removing an entry or its original descri
   for (const e of copy) {
     if (e.data.meaning === "") delete e.data.meaning;
     if (e.data.notes === "") delete e.data.notes;
-    if (e.data.source.originalMeaning === "")
+    if (e.data.source?.originalMeaning === "")
       delete e.data.source.originalMeaning;
   }
   const actual = compile(copy, baseline),
@@ -227,4 +227,39 @@ test("General rules can be empty; navigation keeps valid section paths", () => {
   validateSite(site);
   site.sections[0].key = "../escape";
   assert.throws(() => validateSite(site));
+});
+
+
+test("Discussion flags and document references survive a CMS save", () => {
+  const entry = make("1NT");
+  entry.data.needsDiscussion = true;
+  entry.data.reference = "Source document — example";
+  const saved = sourceEntry(compile([entry])[0]);
+  const shown = publicEntry(compile([{ file: entry.file, data: saved }])[0]);
+  assert.equal(shown.needsDiscussion, true);
+  assert.equal(shown.reference, entry.data.reference);
+  entry.data.needsDiscussion = "yes";
+  assert.throws(() => compile([entry]), /Needs discussion/);
+  const fields = cmsConfig().content[0].fields;
+  assert.equal(fields.find(f => f.name === "needsDiscussion").type, "boolean");
+  assert.equal(fields.find(f => f.name === "reference").readonly, true);
+});
+
+test("Section rules accept only supported sections and preserve global rules", () => {
+  const global = { id: "global", text: "Global rule." };
+  const competitive = { id: "competitive", text: "Section rule.", section: "contested" };
+  assert.deepEqual(validateNotebook({ rules: [global, competitive] }).rules, [global, competitive]);
+  assert.throws(() => validateNotebook({ rules: [{ ...competitive, section: "unknown" }] }));
+  assert.equal(filename({ section: "contested", auction: "1H-X" }), "contested/03-1h/contested--1h-x.json");
+});
+
+test("The competitive import accounts for every document table row", () => {
+  const document = read("archive/competitive-method-2026-10-31/document.json");
+  const report = read("archive/competitive-method-2026-10-31/import-report.json");
+  const expected = document.sections.flatMap((s, i) => s.rows.map((_, j) => `${i}:${j}`));
+  assert.equal(new Set(report.coverage.map(c => c.sourceRow)).size, expected.length);
+  for (const key of expected) {
+    const row = report.coverage.find(c => c.sourceRow === key);
+    assert(row?.targets.length, `Missing source row ${key}`);
+  }
 });

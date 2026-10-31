@@ -1,0 +1,16 @@
+{
+  "id": "c8afbf5a-0ada-4a90-8937-eeb372489cfc",
+  "section": "contested",
+  "auction": "1C-X-XX",
+  "meaning": "About 10+, usually no major",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1C",
+  "fullAuction": "1♣ – (Double) – Redouble",
+  "parentId": "e26f3d94-3ac6-4400-84de-cffcac7be25e",
+  "order": 523,
+  "reference": "Scanian Competitive Method — 1♣-(Dble)"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "5b375c6c-8e74-4bc8-835c-e770b90018db",
+  "section": "contested",
+  "auction": "1D-2D-X",
+  "meaning": "10+, after 2-suited bids, further doubles are for penalties",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (2♦) – Double",
+  "parentId": "5098e1c7-8675-4cce-8df4-6026b08904ee",
+  "order": 884,
+  "reference": "Scanian Competitive Method — 1mi-(2mi) (showing both majors)"
+}

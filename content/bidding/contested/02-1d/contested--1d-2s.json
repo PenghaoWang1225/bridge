@@ -1,0 +1,16 @@
+{
+  "id": "fc46c5b2-5e91-40e2-89a9-c3f2da939621",
+  "section": "contested",
+  "auction": "1D-2S",
+  "meaning": "Opponents make a natural jump overcall after our minor opening.",
+  "notes": "2NT up: transfer, 10+ if transfer to a new suit, 8+ if support\n\n3U: transfer to the opponent’s suit, GF shortness\n\n3♦/♥: Transfer to major that can be bid at the two-level shows 10+ and 6Ma\n\nThe source uses 3U for a transfer to the opponent’s suit. Confirm the exact transfer steps before adding these as separate auctions.",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (2♠)",
+  "parentId": "10000000-0000-4000-8000-000000000209",
+  "order": 894,
+  "reference": "Scanian Competitive Method — 1mi-(2X) (natural jump overcall)"
+}

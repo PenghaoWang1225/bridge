@@ -1,0 +1,17 @@
+{
+  "id": "c35a2b99-435d-4756-84d4-4e02b1ad854d",
+  "section": "contested",
+  "auction": "1S-X-XX",
+  "meaning": "Not agreed.",
+  "notes": "The document questions the original redouble method and gives no replacement.",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "needsDiscussion": true,
+  "opening": "1S",
+  "fullAuction": "1♠ – (Double) – Redouble",
+  "parentId": "83f42759-7e41-4c77-8d57-6796b9a9aa04",
+  "order": 1503,
+  "reference": "Scanian Competitive Method — 1Ma-(Dble)"
+}

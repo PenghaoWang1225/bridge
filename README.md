@@ -12,7 +12,7 @@ Sign in with GitHub. Select `bridge` and branch `main`.
 
 If the sidebar still shows **Bidding meanings** or **Partner questions**, it is showing the earlier configuration. Do not overwrite the current `.pages.yml` with that older version. Adding a blank line has not fixed this in the live CMS. Check the CMS save error and GitHub App access before changing the configuration.
 
-1. Open **Bidding system**, then choose an opening-bid folder. For example, `05-1nt` contains our 1NT openings. For **Contested: Opponent opening**, open `defense`, then choose the opponent opening folder.
+1. Open **Bidding system**, then choose an opening-bid folder. For example, `05-1nt` contains our 1NT openings. For **Contested: Our opening**, open `contested` first. For **Contested: Opponent opening**, open `defense`, then choose the opponent opening folder.
 2. Search within that folder by auction or meaning.
 3. Open a result. Edit **Meaning**, **Notes**, or the agreement fields.
 4. Click **Save**. This saves the JSON to GitHub.
@@ -42,7 +42,7 @@ The filename comes from the section key and auction, for example:
 
 ```text
 content/bidding/05-1nt/uncontested--1nt-2c-2s-3c.json
-content/bidding/03-1h/contested--1h-p-1s-2c.json
+content/bidding/contested/03-1h/contested--1h-p-1s-2c.json
 content/bidding/defense/05-1nt/defense--1nt-x.json
 ```
 
@@ -109,3 +109,13 @@ node scripts/import-draft.mjs /path/to/bridge-old-browser-draft.json
 After reviewing the preview, add `--apply`. The tool makes a backup before writing. It imports only changed meanings and general rules. Conflicts stop the import. Old questions stay in the downloaded backup and are not added to the site.
 
 The standalone HTML and BSS files in the original Scanian System folder are unchanged.
+
+## Competitive method source
+
+The 2026-10-31 import uses the Google document **Scanian Competitive Method**. It covers **Contested: Our opening**. The opponent-opening section and earlier auctions remain available.
+
+`content/bidding/contested/` contains the editable competitive auctions. Rules that apply to a group of auctions are in `content/notebook.json` with section `contested`. They appear under **Section agreements** in the reader. Use **General rules** in Pages CMS to edit them.
+
+The **Needs discussion** field marks unresolved questions and overlapping meanings. General transfer rules keep the document notation where it does not specify an exact call. No missing agreement is inferred.
+
+The document snapshot and row coverage report are in `archive/competitive-method-2026-10-31/`. These are reference copies. Normal builds do not read their bidding meanings. Edit the active JSON through Pages CMS. Do not run the one-time import again.

@@ -1,0 +1,16 @@
+{
+  "id": "3aec6364-b19c-4b22-83c0-6975b039050c",
+  "section": "contested",
+  "auction": "1D-2C-X-3C",
+  "meaning": "Advancer raises clubs after our double.",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (2♣) – Double – (3♣)",
+  "parentId": "875d9f6d-b3af-4de0-80a4-59df893b62ce",
+  "order": 872,
+  "reference": "Scanian Competitive Method — 1♦-(2♣)-Dble-(3♣)"
+}

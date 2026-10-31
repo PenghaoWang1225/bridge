@@ -1,0 +1,16 @@
+{
+  "id": "b7393ab6-1cfc-45ca-8dea-70a54c1bedbb",
+  "section": "contested",
+  "auction": "1H-3C-4C-P-4D",
+  "meaning": "Asks for extra values after the good raise to game.",
+  "notes": "Applies to the 4♣ raise when only one opponent suit is known.",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (3♣) – 4♣ – (Pass) – 4♦",
+  "parentId": "496a6495-1d14-4606-8ba5-78bc01927877",
+  "order": 1335,
+  "reference": "Scanian Competitive Method — When only one suit is known (also over 3X preemptive bid)"
+}

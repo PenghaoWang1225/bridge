@@ -1,0 +1,16 @@
+{
+  "id": "5931083b-c046-43db-8a57-b4a2912d680c",
+  "section": "contested",
+  "auction": "1S-1NT-2H",
+  "meaning": "Competitive; five hearts and two spades.",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1S",
+  "fullAuction": "1♠ – (1NT) – 2♥",
+  "parentId": "560328af-2e88-43a7-80f5-a0e240300146",
+  "order": 1512,
+  "reference": "Scanian Competitive Method — 1Ma-(1NT)"
+}

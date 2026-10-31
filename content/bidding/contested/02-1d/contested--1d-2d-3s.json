@@ -1,0 +1,16 @@
+{
+  "id": "7f00b91e-c84d-46e5-8086-d0d4fd92c3a5",
+  "section": "contested",
+  "auction": "1D-2D-3S",
+  "meaning": "Splinter",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (2♦) – 3♠",
+  "parentId": "5098e1c7-8675-4cce-8df4-6026b08904ee",
+  "order": 889,
+  "reference": "Scanian Competitive Method — 1mi-(2mi) (showing both majors)"
+}

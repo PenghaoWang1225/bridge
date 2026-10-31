@@ -1,0 +1,16 @@
+{
+  "id": "4b78e535-b3af-4cdf-8260-5262d19c753b",
+  "section": "contested",
+  "auction": "1C-1S",
+  "meaning": "Opponents overcall 1♠ after our minor opening.",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1C",
+  "fullAuction": "1♣ – (1♠)",
+  "parentId": "10000000-0000-4000-8000-000000000000",
+  "order": 565,
+  "reference": "Scanian Competitive Method — 1mi-(1♠)"
+}

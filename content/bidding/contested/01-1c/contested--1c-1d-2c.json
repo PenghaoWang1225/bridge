@@ -1,0 +1,16 @@
+{
+  "id": "098b6ea1-6eb3-4e34-8c53-6328b77b664d",
+  "section": "contested",
+  "auction": "1C-1D-2C",
+  "meaning": "5-9, natural raise with 4+ clubs",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1C",
+  "fullAuction": "1♣ – (1♦) – 2♣",
+  "parentId": "77e6fdde-0150-4921-8b8f-01e14dbf1ee7",
+  "order": 542,
+  "reference": "Scanian Competitive Method — 1♣-(1♦)"
+}

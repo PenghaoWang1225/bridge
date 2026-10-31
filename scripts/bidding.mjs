@@ -131,7 +131,7 @@ export function filename(node) {
   const opening = node.auction.split("-")[0];
   const openingFolder = `${String(rank(opening) - 2).padStart(2, "0")}-${opening.toLowerCase()}`;
   const folder =
-    node.section === "defense" ? `defense/${openingFolder}` : openingFolder;
+    node.section === "uncontested" ? openingFolder : `${node.section}/${openingFolder}`;
   return `${folder}/${node.section}--${node.auction.toLowerCase()}.json`;
 }
 export function readEntries(root) {
@@ -182,6 +182,8 @@ export function compile(entries, baseline = []) {
         "fullAuction",
         "source",
         "meaningUpdatedAt",
+        "needsDiscussion",
+        "reference",
       ];
       if (Object.keys(n).some((k) => !allowed.includes(k)))
         throw Error(
@@ -226,6 +228,10 @@ export function compile(entries, baseline = []) {
         (n.maxLength < 8 && n.minLength > n.maxLength)
       )
         throw Error("The suit length is invalid.");
+      if (n.reference !== undefined && typeof n.reference !== "string")
+        throw Error("Reference must be plain text.");
+      if (n.needsDiscussion !== undefined && typeof n.needsDiscussion !== "boolean")
+        throw Error("Needs discussion must be true or false.");
       n.they = n.section === "defense";
       const contested = n.calls.some((c, i) => i % 2 === 1 && c !== "P");
       if (n.section === "contested" && !contested)
@@ -313,6 +319,8 @@ export function publicEntry(n) {
     calls: n.calls,
     they: n.they,
     meaning: n.meaning,
+    needsDiscussion: n.needsDiscussion === true,
+    reference: n.reference ?? "",
     notes: n.notes,
     artificial: n.artificial,
     forcing: n.forcing,

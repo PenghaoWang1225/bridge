@@ -1,0 +1,16 @@
+{
+  "id": "d7ede17f-388c-4743-8ae5-05a398f0e11d",
+  "section": "contested",
+  "auction": "1C-1D-1NT",
+  "meaning": "8-11(+) with at least 4-4 in the majors→2♦ ask: 2♥ could be 4-card, 2♠ shows 5-card; higher =  4-4 in majors, GF",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1C",
+  "fullAuction": "1♣ – (1♦) – 1NT",
+  "parentId": "77e6fdde-0150-4921-8b8f-01e14dbf1ee7",
+  "order": 538,
+  "reference": "Scanian Competitive Method — 1♣-(1♦)"
+}

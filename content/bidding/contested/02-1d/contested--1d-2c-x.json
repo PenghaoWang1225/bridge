@@ -1,0 +1,17 @@
+{
+  "id": "875d9f6d-b3af-4de0-80a4-59df893b62ce",
+  "section": "contested",
+  "auction": "1D-2C-X",
+  "meaning": "Either 5–10 with diamond support; a negative double with 4–4 in the majors; or a game-forcing hand.",
+  "notes": "Needs discussion: what should responder do with 8+ and only one major but no diamond support? The document gives 3–4–3–3 as an example and asks whether to pass, hoping opener reopens with a double.\nIf advancer passes: 2♦ is minimum; 3♦ shows 13–15 and long diamonds; other rebids show about 16+. The document asks whether 3M is a splinter.",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "needsDiscussion": true,
+  "opening": "1D",
+  "fullAuction": "1♦ – (2♣) – Double",
+  "parentId": "35e44b06-d4ba-49aa-8c52-8b77e1e8251b",
+  "order": 866,
+  "reference": "Scanian Competitive Method — 1♦-(2♣)"
+}

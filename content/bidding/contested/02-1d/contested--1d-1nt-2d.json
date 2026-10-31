@@ -1,0 +1,17 @@
+{
+  "id": "55fd26da-a99e-4514-800e-91f22bc379ac",
+  "section": "contested",
+  "auction": "1D-1NT-2D",
+  "meaning": "Transfer; 5+ hearts.",
+  "notes": "Needs discussion: the document asks whether this should require a six-card suit.",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "needsDiscussion": true,
+  "opening": "1D",
+  "fullAuction": "1♦ – (1NT) – 2♦",
+  "parentId": "e09c448f-967e-4ecf-8d0f-e1b955de4a3d",
+  "order": 860,
+  "reference": "Scanian Competitive Method — 1mi-(1NT) (natural, strong notrump)"
+}

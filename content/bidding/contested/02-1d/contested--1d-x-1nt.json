@@ -1,0 +1,16 @@
+{
+  "id": "0d4cd6da-d8df-4002-8e0d-5a2890fb5c61",
+  "section": "contested",
+  "auction": "1D-X-1NT",
+  "meaning": "8+ with 5+ clubs",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (Double) – 1NT",
+  "parentId": "d0bed053-1766-4688-84fb-23ff846281d0",
+  "order": 828,
+  "reference": "Scanian Competitive Method — 1♦-(Dble)"
+}

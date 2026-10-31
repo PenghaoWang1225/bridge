@@ -1,0 +1,16 @@
+{
+  "id": "af0b1939-7fde-4ff7-8a05-c1f47e679850",
+  "section": "contested",
+  "auction": "1S-2S-4C",
+  "meaning": "Good raise to game with heart control.",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1S",
+  "fullAuction": "1♠ – (2♠) – 4♣",
+  "parentId": "0ce90596-d34d-4888-82e6-6970c1e0a476",
+  "order": 1532,
+  "reference": "Scanian Competitive Method — 1♠-(2♠) (Michael’s cue-bid, two suiter with hearts and an unspecified minor)"
+}

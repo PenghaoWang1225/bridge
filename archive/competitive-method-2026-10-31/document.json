@@ -1,0 +1,720 @@
+{
+  "title": "Scanian Competitive Method",
+  "intro": "We have put a lot of work into responder’s bid in these frequent competitive situations. We use a lot of transfers, switched bids, and fit-showing bids. After Dble/RD at the one-level, our third double (incl. RD) is for penalties. ",
+  "sections": [
+    {
+      "heading": "1♣-(Dble)",
+      "rows": [
+        {
+          "call": "RD",
+          "meaning": "About 10+, usually no major"
+        },
+        {
+          "call": "1♦",
+          "meaning": "5+ with 4+ hearts"
+        },
+        {
+          "call": "1♥",
+          "meaning": "5+ with 4+ spades"
+        },
+        {
+          "call": "1♠",
+          "meaning": "5+, transfer to 1NT, no major"
+        },
+        {
+          "call": "1NT",
+          "meaning": "8+ with 5+ diamonds"
+        },
+        {
+          "call": "2♣",
+          "meaning": "5-9, natural raise with 4+ clubs"
+        },
+        {
+          "call": "2♦/♥",
+          "meaning": "8+, 5+ major (transfer) and 4+ support"
+        },
+        {
+          "call": "2♠",
+          "meaning": "10+, INV+ (10+) with support"
+        },
+        {
+          "call": "2NT",
+          "meaning": "8+ with both minors"
+        },
+        {
+          "call": "3♣",
+          "meaning": "5-9, natural, preemptive raise, 5+ clubs"
+        }
+      ]
+    },
+    {
+      "heading": "1♦-(Dble)",
+      "rows": [
+        {
+          "call": "RD",
+          "meaning": "5+ with 4+ hearts"
+        },
+        {
+          "call": "1♥",
+          "meaning": "5+ with 4+ spades"
+        },
+        {
+          "call": "1♠",
+          "meaning": "5+, transfer to 1NT, no major"
+        },
+        {
+          "call": "1NT",
+          "meaning": "8+ with 5+ clubs"
+        },
+        {
+          "call": "2♣",
+          "meaning": "5+, transfer diamonds raise"
+        },
+        {
+          "call": "2♦/♥",
+          "meaning": "8+, 5+ major (transfer) and 4+ support"
+        },
+        {
+          "call": "2♠",
+          "meaning": "10+, INV+ (10+) with support"
+        },
+        {
+          "call": "2NT",
+          "meaning": "8+ with both minors"
+        },
+        {
+          "call": "3♣",
+          "meaning": "preemptive with clubs"
+        },
+        {
+          "call": "3♦",
+          "meaning": "5-9, natural, preemptive raise, 4+ diamonds"
+        }
+      ]
+    },
+    {
+      "heading": "1♣-(1♦)",
+      "rows": [
+        {
+          "call": "Dbl",
+          "meaning": "5+ with 4+ hearts"
+        },
+        {
+          "call": "1♥",
+          "meaning": "5+ with 4+ spades"
+        },
+        {
+          "call": "1♠",
+          "meaning": "5+, transfer to 1NT, no major"
+        },
+        {
+          "call": "1NT",
+          "meaning": "8-11(+) with at least 4-4 in the majors→2♦ ask: 2♥ could be 4-card, 2♠ shows 5-card; higher =  4-4 in majors, GF"
+        },
+        {
+          "call": "2♣",
+          "meaning": "5-9, natural raise with 4+ clubs"
+        },
+        {
+          "call": "2♦/♥",
+          "meaning": "8+ transfer with 6-card major"
+        },
+        {
+          "call": "2♠",
+          "meaning": "10+, INV+ (10+) with support"
+        },
+        {
+          "call": "2NT",
+          "meaning": "10+, INV+ with 5-5 in majors"
+        },
+        {
+          "call": "3♣",
+          "meaning": "5-9, natural, preemptive raise, 5+ clubs"
+        },
+        {
+          "call": "3♦",
+          "meaning": "10+, INV+ with one 5+Ma and 5+ clubs→3/4Ma = p/c; 4♣ = NF"
+        }
+      ]
+    },
+    {
+      "heading": "1♣-(1♥)",
+      "rows": [
+        {
+          "call": "Dbl",
+          "meaning": "5+ with 4-5(+) spades"
+        },
+        {
+          "call": "1♠",
+          "meaning": "5+, transfer to 1NT, not 4 spades"
+        },
+        {
+          "call": "1NT",
+          "meaning": "6+ with at least 4-4 in spades and clubs"
+        },
+        {
+          "call": "2♣",
+          "meaning": "5-9, natural raise with 4+ clubs"
+        },
+        {
+          "call": "2♦",
+          "meaning": "10+, F1, natural"
+        },
+        {
+          "call": "2♥",
+          "meaning": "8+ with 6 spades"
+        },
+        {
+          "call": "2♠",
+          "meaning": "10+, INV+ (10+) with support"
+        },
+        {
+          "call": "2NT",
+          "meaning": "10+, INV+ with 5-5 in unbid suits"
+        },
+        {
+          "call": "3♣",
+          "meaning": "5-9, natural, preemptive raise, 5+ clubs"
+        },
+        {
+          "call": "3♦",
+          "meaning": "10+, INV+ 5+ spades and 5+ clubs"
+        }
+      ]
+    },
+    {
+      "heading": "1♦-(1♥)",
+      "rows": [
+        {
+          "call": "Dbl",
+          "meaning": "5+ with 4-5(+) spades"
+        },
+        {
+          "call": "1♠",
+          "meaning": "5+, transfer to 1NT, not 4 spades"
+        },
+        {
+          "call": "1NT",
+          "meaning": "6+ with at least 4-4 in spades and diamonds"
+        },
+        {
+          "call": "2♣",
+          "meaning": "10+, F1, natural"
+        },
+        {
+          "call": "2♦",
+          "meaning": "5-9, natural raise with 3+ diamonds"
+        },
+        {
+          "call": "2♥",
+          "meaning": "8+ with 6 spades"
+        },
+        {
+          "call": "2♠",
+          "meaning": "10+, INV+ (10+) with support"
+        },
+        {
+          "call": "2NT",
+          "meaning": "10+, INV+ with 5-5 in unbid suits"
+        },
+        {
+          "call": "3♣",
+          "meaning": "10+, INV+ 5+ spades and 5+ diamonds"
+        },
+        {
+          "call": "3♦",
+          "meaning": "5-9, natural, preemptive raise, 4+ diamonds"
+        }
+      ]
+    },
+    {
+      "heading": "1mi-(1♠)",
+      "rows": [
+        {
+          "call": "Dbl",
+          "meaning": "5+, negative double"
+        },
+        {
+          "call": "1NT",
+          "meaning": "6-10, natural"
+        },
+        {
+          "call": "2Omi",
+          "meaning": "8+, switch, 5+ hearts"
+        },
+        {
+          "call": "2/3mi",
+          "meaning": "5-9, natural raise/preemptive raise"
+        },
+        {
+          "call": "2♥",
+          "meaning": "10+, switch, unbid minor, F to 3 of that suit"
+        },
+        {
+          "call": "2♠",
+          "meaning": "10+, INV+ (10+) with support"
+        },
+        {
+          "call": "2NT",
+          "meaning": "10+, INV+ with 5-5 in unbid suits"
+        },
+        {
+          "call": "3♣(after 1♦)",
+          "meaning": "10+, INV+ 5+ hearts and 5+ diamonds"
+        },
+        {
+          "call": "3♦(after 1♣)",
+          "meaning": "10+, INV+ 5+ hearts and 5+ clubs (I added this, not in the book)"
+        }
+      ]
+    },
+    {
+      "heading": "1mi-(1NT) (natural, strong notrump)",
+      "rows": [
+        {
+          "call": "Dble",
+          "meaning": "10+, values"
+        },
+        {
+          "call": "2♣",
+          "meaning": "both majors"
+        },
+        {
+          "call": "2♦",
+          "meaning": "transfer, 5+ hearts (I think 6-card is safer, your opinion?)"
+        },
+        {
+          "call": "2♥",
+          "meaning": "transfer, 5+ spades (I think 6-card is safer, your opinion?)"
+        },
+        {
+          "call": "2♠",
+          "meaning": "good hand with unbid minor"
+        },
+        {
+          "call": "2NT",
+          "meaning": "good raise on minor"
+        },
+        {
+          "call": "3mi",
+          "meaning": "preemptive"
+        }
+      ]
+    },
+    {
+      "heading": "1♦-(2♣)",
+      "rows": [
+        {
+          "call": "Dble",
+          "meaning": "a) 5-10 with diamond support; b) negative double, 4-4 in majors; c) game-forcing. (need discussion here, if 8+ with only one major but no diamond support, can only pass, hoping partner X to reopen? For example: 3-4-3-3)\nopener’s rebids if advancer pass: 2♦=minimum; 3♦=13-15, long diamonds; other=shows about 16+ (3Ma = splinter?)"
+        },
+        {
+          "call": "2♦/♥",
+          "meaning": "8+, transfer with 5+ major"
+        },
+        {
+          "call": "2♠",
+          "meaning": "INV+, 4+ diamonds"
+        },
+        {
+          "call": "2NT",
+          "meaning": "INV, NF"
+        },
+        {
+          "call": "3♣",
+          "meaning": "8+, a least 5-5 in majors"
+        },
+        {
+          "call": "3♦",
+          "meaning": "5-9, preemptive"
+        }
+      ]
+    },
+    {
+      "heading": "1♦-(2♣)-Dble-(3♣)",
+      "rows": [
+        {
+          "call": "Dble",
+          "meaning": "takeout, depending on strength and distribution→3♦=NF with support; 3♥=4-4 in majors, NF; 3♠=4-4 in majors, 11+ GF"
+        }
+      ]
+    },
+    {
+      "heading": "1♦-(2♣)-Dble; 2♦ (11-15)",
+      "rows": [
+        {
+          "call": "2♥",
+          "meaning": "5-9 with at least 4-4 in majors"
+        },
+        {
+          "call": "2♠",
+          "meaning": "10+, F1 with 4-4 in majors"
+        },
+        {
+          "call": "2NT",
+          "meaning": "and higher bids GF"
+        }
+      ]
+    },
+    {
+      "heading": "1mi-(2mi) (showing both majors)",
+      "rows": [
+        {
+          "call": "Dble",
+          "meaning": "10+, after 2-suited bids, further doubles are for penalties"
+        },
+        {
+          "call": "2♥",
+          "meaning": "INV+ in clubs"
+        },
+        {
+          "call": "2♠",
+          "meaning": "INV+ in diamonds"
+        },
+        {
+          "call": "2NT",
+          "meaning": "INV, natural but F1"
+        },
+        {
+          "call": "3Ma",
+          "meaning": "Splinter"
+        }
+      ]
+    },
+    {
+      "heading": "1mi-(2X) (natural jump overcall)",
+      "rows": [
+        {
+          "call": "Dble",
+          "meaning": "8+, values, usually more"
+        },
+        {
+          "call": "2Ma",
+          "meaning": "10+, F1, natural"
+        },
+        {
+          "call": "2NT up",
+          "meaning": "transfer, 10+ if transfer to a new suit, 8+ if support"
+        },
+        {
+          "call": "3U",
+          "meaning": "transfer to the opponent’s suit, GF shortness"
+        },
+        {
+          "call": "3♠",
+          "meaning": "GF with support"
+        },
+        {
+          "call": "3♦/♥",
+          "meaning": "Transfer to major that can be bid at the two-level shows 10+ and 6Ma"
+        }
+      ]
+    },
+    {
+      "heading": "1Ma-(Dble)",
+      "rows": [
+        {
+          "call": "RD",
+          "meaning": "? (I don’t like his way)"
+        },
+        {
+          "call": "1♠",
+          "meaning": "? ( I don’t like his way)"
+        },
+        {
+          "call": "1NT",
+          "meaning": "8+, clubs (could be lead-directing with major fit)"
+        },
+        {
+          "call": "2♣",
+          "meaning": "8+, diamonds (could be lead-directing with major fit)"
+        },
+        {
+          "call": "2♦",
+          "meaning": "8+, hearts"
+        },
+        {
+          "call": "2U",
+          "meaning": "good raise of major"
+        },
+        {
+          "call": "2Ma",
+          "meaning": "normal raise"
+        },
+        {
+          "call": "2♠",
+          "meaning": "6-9, 6 spades"
+        },
+        {
+          "call": "2NT",
+          "meaning": "INV+ with support"
+        },
+        {
+          "call": "3X",
+          "meaning": "preemptive (or invitational is better?)"
+        }
+      ]
+    },
+    {
+      "heading": "1♥-(1♠)",
+      "rows": [
+        {
+          "call": "Dble",
+          "meaning": "takeout"
+        },
+        {
+          "call": "1NT",
+          "meaning": "6-10, natural"
+        },
+        {
+          "call": "2♣",
+          "meaning": "10+, F1"
+        },
+        {
+          "call": "2♦",
+          "meaning": "10+, F1"
+        },
+        {
+          "call": "2♥",
+          "meaning": "normal raise"
+        },
+        {
+          "call": "2♠",
+          "meaning": "precisely invitational with support"
+        },
+        {
+          "call": "2NT",
+          "meaning": "almost GF with support"
+        },
+        {
+          "call": "3mi",
+          "meaning": "INV, long"
+        },
+        {
+          "call": "3♥",
+          "meaning": "preemptive raise (his book suggests good raise)"
+        }
+      ]
+    },
+    {
+      "heading": "1Ma-(1NT)",
+      "rows": [
+        {
+          "call": "2♣",
+          "meaning": "8-10, a good raise in major, promise top honor"
+        },
+        {
+          "call": "2♦",
+          "meaning": "8+, transfer to hearts"
+        },
+        {
+          "call": "2U",
+          "meaning": "competitive, 5-2/2-5 in majors (1♥-(1NT)-2♦=5♠2♥; 1♠-(1NT)-2♥=5♥2♠)"
+        },
+        {
+          "call": "2Ma",
+          "meaning": "normal raise"
+        },
+        {
+          "call": "2NT",
+          "meaning": "INV+ with support"
+        },
+        {
+          "call": "3mi",
+          "meaning": "preemptive"
+        }
+      ]
+    },
+    {
+      "heading": "1Ma-(2♣)",
+      "rows": [
+        {
+          "call": "2♦",
+          "meaning": "8+ with 5+ in unbid major"
+        },
+        {
+          "call": "2OMa",
+          "meaning": "10+ with diamonds"
+        },
+        {
+          "call": "2Ma",
+          "meaning": "normal raise"
+        },
+        {
+          "call": "2NT",
+          "meaning": "almost GF with support"
+        },
+        {
+          "call": "3♣",
+          "meaning": "precisely invitational with support"
+        }
+      ]
+    },
+    {
+      "heading": "1Ma-(2♦/♥)",
+      "rows": [
+        {
+          "call": "2NT",
+          "meaning": "almost GF with support"
+        },
+        {
+          "call": "Cuebid",
+          "meaning": "precisely invitational with support"
+        }
+      ]
+    },
+    {
+      "heading": "1♥-(2♠)",
+      "rows": [
+        {
+          "call": "2NT",
+          "meaning": "INV with support"
+        },
+        {
+          "call": "3♠",
+          "meaning": "GF with support, establish FP"
+        }
+      ]
+    },
+    {
+      "heading": "When the opponent shows two specified suits",
+      "rows": [
+        {
+          "call": "4♣",
+          "meaning": "slam try, shortness in the lowest of their suits"
+        },
+        {
+          "call": "4♦",
+          "meaning": "slam try, shortness in the highest of their suits"
+        }
+      ]
+    },
+    {
+      "heading": "When only one suit is known (also over 3X preemptive bid)",
+      "rows": [
+        {
+          "call": "4♣",
+          "meaning": "good raise to game with control in the opponents’ suit→4♦=asking extra"
+        },
+        {
+          "call": "4♦",
+          "meaning": "slam try without control"
+        },
+        {
+          "call": "4Ma",
+          "meaning": "natural raise, but if an opening hand, without control"
+        }
+      ]
+    },
+    {
+      "heading": "They double our cue-bid, our bids directly after the double:",
+      "rows": [
+        {
+          "call": "Pass",
+          "meaning": "often no control, partner RD with Ace, cue-bid with KQ or shortness"
+        },
+        {
+          "call": "RD",
+          "meaning": "shows the queen or better"
+        },
+        {
+          "call": "Cue-bid",
+          "meaning": "I can handle the situation"
+        }
+      ]
+    },
+    {
+      "heading": "1Ma-(2NT/3♣) (two specified suits, X=lower+Y=higher)",
+      "rows": [
+        {
+          "call": "Dble",
+          "meaning": "values, further doubles are for penalties"
+        },
+        {
+          "call": "3X",
+          "meaning": "F1, lowest suit shows the lower suit of partner’s Ma and the unbid suit"
+        },
+        {
+          "call": "3Y",
+          "meaning": "F1, highest suit shows the higher suit"
+        },
+        {
+          "call": "4mi",
+          "meaning": "4mi slam try: 4♣=slam try, shortness in the lowest of their suits; 4♦=slam try, shortness in the highest of their suits"
+        }
+      ]
+    },
+    {
+      "heading": "1♥-(2♥) (Michael’s cue-bid, two suiter with spades and an unspecified minor)",
+      "rows": [
+        {
+          "call": "2♠",
+          "meaning": "precisely invitational with support"
+        },
+        {
+          "call": "2NT",
+          "meaning": "almost GF with support"
+        },
+        {
+          "call": "4mi",
+          "meaning": "4mi slam try: 4♣=good raise with spade control; 4♦=slam try without spade control"
+        },
+        {
+          "call": "4♥",
+          "meaning": "if opening strength, no spade control"
+        }
+      ]
+    },
+    {
+      "heading": "1♠-(2♠) (Michael’s cue-bid, two suiter with hearts and an unspecified minor)",
+      "rows": [
+        {
+          "call": "3♥",
+          "meaning": "precisely invitational with support"
+        },
+        {
+          "call": "2NT",
+          "meaning": "almost GF with support"
+        },
+        {
+          "call": "4mi",
+          "meaning": "4mi slam try: 4♣=good raise with heart control; 4♦=slam try without heart control"
+        },
+        {
+          "call": "4♠",
+          "meaning": "if opening strength, no heart control"
+        }
+      ]
+    },
+    {
+      "heading": "1Ma-(3X) (natural preemptive)",
+      "rows": [
+        {
+          "call": "3Ma",
+          "meaning": "natural raise"
+        },
+        {
+          "call": "4♣",
+          "meaning": "good raise to game with control in the opponents’ suit→4♦=asking extra"
+        },
+        {
+          "call": "4♦",
+          "meaning": "slam try without control"
+        },
+        {
+          "call": "4Ma",
+          "meaning": "natural raise, but if an opening hand, without control"
+        }
+      ]
+    },
+    {
+      "heading": "1Ma-(4♣)",
+      "rows": [
+        {
+          "call": "4♦",
+          "meaning": "15+ good raise to 4Ma"
+        }
+      ]
+    }
+  ]
+}

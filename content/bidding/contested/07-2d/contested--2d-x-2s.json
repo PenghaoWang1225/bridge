@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000714",
+  "section": "contested",
+  "auction": "2D-X-2S",
+  "meaning": "NF, natural, with a long suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 5,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1812,
+    "bssLine": 1814,
+    "bssPrefix": "002DD2S=NYYYYYY258",
+    "originalMeaning": "NF, natural, with a long suit"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Double) – 2♠",
+  "parentId": "10000000-0000-4000-8000-0000000006a3",
+  "order": 2093
+}

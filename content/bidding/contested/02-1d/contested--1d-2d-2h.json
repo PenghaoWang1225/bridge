@@ -1,0 +1,16 @@
+{
+  "id": "8aab8fd3-e5e1-4a26-8ae2-e77feafed49a",
+  "section": "contested",
+  "auction": "1D-2D-2H",
+  "meaning": "INV+ in clubs",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (2♦) – 2♥",
+  "parentId": "5098e1c7-8675-4cce-8df4-6026b08904ee",
+  "order": 885,
+  "reference": "Scanian Competitive Method — 1mi-(2mi) (showing both majors)"
+}

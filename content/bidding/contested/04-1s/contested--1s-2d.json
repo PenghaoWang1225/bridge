@@ -1,0 +1,16 @@
+{
+  "id": "6c90b6f0-fbf1-47ed-8126-b2b4c09930c2",
+  "section": "contested",
+  "auction": "1S-2D",
+  "meaning": "Opponents make a natural two-level overcall after our major opening.",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1S",
+  "fullAuction": "1♠ – (2♦)",
+  "parentId": "10000000-0000-4000-8000-000000000468",
+  "order": 1523,
+  "reference": "Scanian Competitive Method — 1Ma-(2♦/♥)"
+}

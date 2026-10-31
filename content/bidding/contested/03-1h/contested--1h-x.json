@@ -1,0 +1,17 @@
+{
+  "id": "558f7087-e995-49cc-8e91-533fff73b1b0",
+  "section": "contested",
+  "auction": "1H-X",
+  "meaning": "Opponents double our major opening.",
+  "notes": "2U: good raise of major\n\n3X: preemptive (or invitational is better?)\n\nNeeds discussion: the source does not define 2U here. It also asks whether 3X should be preemptive or invitational.",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (Double)",
+  "parentId": "10000000-0000-4000-8000-0000000002e7",
+  "order": 1282,
+  "reference": "Scanian Competitive Method — 1Ma-(Dble)",
+  "needsDiscussion": true
+}

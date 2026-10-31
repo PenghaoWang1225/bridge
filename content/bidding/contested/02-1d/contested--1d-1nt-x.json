@@ -1,0 +1,16 @@
+{
+  "id": "430bda6a-e7d8-48a0-8748-3ebf4404dbd1",
+  "section": "contested",
+  "auction": "1D-1NT-X",
+  "meaning": "10+, values",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (1NT) – Double",
+  "parentId": "e09c448f-967e-4ecf-8d0f-e1b955de4a3d",
+  "order": 858,
+  "reference": "Scanian Competitive Method — 1mi-(1NT) (natural, strong notrump)"
+}

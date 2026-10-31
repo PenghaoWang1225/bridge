@@ -1,0 +1,17 @@
+{
+  "id": "ca866a1a-0ab1-405f-87eb-31f04015d4b7",
+  "section": "contested",
+  "auction": "1H-1NT-2D",
+  "meaning": "Needs discussion: the document lists more than one meaning for this bid.",
+  "notes": "The document also lists 2U: competitive, 5-2/2-5 in majors (1♥-(1NT)-2♦=5♠2♥; 1♠-(1NT)-2♥=5♥2♠)\n\nOther meaning in the same document: 8+, transfer to hearts",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "needsDiscussion": true,
+  "opening": "1H",
+  "fullAuction": "1♥ – (1NT) – 2♦",
+  "parentId": "c40e116b-b5d1-40ae-8bec-ec09a4193049",
+  "order": 1304,
+  "reference": "Scanian Competitive Method — 1Ma-(1NT)"
+}

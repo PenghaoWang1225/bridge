@@ -1,0 +1,16 @@
+{
+  "id": "93471d3b-45e8-476e-8dc5-bad84792ee92",
+  "section": "contested",
+  "auction": "1H-3C",
+  "meaning": "Opponents bid 3♣. The agreements depend on whether this is natural or shows two specified suits.",
+  "notes": "3X: F1, lowest suit shows the lower suit of partner’s Ma and the unbid suit\n\n3Y: F1, highest suit shows the higher suit\n\n4mi: 4mi slam try: 4♣=slam try, shortness in the lowest of their suits; 4♦=slam try, shortness in the highest of their suits\n\nHere X and Y name their lower and higher suits. They do not mean double and redouble. The two shown suits must be known before choosing a cue-bid.\n\nNatural preempt: use the natural-preempt meanings below. Two specified suits: use the two-suit meanings and the corresponding four-level minor rules.",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (3♣)",
+  "parentId": "10000000-0000-4000-8000-0000000002e7",
+  "order": 1331,
+  "reference": "Scanian Competitive Method — 1Ma-(2NT/3♣) (two specified suits, X=lower+Y=higher)\nScanian Competitive Method — 1Ma-(3X) (natural preemptive)"
+}

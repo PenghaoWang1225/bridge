@@ -1,0 +1,16 @@
+{
+  "id": "65a61f90-ab22-48ef-83d6-5874001223d2",
+  "section": "contested",
+  "auction": "1C-1S-3D",
+  "meaning": "10+, invitational or better; 5+ hearts and 5+ clubs.",
+  "notes": "Personal addition in the Google document. The document states that this agreement is not in the book.",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1C",
+  "fullAuction": "1♣ – (1♠) – 3♦",
+  "parentId": "4b78e535-b3af-4cdf-8260-5262d19c753b",
+  "order": 574,
+  "reference": "Scanian Competitive Method — 1mi-(1♠)"
+}

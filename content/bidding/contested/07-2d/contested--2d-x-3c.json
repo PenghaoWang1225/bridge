@@ -1,0 +1,21 @@
+{
+  "id": "10000000-0000-4000-8000-000000000715",
+  "section": "contested",
+  "auction": "2D-X-3C",
+  "meaning": "Natural and NF",
+  "notes": "",
+  "artificial": false,
+  "forcing": "2",
+  "minLength": 6,
+  "maxLength": 8,
+  "source": {
+    "legacyId": 1813,
+    "bssLine": 1815,
+    "bssPrefix": "002DD3C=NYYYYYY268",
+    "originalMeaning": "Natural and NF"
+  },
+  "opening": "2D",
+  "fullAuction": "2♦ – (Double) – 3♣",
+  "parentId": "10000000-0000-4000-8000-0000000006a3",
+  "order": 2095
+}

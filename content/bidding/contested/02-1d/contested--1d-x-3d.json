@@ -1,0 +1,16 @@
+{
+  "id": "53af27c4-c759-4bf4-846a-a84eb7f74444",
+  "section": "contested",
+  "auction": "1D-X-3D",
+  "meaning": "5-9, natural, preemptive raise, 4+ diamonds",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (Double) – 3♦",
+  "parentId": "d0bed053-1766-4688-84fb-23ff846281d0",
+  "order": 835,
+  "reference": "Scanian Competitive Method — 1♦-(Dble)"
+}

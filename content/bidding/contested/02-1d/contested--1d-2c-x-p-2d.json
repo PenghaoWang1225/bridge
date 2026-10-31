@@ -1,0 +1,16 @@
+{
+  "id": "c47d1d9b-15e0-4ae3-8c29-77daf4ea768b",
+  "section": "contested",
+  "auction": "1D-2C-X-P-2D",
+  "meaning": "Minimum. The next table gives 11–15.",
+  "notes": "The document also gives 3♦ as 13–15 with long diamonds. Other rebids show about 16+. The 3M splinter question is unresolved.\n\nResponder’s 2NT and all higher bids are game-forcing.",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (2♣) – Double – (Pass) – 2♦",
+  "parentId": "875d9f6d-b3af-4de0-80a4-59df893b62ce",
+  "order": 867,
+  "reference": "Scanian Competitive Method — 1♦-(2♣)"
+}

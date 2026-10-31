@@ -21,6 +21,7 @@ let view = ["uncontested", "contested", "defense", "all"].includes(
 )
   ? query.get("view")
   : "uncontested";
+let rules = [];
 let nodes = [],
   byId = new Map(),
   selectedOpening = null,
@@ -100,6 +101,7 @@ function label(n) {
 function badges(n) {
   const box = el("span", undefined, "badges");
   if (!direct(n)) box.append(el("span", "Context", "badge"));
+  if (n.needsDiscussion) box.append(el("span", "Needs discussion", "badge discussion"));
   if (n.artificial) box.append(el("span", "Artificial", "badge artificial"));
   if (AGREEMENTS[n.forcing])
     box.append(el("span", AGREEMENTS[n.forcing], "badge"));
@@ -114,7 +116,7 @@ function badges(n) {
     );
   if (n.source && n.meaning !== n.source.originalMeaning)
     box.append(el("span", "Edited meaning", "badge edited"));
-  if (!n.source) box.append(el("span", "Added entry", "badge added"));
+  if (!n.source && !n.reference) box.append(el("span", "Added entry", "badge added"));
   return box;
 }
 function meaning(n) {
@@ -133,6 +135,11 @@ function detailsFor(n) {
   const meta = el("div", undefined, "auction-info");
   meta.append(el("p", `Full auction: ${n.fullAuction}`));
   if (editorShortcuts) meta.append(editLink(n));
+  if (n.reference) {
+    const reference = el("details", undefined, "source-note");
+    reference.append(el("summary", "Source document"), el("p", n.reference));
+    meta.append(reference);
+  }
   if (n.source) {
     const source = el("details", undefined, "source-note");
     source.append(
@@ -265,6 +272,9 @@ function renderSearch() {
   status(`Search results: ${matches.length.toLocaleString()}.`);
 }
 function render() {
+  const scopedRules = rules.filter((r) => r.section && r.section !== "all" && (view === "all" || r.section === view));
+  $("sectionRules").hidden = scopedRules.length === 0;
+  $("sectionRuleList").replaceChildren(...scopedRules.map((r) => el("li", r.text)));
   for (const b of document.querySelectorAll("[data-view]"))
     b.setAttribute("aria-pressed", String(b.dataset.view === view));
   $("search").value.trim() ? renderSearch() : renderTree();
@@ -311,6 +321,7 @@ async function start() {
     if (data.version !== 2 || !Array.isArray(data.nodes))
       throw Error("The bidding data has an unsupported format.");
     nodes = data.nodes;
+    rules = data.rules ?? [];
     byId = new Map(nodes.map((n) => [n.id, n]));
     for (const n of nodes)
       n.searchText = normalize(
@@ -319,7 +330,6 @@ async function start() {
           n.fullAuction,
           n.meaning,
           n.notes,
-          n.calls.filter((_, i) => (i % 2 === 0) !== n.they).join("-"),
         ].join(" "),
       );
     const linked = byId.get(location.hash.replace("#bid-", ""));

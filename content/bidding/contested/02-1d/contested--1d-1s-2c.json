@@ -1,0 +1,16 @@
+{
+  "id": "d0abc8b1-e94e-42c9-8f11-caca00ab3d31",
+  "section": "contested",
+  "auction": "1D-1S-2C",
+  "meaning": "8+, switch, 5+ hearts",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (1♠) – 2♣",
+  "parentId": "009d8392-dc2b-40df-81e6-dac77f137519",
+  "order": 850,
+  "reference": "Scanian Competitive Method — 1mi-(1♠)"
+}

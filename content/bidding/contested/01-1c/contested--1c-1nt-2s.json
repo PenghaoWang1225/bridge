@@ -1,0 +1,16 @@
+{
+  "id": "fc809f0d-1819-4664-8050-c8463681d728",
+  "section": "contested",
+  "auction": "1C-1NT-2S",
+  "meaning": "good hand with unbid minor",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1C",
+  "fullAuction": "1♣ – (1NT) – 2♠",
+  "parentId": "c0c4cb29-4ea4-46ac-8488-f22cf66e8431",
+  "order": 580,
+  "reference": "Scanian Competitive Method — 1mi-(1NT) (natural, strong notrump)"
+}

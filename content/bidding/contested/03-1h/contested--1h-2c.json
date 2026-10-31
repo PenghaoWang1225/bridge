@@ -1,0 +1,16 @@
+{
+  "id": "da8f8628-f815-43db-8ad6-986562a9d17b",
+  "section": "contested",
+  "auction": "1H-2C",
+  "meaning": "Competitive agreements after 1Ma-(2♣).",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (2♣)",
+  "parentId": "10000000-0000-4000-8000-0000000002e7",
+  "order": 1309,
+  "reference": "Scanian Competitive Method — 1Ma-(2♣)"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "7d05d364-649c-4234-866a-380988037bf2",
+  "section": "contested",
+  "auction": "1S-4C-4D",
+  "meaning": "15+ good raise to 4Ma",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1S",
+  "fullAuction": "1♠ – (4♣) – 4♦",
+  "parentId": "bcb8acd8-91ff-43ef-8568-3f8f66ef3738",
+  "order": 1559,
+  "reference": "Scanian Competitive Method — 1Ma-(4♣)"
+}

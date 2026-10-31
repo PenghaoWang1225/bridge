@@ -1,0 +1,446 @@
+Scanian Competitive Method
+
+
+WE OPEN, THE OPPONENTS ARE CONTESTING
+
+
+We have put a lot of work into responder’s bid in these frequent competitive situations. We use a lot of transfers, switched bids, and fit-showing bids. After Dble/RD at the one-level, our third double (incl. RD) is for penalties.
+
+
+1♣-(Dble)
+
+
+RD
+	About 10+, usually no major
+	1♦
+	5+ with 4+ hearts
+	1♥
+	5+ with 4+ spades
+	1♠
+	5+, transfer to 1NT, no major
+	1NT
+	8+ with 5+ diamonds
+	2♣
+	5-9, natural raise with 4+ clubs
+	2♦/♥
+	8+, 5+ major (transfer) and 4+ support
+	2♠
+	10+, INV+ (10+) with support
+	2NT
+	8+ with both minors
+	3♣
+	5-9, natural, preemptive raise, 5+ clubs
+
+
+1♦-(Dble)
+
+
+RD
+	5+ with 4+ hearts
+	1♥
+	5+ with 4+ spades
+	1♠
+	5+, transfer to 1NT, no major
+	1NT
+	8+ with 5+ clubs
+	2♣
+	5+, transfer diamonds raise
+	2♦/♥
+	8+, 5+ major (transfer) and 4+ support
+	2♠
+	10+, INV+ (10+) with support
+	2NT
+	8+ with both minors
+	3♣
+	preemptive with clubs
+	3♦
+	5-9, natural, preemptive raise, 4+ diamonds
+
+
+1♣-(1♦)
+
+
+Dbl
+	5+ with 4+ hearts
+	1♥
+	5+ with 4+ spades
+	1♠
+	5+, transfer to 1NT, no major
+	1NT
+	8-11(+) with at least 4-4 in the majors→2♦ ask: 2♥ could be 4-card, 2♠ shows 5-card; higher =  4-4 in majors, GF
+	2♣
+	5-9, natural raise with 4+ clubs
+	2♦/♥
+	8+ transfer with 6-card major
+	2♠
+	10+, INV+ (10+) with support
+	2NT
+	10+, INV+ with 5-5 in majors
+	3♣
+	5-9, natural, preemptive raise, 5+ clubs
+	3♦
+	10+, INV+ with one 5+Ma and 5+ clubs→3/4Ma = p/c; 4♣ = NF
+
+
+1♣-(1♥)
+
+
+Dbl
+	5+ with 4-5(+) spades
+	1♠
+	5+, transfer to 1NT, not 4 spades
+	1NT
+	6+ with at least 4-4 in spades and clubs
+	2♣
+	5-9, natural raise with 4+ clubs
+	2♦
+	10+, F1, natural
+	2♥
+	8+ with 6 spades
+	2♠
+	10+, INV+ (10+) with support
+	2NT
+	10+, INV+ with 5-5 in unbid suits
+	3♣
+	5-9, natural, preemptive raise, 5+ clubs
+	3♦
+	10+, INV+ 5+ spades and 5+ clubs
+
+
+1♦-(1♥)
+
+
+Dbl
+	5+ with 4-5(+) spades
+	1♠
+	5+, transfer to 1NT, not 4 spades
+	1NT
+	6+ with at least 4-4 in spades and diamonds
+	2♣
+	10+, F1, natural
+	2♦
+	5-9, natural raise with 3+ diamonds
+	2♥
+	8+ with 6 spades
+	2♠
+	10+, INV+ (10+) with support
+	2NT
+	10+, INV+ with 5-5 in unbid suits
+	3♣
+	10+, INV+ 5+ spades and 5+ diamonds
+	3♦
+	5-9, natural, preemptive raise, 4+ diamonds
+
+
+1mi-(1♠)
+
+
+Dbl
+	5+, negative double
+	1NT
+	6-10, natural
+	2Omi
+	8+, switch, 5+ hearts
+	2/3mi
+	5-9, natural raise/preemptive raise
+	2♥
+	10+, switch, unbid minor, F to 3 of that suit
+	2♠
+	10+, INV+ (10+) with support
+	2NT
+	10+, INV+ with 5-5 in unbid suits
+	3♣(after 1♦)
+	10+, INV+ 5+ hearts and 5+ diamonds
+	3♦(after 1♣)
+	10+, INV+ 5+ hearts and 5+ clubs (I added this, not in the book)
+
+
+1mi-(1NT) (natural, strong notrump)
+
+
+Dble
+	10+, values
+	2♣
+	both majors
+	2♦
+	transfer, 5+ hearts (I think 6-card is safer, your opinion?)
+	2♥
+	transfer, 5+ spades (I think 6-card is safer, your opinion?)
+	2♠
+	good hand with unbid minor
+	2NT
+	good raise on minor
+	3mi
+	preemptive
+
+
+1♦-(2♣)
+
+
+Dble
+	a) 5-10 with diamond support; b) negative double, 4-4 in majors; c) game-forcing. (need discussion here, if 8+ with only one major but no diamond support, can only pass, hoping partner X to reopen? For example: 3-4-3-3)
+opener’s rebids if advancer pass: 2♦=minimum; 3♦=13-15, long diamonds; other=shows about 16+ (3Ma = splinter?)
+	2♦/♥
+	8+, transfer with 5+ major
+	2♠
+	INV+, 4+ diamonds
+	2NT
+	INV, NF
+	3♣
+	8+, a least 5-5 in majors
+	3♦
+	5-9, preemptive
+
+
+1♦-(2♣)-Dble-(3♣)
+
+
+Dble
+	takeout, depending on strength and distribution→3♦=NF with support; 3♥=4-4 in majors, NF; 3♠=4-4 in majors, 11+ GF
+
+
+1♦-(2♣)-Dble; 2♦ (11-15)
+
+
+2♥
+	5-9 with at least 4-4 in majors
+	2♠
+	10+, F1 with 4-4 in majors
+	2NT
+	and higher bids GF
+
+
+1mi-(2mi) (showing both majors)
+
+
+Dble
+	10+, after 2-suited bids, further doubles are for penalties
+	2♥
+	INV+ in clubs
+	2♠
+	INV+ in diamonds
+	2NT
+	INV, natural but F1
+	3Ma
+	Splinter
+
+
+1mi-(2X) (natural jump overcall)
+
+
+Dble
+	8+, values, usually more
+	2Ma
+	10+, F1, natural
+	2NT up
+	transfer, 10+ if transfer to a new suit, 8+ if support
+	3U
+	transfer to the opponent’s suit, GF shortness
+	3♠
+	GF with support
+	3♦/♥
+	Transfer to major that can be bid at the two-level shows 10+ and 6Ma
+
+
+1Ma-(Dble)
+
+
+RD
+	? (I don’t like his way)
+	1♠
+	? ( I don’t like his way)
+	1NT
+	8+, clubs (could be lead-directing with major fit)
+	2♣
+	8+, diamonds (could be lead-directing with major fit)
+	2♦
+	8+, hearts
+	2U
+	good raise of major
+	2Ma
+	normal raise
+	2♠
+	6-9, 6 spades
+	2NT
+	INV+ with support
+	3X
+	preemptive (or invitational is better?)
+
+
+1♥-(1♠)
+
+
+Dble
+	takeout
+	1NT
+	6-10, natural
+	2♣
+	10+, F1
+	2♦
+	10+, F1
+	2♥
+	normal raise
+	2♠
+	precisely invitational with support
+	2NT
+	almost GF with support
+	3mi
+	INV, long
+	3♥
+	preemptive raise (his book suggests good raise)
+
+
+1Ma-(1NT)
+
+
+2♣
+	8-10, a good raise in major, promise top honor
+	2♦
+	8+, transfer to hearts
+	2U
+	competitive, 5-2/2-5 in majors (1♥-(1NT)-2♦=5♠2♥; 1♠-(1NT)-2♥=5♥2♠)
+	2Ma
+	normal raise
+	2NT
+	INV+ with support
+	3mi
+	preemptive
+
+
+1Ma-(2♣)
+
+
+2♦
+	8+ with 5+ in unbid major
+	2OMa
+	10+ with diamonds
+	2Ma
+	normal raise
+	2NT
+	almost GF with support
+	3♣
+	precisely invitational with support
+
+
+1Ma-(2♦/♥)
+
+
+2NT
+	almost GF with support
+	Cuebid
+	precisely invitational with support
+
+
+
+
+
+
+
+
+1♥-(2♠)
+
+
+2NT
+	INV with support
+	3♠
+	GF with support, establish FP
+
+
+4mi slam try (after two-suited or preemptive overcalls) when we open 1Ma
+
+
+When the opponent shows two specified suits
+
+
+4♣
+	slam try, shortness in the lowest of their suits
+	4♦
+	slam try, shortness in the highest of their suits
+
+
+When only one suit is known (also over 3X preemptive bid)
+
+
+4♣
+	good raise to game with control in the opponents’ suit→4♦=asking extra
+	4♦
+	slam try without control
+	4Ma
+	natural raise, but if an opening hand, without control
+
+
+They double our cue-bid, our bids directly after the double:
+
+
+Pass
+	often no control, partner RD with Ace, cue-bid with KQ or shortness
+	RD
+	shows the queen or better
+	Cue-bid
+	I can handle the situation
+
+
+After 1Ma-higher contesting bid
+
+
+1Ma-(2NT/3♣) (two specified suits, X=lower+Y=higher)
+
+
+Dble
+	values, further doubles are for penalties
+	3X
+	F1, lowest suit shows the lower suit of partner’s Ma and the unbid suit
+	3Y
+	F1, highest suit shows the higher suit
+	4mi
+	4mi slam try: 4♣=slam try, shortness in the lowest of their suits; 4♦=slam try, shortness in the highest of their suits
+
+
+
+
+
+
+1♥-(2♥) (Michael’s cue-bid, two suiter with spades and an unspecified minor)
+
+
+2♠
+	precisely invitational with support
+	2NT
+	almost GF with support
+	4mi
+	4mi slam try: 4♣=good raise with spade control; 4♦=slam try without spade control
+	4♥
+	if opening strength, no spade control
+
+
+1♠-(2♠) (Michael’s cue-bid, two suiter with hearts and an unspecified minor)
+
+
+3♥
+	precisely invitational with support
+	2NT
+	almost GF with support
+	4mi
+	4mi slam try: 4♣=good raise with heart control; 4♦=slam try without heart control
+	4♠
+	if opening strength, no heart control
+
+
+1Ma-(3X) (natural preemptive)
+
+
+3Ma
+	natural raise
+	4♣
+	good raise to game with control in the opponents’ suit→4♦=asking extra
+	4♦
+	slam try without control
+	4Ma
+	natural raise, but if an opening hand, without control
+
+
+1Ma-(4♣)
+
+
+4♦
+	15+ good raise to 4Ma

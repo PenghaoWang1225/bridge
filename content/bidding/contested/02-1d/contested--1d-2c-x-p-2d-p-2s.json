@@ -1,0 +1,16 @@
+{
+  "id": "93b79d34-23e7-4a81-818e-04b252400ad9",
+  "section": "contested",
+  "auction": "1D-2C-X-P-2D-P-2S",
+  "meaning": "10+, F1 with 4-4 in majors",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (2♣) – Double – (Pass) – 2♦ – (Pass) – 2♠",
+  "parentId": "c47d1d9b-15e0-4ae3-8c29-77daf4ea768b",
+  "order": 869,
+  "reference": "Scanian Competitive Method — 1♦-(2♣)-Dble; 2♦ (11-15)"
+}

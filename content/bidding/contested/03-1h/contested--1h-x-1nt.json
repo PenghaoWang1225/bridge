@@ -1,0 +1,16 @@
+{
+  "id": "c348a8e6-878c-42d6-865f-d7c3106efa46",
+  "section": "contested",
+  "auction": "1H-X-1NT",
+  "meaning": "8+, clubs (could be lead-directing with major fit)",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1H",
+  "fullAuction": "1♥ – (Double) – 1NT",
+  "parentId": "558f7087-e995-49cc-8e91-533fff73b1b0",
+  "order": 1285,
+  "reference": "Scanian Competitive Method — 1Ma-(Dble)"
+}

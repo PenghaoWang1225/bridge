@@ -1,0 +1,16 @@
+{
+  "id": "1b8aa1f3-ec1f-4aa3-8dfb-0d3a1e87fa49",
+  "section": "contested",
+  "auction": "1S-1NT-2NT",
+  "meaning": "INV+ with support",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1S",
+  "fullAuction": "1♠ – (1NT) – 2NT",
+  "parentId": "560328af-2e88-43a7-80f5-a0e240300146",
+  "order": 1514,
+  "reference": "Scanian Competitive Method — 1Ma-(1NT)"
+}

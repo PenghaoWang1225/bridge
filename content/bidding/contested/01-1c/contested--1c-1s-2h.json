@@ -1,0 +1,16 @@
+{
+  "id": "2b494cb3-21b5-4d1a-84d9-aa0014c50177",
+  "section": "contested",
+  "auction": "1C-1S-2H",
+  "meaning": "10+, switch, unbid minor, F to 3 of that suit",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1C",
+  "fullAuction": "1♣ – (1♠) – 2♥",
+  "parentId": "4b78e535-b3af-4cdf-8260-5262d19c753b",
+  "order": 570,
+  "reference": "Scanian Competitive Method — 1mi-(1♠)"
+}

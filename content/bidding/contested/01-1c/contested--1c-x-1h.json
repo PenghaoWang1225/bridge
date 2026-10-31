@@ -1,0 +1,16 @@
+{
+  "id": "0cd7ff8e-beb4-44a6-843c-641dcfb1d7e0",
+  "section": "contested",
+  "auction": "1C-X-1H",
+  "meaning": "5+ with 4+ spades",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1C",
+  "fullAuction": "1♣ – (Double) – 1♥",
+  "parentId": "e26f3d94-3ac6-4400-84de-cffcac7be25e",
+  "order": 525,
+  "reference": "Scanian Competitive Method — 1♣-(Dble)"
+}

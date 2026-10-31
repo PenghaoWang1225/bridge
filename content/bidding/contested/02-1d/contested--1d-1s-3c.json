@@ -1,0 +1,16 @@
+{
+  "id": "3297c609-eee4-4263-8851-4133fd3bdfeb",
+  "section": "contested",
+  "auction": "1D-1S-3C",
+  "meaning": "10+, INV+ 5+ hearts and 5+ diamonds",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1D",
+  "fullAuction": "1♦ – (1♠) – 3♣",
+  "parentId": "009d8392-dc2b-40df-81e6-dac77f137519",
+  "order": 855,
+  "reference": "Scanian Competitive Method — 1mi-(1♠)"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2453c1d6-ca99-4614-8b35-6914a9477bca",
+  "section": "contested",
+  "auction": "1S-2S-3H",
+  "meaning": "precisely invitational with support",
+  "notes": "",
+  "artificial": false,
+  "forcing": "0",
+  "minLength": 0,
+  "maxLength": 8,
+  "opening": "1S",
+  "fullAuction": "1♠ – (2♠) – 3♥",
+  "parentId": "0ce90596-d34d-4888-82e6-6970c1e0a476",
+  "order": 1531,
+  "reference": "Scanian Competitive Method — 1♠-(2♠) (Michael’s cue-bid, two suiter with hearts and an unspecified minor)"
+}
