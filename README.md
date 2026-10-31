@@ -31,7 +31,7 @@ Click **Resolve in Pages CMS** to open the original entry. Edit the meaning or n
 
 The flag in each bidding JSON file is the single source of truth. The generated CMS sidebar links to those same files. It stores no duplicate entries. The shared unresolved list follows bidding order and is visible on the public website. CMS buttons appear only with `?edit=1`. This view is unlisted, not private. GitHub permissions control saving.
 
-Earlier browser-only bookmarks remain under **Earlier browser list** in the browser where they were saved. They are not deleted or published automatically. Use their CMS links in the editor view to add them to the shared list.
+The reader shows one shared unresolved list. It does not read or delete earlier browser bookmarks.
 
 ## Add a branch or subtree
 

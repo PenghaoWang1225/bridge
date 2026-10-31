@@ -149,24 +149,6 @@ function meaning(n) {
   if (n.notes) box.append(el("p", n.notes, "entry-note"));
   return box;
 }
-// Keep earlier browser-only bookmarks available without changing or deleting them.
-const UNRESOLVED_KEY = "bridge.scanian.unresolved.v1";
-let browserReviews = new Map();
-let browserReviewError = "";
-function loadBrowserReviews() {
-  try {
-    const raw = localStorage.getItem(UNRESOLVED_KEY);
-    if (raw === null) return;
-    const saved = JSON.parse(raw);
-    if (saved.version !== 1 || !Array.isArray(saved.entries) ||
-        saved.entries.some((item) => !item || typeof item.id !== "string" ||
-          typeof item.fullAuction !== "string"))
-      throw Error("Invalid browser list");
-    browserReviews = new Map(saved.entries.map((item) => [item.id, item]));
-  } catch {
-    browserReviewError = "The earlier browser list could not be read. Its saved data has not been changed.";
-  }
-}
 function auctionLink(n) {
   const link = el("a", n.fullAuction, "result-auction");
   link.href = `?view=${n.section}${editorShortcuts ? "&edit=1" : ""}#bid-${n.id}`;
@@ -213,26 +195,6 @@ function renderUnresolved() {
     return item;
   }));
   $("unresolvedEmpty").hidden = pending.length > 0;
-}
-function renderBrowserReviews() {
-  $("browserReviewPanel").hidden = !browserReviews.size && !browserReviewError;
-  $("browserReviewCount").textContent = `(${browserReviews.size})`;
-  $("browserReviewHelp").textContent = browserReviewError || (editorShortcuts
-    ? "These earlier bookmarks are stored only in this browser. To add one to the shared list, open its CMS entry, turn on Needs discussion, and save. Your earlier bookmarks have not been changed."
-    : "These earlier bookmarks are stored only in this browser. They are separate from the shared Unresolved list. Use the editor view to save them in Pages CMS.");
-  $("browserReviewList").replaceChildren(...[...browserReviews.values()].map((saved) => {
-    const n = byId.get(saved.id);
-    const item = el("li", undefined, "unresolved-item");
-    const content = el("div", undefined, "unresolved-content");
-    if (n) content.append(auctionLink(n), meaning(n));
-    else content.append(
-      el("strong", saved.fullAuction, "result-auction"),
-      el("p", "This sequence is no longer in the published tree.", "view-note"),
-    );
-    item.append(content);
-    if (n && editorShortcuts) item.append(reviewLink(n));
-    return item;
-  }));
 }
 function detailsFor(n) {
   const meta = el("div", undefined, "auction-info");
@@ -431,9 +393,7 @@ async function start() {
       view = "all";
       selectedOpening = openingKey(linked);
     }
-    loadBrowserReviews();
     renderUnresolved();
-    renderBrowserReviews();
     $("unresolvedPanel").open = editorShortcuts && nodes.some((n) => n.needsDiscussion);
     render();
     if (linked) reveal(linked.id);

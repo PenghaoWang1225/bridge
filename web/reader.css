@@ -366,7 +366,7 @@ button[aria-pressed="true"] .suit-diamonds { color: #fdba74; }
 button[aria-pressed="true"] .suit-hearts { color: #fca5a5; }
 button[aria-pressed="true"] .suit-spades { color: #ffffff; }
 
-/* Shared unresolved entries and earlier browser bookmarks. */
+/* Shared unresolved entries. */
 .unresolved-panel {
   background: #fffaf0;
   border: 1px solid #dfc88d;
@@ -382,8 +382,7 @@ button[aria-pressed="true"] .suit-spades { color: #ffffff; }
   color: var(--muted);
   margin-left: 6px;
 }
-#unresolvedList,
-#browserReviewList {
+#unresolvedList {
   list-style: none;
   margin: 0;
   padding: 0;
