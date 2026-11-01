@@ -1,3 +1,10 @@
+import {
+  REVIEW_MARKS_KEY,
+  readReviewMarks,
+  saveReviewMarks,
+  reconcileReviewMarks,
+} from "./review-marks.js";
+
 const $ = (id) => document.getElementById(id);
 const SUIT_CLASSES = {
   "♣": "suit-clubs",
@@ -45,6 +52,8 @@ let nodes = [],
   selectedOpening = null,
   page = 0;
 const PAGE_SIZE = 100;
+let reviewMarks = new Map();
+const isUnresolved = (n) => n.needsDiscussion || reviewMarks.has(n.id);
 const AGREEMENTS = {
   1: "To play",
   2: "Non-forcing",
@@ -118,8 +127,10 @@ function label(n) {
 }
 function badges(n) {
   const box = el("span", undefined, "badges");
+  box.dataset.recordId = n.id;
   if (!direct(n)) box.append(el("span", "Context", "badge"));
   if (n.needsDiscussion) box.append(el("span", "Needs discussion", "badge discussion"));
+  else if (reviewMarks.has(n.id)) box.append(el("span", "Marked in this browser", "badge discussion"));
   if (n.artificial) box.append(el("span", "Artificial", "badge artificial"));
   if (AGREEMENTS[n.forcing])
     box.append(el("span", AGREEMENTS[n.forcing], "badge"));
@@ -166,32 +177,94 @@ function auctionLink(n) {
   };
   return link;
 }
-function reviewLink(n) {
-  const link = editLink(n, n.needsDiscussion ? "Resolve in Pages CMS" : "Add to unresolved in CMS");
-  link.classList.add("cms-review-link");
-  link.title = n.needsDiscussion
-    ? "Turn off Needs discussion, then save in Pages CMS."
-    : "Turn on Needs discussion, then save in Pages CMS.";
-  return link;
+function loadReviewMarks() {
+  try {
+    const saved = readReviewMarks(localStorage);
+    reviewMarks = reconcileReviewMarks(saved, nodes);
+    if (JSON.stringify([...saved]) !== JSON.stringify([...reviewMarks]))
+      saveReviewMarks(localStorage, reviewMarks);
+    $("reviewStatus").textContent = "";
+  } catch {
+    $("reviewStatus").textContent = "Saved marks could not be loaded. Your saved data has not been changed.";
+  }
+}
+function changeReviewMark(n, marked) {
+  try {
+    // Read again so a mark from another tab is kept.
+    const next = reconcileReviewMarks(readReviewMarks(localStorage), nodes);
+    if (marked) next.set(n.id, {
+      id: n.id, fullAuction: n.fullAuction, seenShared: Boolean(n.needsDiscussion),
+    });
+    else next.delete(n.id);
+    saveReviewMarks(localStorage, next);
+    reviewMarks = next;
+    refreshReviewControls();
+    $("reviewStatus").textContent = marked
+      ? `${n.fullAuction} added to Unresolved. The mark is saved in this browser.`
+      : `${n.fullAuction}: browser mark removed.`;
+    if (marked) $("unresolvedPanel").open = true;
+  } catch {
+    $("reviewStatus").textContent = "The mark could not be saved in this browser. Your saved marks have not been changed.";
+    $("unresolvedPanel").open = true;
+  }
+}
+function reviewControl(n) {
+  if (n.needsDiscussion) {
+    const link = editLink(n, "Resolve in Pages CMS");
+    link.classList.add("cms-review-link");
+    link.title = "Turn off Needs discussion, then save in Pages CMS.";
+    return link;
+  }
+  const marked = reviewMarks.has(n.id);
+  const button = el("button", marked ? "Mark resolved" : "Add to unresolved", "cms-review-link");
+  button.type = "button";
+  button.title = marked ? "Remove this browser mark." : "Save a mark in this browser and edit the bid later.";
+  button.onclick = () => changeReviewMark(n, !marked);
+  return button;
 }
 function editorActions(n) {
   const actions = el("div", undefined, "cms-actions");
-  if (!n.needsDiscussion) actions.append(editLink(n));
-  actions.append(reviewLink(n));
+  actions.dataset.recordId = n.id;
+  if (byId.has(n.id)) actions.append(editLink(n));
+  actions.append(reviewControl(n));
   return actions;
 }
+function refreshReviewControls() {
+  const listHadFocus = $("unresolvedList").contains(document.activeElement);
+  renderUnresolved();
+  if (listHadFocus) $("unresolvedSummary").focus();
+  for (const old of document.querySelectorAll(".cms-actions[data-record-id]")) {
+    const n = byId.get(old.dataset.recordId);
+    if (!n) continue;
+    const hadFocus = old.contains(document.activeElement);
+    const next = editorActions(n);
+    old.replaceWith(next);
+    if (hadFocus) next.querySelector("button")?.focus();
+  }
+  for (const old of document.querySelectorAll(".badges[data-record-id]")) {
+    const n = byId.get(old.dataset.recordId);
+    if (n) old.replaceWith(badges(n));
+  }
+}
 function renderUnresolved() {
-  const pending = nodes.filter((n) => n.needsDiscussion);
+  const pending = nodes.filter(isUnresolved);
+  for (const mark of reviewMarks.values())
+    if (!byId.has(mark.id)) pending.push(mark);
   $("unresolvedPanel").hidden = false;
   $("unresolvedCount").textContent = `(${pending.length})`;
   if (editorShortcuts)
-    $("unresolvedHelp").textContent = "Open an entry in Pages CMS. Turn off Needs discussion and save when resolved. Refresh this page after publication.";
+    $("unresolvedHelp").textContent = "Use Add to unresolved beside a bid to mark it now. Quick marks are saved in this browser. Edit in Pages CMS when ready, then use Mark resolved to remove your mark. CMS entries with Needs discussion also appear here.";
+  else
+    $("unresolvedHelp").textContent = "CMS entries with Needs discussion and bids you marked in this browser. Open a sequence to read it.";
   $("unresolvedList").replaceChildren(...pending.map((n) => {
     const item = el("li", undefined, "unresolved-item");
+    item.dataset.recordId = n.id;
     const content = el("div", undefined, "unresolved-content");
-    content.append(auctionLink(n), meaning(n));
+    if (byId.has(n.id)) content.append(auctionLink(n), meaning(n));
+    else content.append(el("strong", n.fullAuction), el("p", "This sequence is no longer in the published tree.", "view-note"));
+    if (!n.needsDiscussion) content.append(el("span", "Marked in this browser", "badge discussion"));
     item.append(content);
-    if (editorShortcuts) item.append(reviewLink(n));
+    if (editorShortcuts) item.append(editorActions(n));
     return item;
   }));
   $("unresolvedEmpty").hidden = pending.length > 0;
@@ -393,8 +466,9 @@ async function start() {
       view = "all";
       selectedOpening = openingKey(linked);
     }
+    loadReviewMarks();
     renderUnresolved();
-    $("unresolvedPanel").open = editorShortcuts && nodes.some((n) => n.needsDiscussion);
+    $("unresolvedPanel").open = editorShortcuts && (nodes.some(isUnresolved) || reviewMarks.size > 0 || Boolean($("reviewStatus").textContent));
     render();
     if (linked) reveal(linked.id);
     if (editorShortcuts) {
@@ -402,7 +476,7 @@ async function start() {
       info.append(
         el("strong", "Editor shortcuts. "),
         document.createTextNode(
-          "Search an auction, then open its Pages CMS entry. Turn on Needs discussion to add it to Unresolved. Turn it off when resolved. Save, wait for publication, and refresh this page. Saving requires your GitHub sign-in. ",
+          "Use Add to unresolved to mark a bid now. Your marks are saved in this browser. Use Edit in Pages CMS when ready. CMS changes appear after publication and refresh. ",
         ),
       );
       const cms = el("a", "Open Pages CMS");
@@ -417,4 +491,10 @@ async function start() {
     $("readerStatus").classList.add("error");
   }
 }
+window.addEventListener("storage", (event) => {
+  if ((event.key === REVIEW_MARKS_KEY || event.key === null) && nodes.length) {
+    loadReviewMarks();
+    refreshReviewControls();
+  }
+});
 start();

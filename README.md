@@ -25,13 +25,13 @@ CMS search covers the current folder. To search all auctions and notes, use [edi
 
 ## Resolve bidding questions
 
-Open the [editor view](https://penghaowang1225.github.io/bridge/scanian/?edit=1&view=all). Search for a sequence, then click **Add to unresolved in CMS**. In that entry, turn on **Needs discussion** and click **Save**. After publication, refresh the website. The entry appears in **Unresolved** at the top. CMS shows it in the **Unresolved** sidebar group too.
+Open the [editor view](https://penghaowang1225.github.io/bridge/scanian/?edit=1&view=all). Search for a sequence, then click **Add to unresolved**. The bid appears in **Unresolved** at once. The mark stays after a refresh. It is saved only in this browser. You can leave the meaning unchanged and edit it later. Click **Mark resolved** to remove your mark.
 
-Click **Resolve in Pages CMS** to open the original entry. Edit the meaning or notes, turn off **Needs discussion**, and save. After publication, refresh the website and CMS sidebar. The entry leaves the unresolved list. Opening the editor alone does not change its status.
+Use **Edit in Pages CMS** when you are ready to change the meaning or notes. To share an unresolved flag across browsers, turn on **Needs discussion** in CMS and save. These entries appear in the same website list and the CMS **Unresolved** sidebar group after publication. A bid appears only once, even if you also marked it in this browser.
 
-The flag in each bidding JSON file is the single source of truth. The generated CMS sidebar links to those same files. It stores no duplicate entries. The shared unresolved list follows bidding order and is visible on the public website. CMS buttons appear only with `?edit=1`. This view is unlisted, not private. GitHub permissions control saving.
+For an entry flagged in CMS, use **Resolve in Pages CMS**. Turn off **Needs discussion**, save, wait for publication, then refresh the website and CMS sidebar. The entry leaves the shared list. A browser mark also clears if this browser has seen the shared flag turn on and then off. Other browser marks stay until you use **Mark resolved**. Opening CMS alone does not resolve an entry.
 
-The reader shows one shared unresolved list. It does not read or delete earlier browser bookmarks.
+The JSON flag controls the shared status. Quick marks do not change the JSON or the CMS sidebar. The website combines both in one list, in bidding order. CMS links and mark buttons appear only with `?edit=1`. This view is unlisted, not private. GitHub permissions control CMS saving. The reader does not load or delete the earlier browser list that was removed.
 
 ## Add a branch or subtree
 

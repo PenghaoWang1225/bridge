@@ -366,7 +366,7 @@ button[aria-pressed="true"] .suit-diamonds { color: #fdba74; }
 button[aria-pressed="true"] .suit-hearts { color: #fca5a5; }
 button[aria-pressed="true"] .suit-spades { color: #ffffff; }
 
-/* Shared unresolved entries. */
+/* One list contains CMS entries and marks saved in this browser. */
 .unresolved-panel {
   background: #fffaf0;
   border: 1px solid #dfc88d;
@@ -400,8 +400,10 @@ button[aria-pressed="true"] .suit-spades { color: #ffffff; }
   flex: 1;
   min-width: 0;
 }
-.unresolved-item > .cms-review-link {
+.unresolved-item > .cms-actions {
   flex-shrink: 0;
+  max-width: 230px;
+  justify-content: flex-end;
 }
 .cms-actions {
   display: flex;
@@ -414,15 +416,20 @@ button[aria-pressed="true"] .suit-spades { color: #ffffff; }
   border-radius: 8px;
   padding: 8px 13px;
   background: white;
+  color: var(--navy);
+  font: inherit;
   font-size: 0.85rem;
   text-decoration: none;
+  cursor: pointer;
 }
 .cms-review-link:hover { background: #edf3f8; }
 .cms-review-link:focus-visible { outline: 3px solid #bf8a21; outline-offset: 3px; }
-.unresolved-item > .cms-review-link { margin-top: 0; }
+.unresolved-item .cms-edit-link { margin-top: 0; }
+#reviewStatus:empty { display: none; }
 @media (max-width: 620px) {
   .unresolved-panel { padding: 14px; }
   .unresolved-item { flex-direction: column; gap: 10px; }
+  .unresolved-item > .cms-actions { max-width: none; justify-content: flex-start; }
 }
 
 .reader-header .book-links {

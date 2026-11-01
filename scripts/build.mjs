@@ -104,13 +104,16 @@ export function build({ sync = false } = {}) {
   const version = createHash("sha256")
     .update(body)
     .update(fs.readFileSync(path.join(root, "web/reader.js")))
+    .update(fs.readFileSync(path.join(root, "web/review-marks.js")))
     .update(fs.readFileSync(path.join(root, "web/reader.css")))
     .digest("hex")
     .slice(0, 12);
   const out = path.join(root, "site");
   fs.mkdirSync(out, { recursive: true });
-  for (const file of ["style.css", "reader.css", "reader.js", "recovery.js"])
+  for (const file of ["style.css", "reader.css", "review-marks.js", "recovery.js"])
     fs.copyFileSync(path.join(root, "web", file), path.join(out, file));
+  write(path.join(out, "reader.js"), fs.readFileSync(path.join(root, "web/reader.js"), "utf8")
+    .replace('from "./review-marks.js"', `from "./review-marks.js?v=${version}"`));
   fs.mkdirSync(path.join(out, "books"), { recursive: true });
   for (const file of ["notrumpbidding_both.pdf", "competitivebids2020.pdf"])
     fs.copyFileSync(path.join(root, "books", file), path.join(out, "books", file));
@@ -143,7 +146,7 @@ export function build({ sync = false } = {}) {
   }
   const rules = notebook.rules.filter((r) => !r.section || r.section === "all").map((r) => `<li>${esc(r.text)}</li>`).join("");
   const controls = `<section class="reader-controls" aria-label="Find auctions"><div class="view-tabs" role="group" aria-label="Auction section">${site.sections.map((s) => `<button data-view="${s.key}">${esc(s.title)}</button>`).join("")}<button data-view="all">All auctions</button></div><div class="search-row"><label class="sr-only" for="search">Search auctions and meanings</label><input id="search" type="search" placeholder="Search an auction or meaning, e.g. 1NT-2C-2S" autocomplete="off"><button id="clearSearch">Clear</button><button id="expandAll">Expand all</button><button id="collapseAll">Collapse all</button></div></section>`;
-  const unresolved = `<details id="unresolvedPanel" class="unresolved-panel" hidden><summary id="unresolvedSummary">Unresolved <span id="unresolvedCount">(0)</span></summary><p id="unresolvedHelp" class="view-note">Sequences marked Needs discussion. Open a sequence to read it.</p><p id="unresolvedEmpty" class="view-note">No sequences are marked unresolved.</p><ul id="unresolvedList"></ul></details>`;
+  const unresolved = `<details id="unresolvedPanel" class="unresolved-panel" hidden><summary id="unresolvedSummary">Unresolved <span id="unresolvedCount">(0)</span></summary><p id="unresolvedHelp" class="view-note">Sequences marked for discussion. Open a sequence to read it.</p><p id="reviewStatus" class="view-note" role="status" aria-live="polite"></p><p id="unresolvedEmpty" class="view-note">No sequences are marked unresolved.</p><ul id="unresolvedList"></ul></details>`;
   const reader = `<header class="reader-header"><div class="reader-wrap">${nav(site, "../")}<h1>${esc(site.systemTitle)}</h1><p>Search auctions and meanings. Open a bid to see its continuations.</p><p class="book-links">Books: ${bookLinks("../")}</p></div></header><main class="reader-wrap">${unresolved}<details class="notebook" open><summary>General rules</summary><ol>${rules}</ol></details><details id="sectionRules" class="notebook" hidden><summary>Section agreements</summary><ol id="sectionRuleList"></ol></details>${controls}<p id="readerStatus" role="status" aria-live="polite">Loading ${nodes.length.toLocaleString("en-US")} auctions…</p><div class="reader-layout"><aside id="openings" aria-label="Opening bids"></aside><section id="tree" aria-label="Bidding tree"></section></div><noscript><p>Enable JavaScript to use the expandable tree and search.</p></noscript></main>${footer("../")}<script type="module" src="../reader.js?v=${version}" data-source="data/bidding.json?v=${version}"></script>`;
   write(
     path.join(out, "scanian/index.html"),
